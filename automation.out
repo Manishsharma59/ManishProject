@@ -1,0 +1,108 @@
+2018 08 20 11 08 264 INFO  LoggerHelper : 24 - Log generated
+2018 08 20 11 08 266 INFO  LoggerHelper : 25 - Log generated
+2018 08 20 11 08 267 INFO  LoggerHelper : 26 - Log generated
+2018 08 20 11 08 267 INFO  LoggerHelper : 27 - Log generated
+2018 08 20 12 08 228 INFO  LoggerHelper : 26 - log4j configured
+2018 08 20 12 08 230 INFO  LoggerHelper : 27 - log4j configured
+2018 08 20 12 08 230 INFO  LoggerHelper : 28 - log4j configured
+2018 08 21 15 08 957 INFO  Retry : 19 - Retrying test testLogin with status FAILUREfor the 1times.
+2018 08 21 15 08 961 INFO  Retry : 19 - Retrying test testLogin with status FAILUREfor the 2times.
+2018 08 21 15 08 971 INFO  Retry : 19 - Retrying test testLogin with status FAILUREfor the 1times.
+2018 08 21 15 08 974 INFO  Retry : 19 - Retrying test testLogin with status FAILUREfor the 2times.
+2018 08 21 15 08 959 INFO  Retry : 19 - Retrying test testLogin with status FAILUREfor the 1times.
+2018 08 21 15 08 963 INFO  Retry : 19 - Retrying test testLogin with status FAILUREfor the 2times.
+2018 08 21 15 08 974 INFO  Retry : 19 - Retrying test testLogin with status FAILUREfor the 1times.
+2018 08 21 15 08 976 INFO  Retry : 19 - Retrying test testLogin with status FAILUREfor the 2times.
+2018 08 21 15 08 953 INFO  Retry : 19 - Retrying test testLoginB with status FAILUREfor the 1times.
+2018 08 21 15 08 957 INFO  Retry : 19 - Retrying test testLoginB with status FAILUREfor the 2times.
+2018 08 21 15 08 969 INFO  Retry : 19 - Retrying test testLoginC with status FAILUREfor the 1times.
+2018 08 21 15 08 972 INFO  Retry : 19 - Retrying test testLoginC with status FAILUREfor the 2times.
+2018 08 21 15 08 989 INFO  Retry : 19 - Retrying test testLoginB with status FAILUREfor the 1times.
+2018 08 21 15 08 997 INFO  Retry : 19 - Retrying test testLoginB with status FAILUREfor the 2times.
+2018 08 21 15 08 08 INFO  Retry : 19 - Retrying test testLoginC with status FAILUREfor the 1times.
+2018 08 21 15 08 12 INFO  Retry : 19 - Retrying test testLoginC with status FAILUREfor the 2times.
+2018 08 21 15 08 579 INFO  Retry : 19 - Retrying test testLoginB with status FAILUREfor the 1times.
+2018 08 21 15 08 141 INFO  Retry : 19 - Retrying test testLoginB with status FAILUREfor the 2times.
+2018 08 21 15 08 272 INFO  Retry : 19 - Retrying test testLoginB with status FAILUREfor the 1times.
+2018 08 21 15 08 272 INFO  Retry : 19 - Retrying test testLoginB with status FAILUREfor the 2times.
+2018 08 21 15 08 288 INFO  Retry : 19 - Retrying test testLoginC with status FAILUREfor the 1times.
+2018 08 21 15 08 288 INFO  Retry : 19 - Retrying test testLoginC with status FAILUREfor the 2times.
+2018 08 21 15 08 170 INFO  Retry : 19 - Retrying test testLoginB with status FAILUREfor the 1times.
+2018 08 21 15 08 170 INFO  Retry : 19 - Retrying test testLoginB with status FAILUREfor the 2times.
+2018 08 21 15 08 186 INFO  Retry : 19 - Retrying test testLoginC with status FAILUREfor the 1times.
+2018 08 21 15 08 186 INFO  Retry : 19 - Retrying test testLoginC with status FAILUREfor the 2times.
+2018 08 23 11 08 640 INFO  ExcelHelper : 92 - Result is updated
+2018 08 23 11 08 921 INFO  ExcelHelper : 92 - Result is updated
+2018 08 23 11 08 937 INFO  ExcelHelper : 92 - Result is updated
+2018 08 23 17 08 69 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 85 INFO  AssertionHelper : 19 - making script pass
+2018 08 23 17 08 241 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 241 INFO  AssertionHelper : 29 - making script Fail
+2018 08 23 17 08 272 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 272 INFO  AssertionHelper : 19 - making script pass
+2018 08 23 17 08 303 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 303 INFO  AssertionHelper : 29 - making script Fail
+2018 08 23 17 08 207 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 223 INFO  AssertionHelper : 19 - making script pass
+2018 08 23 17 08 379 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 379 INFO  AssertionHelper : 29 - making script Fail
+2018 08 23 17 08 410 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 426 INFO  AssertionHelper : 19 - making script pass
+2018 08 23 17 08 441 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 441 INFO  AssertionHelper : 29 - making script Fail
+2018 08 23 17 08 380 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 385 INFO  AssertionHelper : 19 - making script pass
+2018 08 23 17 08 553 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 555 INFO  AssertionHelper : 29 - making script Fail
+2018 08 23 17 08 598 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 600 INFO  AssertionHelper : 19 - making script pass
+2018 08 23 17 08 638 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 638 INFO  AssertionHelper : 29 - making script Fail
+2018 08 23 17 08 456 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 462 INFO  AssertionHelper : 19 - making script pass
+2018 08 23 17 08 628 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 629 INFO  AssertionHelper : 29 - making script Fail
+2018 08 23 17 08 659 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 661 INFO  AssertionHelper : 19 - making script pass
+2018 08 23 17 08 697 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 698 INFO  AssertionHelper : 29 - making script Fail
+2018 08 23 17 08 315 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 320 INFO  AssertionHelper : 19 - making script pass
+2018 08 23 17 08 486 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 487 INFO  AssertionHelper : 29 - making script Fail
+2018 08 23 17 08 525 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 526 INFO  AssertionHelper : 19 - making script pass
+2018 08 23 17 08 555 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 556 INFO  AssertionHelper : 29 - making script Fail
+2018 08 23 17 08 579 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 580 INFO  AssertionHelper : 19 - making script pass
+2018 08 23 17 08 601 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 602 INFO  AssertionHelper : 29 - making script Fail
+2018 08 23 17 08 625 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 626 INFO  AssertionHelper : 19 - making script pass
+2018 08 23 17 08 647 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 648 INFO  AssertionHelper : 29 - making script Fail
+2018 08 23 17 08 621 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 621 INFO  AssertionHelper : 19 - making script pass
+2018 08 23 17 08 793 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 793 INFO  AssertionHelper : 19 - making script pass
+2018 08 23 17 08 824 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 824 INFO  AssertionHelper : 19 - making script pass
+2018 08 23 17 08 855 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 855 INFO  AssertionHelper : 29 - making script Fail
+2018 08 23 17 08 887 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 887 INFO  AssertionHelper : 19 - making script pass
+2018 08 23 17 08 902 INFO  TestBase : 38 - **************Started***************
+2018 08 23 17 08 902 INFO  AssertionHelper : 29 - making script Fail
+2018 08 24 11 08 77 INFO  TestBase : 38 - **************Started***************
+2018 08 24 11 08 98 INFO  AssertionHelper : 19 - making script pass
+2018 08 24 11 08 258 INFO  TestBase : 38 - **************Started***************
+2018 08 24 11 08 259 INFO  AssertionHelper : 19 - making script pass
+2018 08 24 11 08 290 INFO  TestBase : 38 - **************Started***************
+2018 08 24 11 08 291 INFO  AssertionHelper : 19 - making script pass
+2018 08 24 11 08 320 INFO  TestBase : 38 - **************Started***************
+2018 08 24 11 08 322 INFO  AssertionHelper : 29 - making script Fail
+2018 08 24 11 08 351 INFO  TestBase : 38 - **************Started***************
+2018 08 24 11 08 352 INFO  AssertionHelper : 19 - making script pass
+2018 08 24 11 08 375 INFO  TestBase : 38 - **************Started***************
+2018 08 24 11 08 376 INFO  AssertionHelper : 29 - making script Fail
