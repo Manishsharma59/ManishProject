@@ -106,3 +106,375 @@
 2018 08 24 11 08 352 INFO  AssertionHelper : 19 - making script pass
 2018 08 24 11 08 375 INFO  TestBase : 38 - **************Started***************
 2018 08 24 11 08 376 INFO  AssertionHelper : 29 - making script Fail
+2018 08 27 10 08 839 INFO  ExcelHelper : 93 - Result is updated
+2018 08 27 12 08 842 INFO  TestBase : 110 - The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+2018 08 27 12 08 654 INFO  TestBase : 110 - The driver executable does not exist: C:\Users\msharma13\eclipse-workspace\uiFramework\src\main\resources\driver\chromedriver.exe
+2018 08 27 12 08 542 INFO  TestBase : 117 - Initialize web driver : 76659128
+2018 08 27 12 08 575 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 12 08 588 INFO  WaitHelper : 45 - waiting for page to load for : SECONDS seconds
+2018 08 27 12 08 596 INFO  WaitHelper : 47 - page is loaded
+2018 08 27 12 08 679 INFO  TestBase : 117 - Initialize web driver : 76659128
+2018 08 27 12 08 762 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 12 08 776 INFO  WaitHelper : 45 - waiting for page to load for : SECONDS seconds
+2018 08 27 12 08 784 INFO  WaitHelper : 47 - page is loaded
+2018 08 27 12 08 78 INFO  TestBase : 117 - Initialize web driver : 702025003
+2018 08 27 12 08 147 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 12 08 160 INFO  WaitHelper : 45 - waiting for page to load for : SECONDS seconds
+2018 08 27 12 08 167 INFO  WaitHelper : 47 - page is loaded
+2018 08 27 12 08 901 INFO  TestBase : 117 - Initialize web driver : 702025003
+2018 08 27 12 08 904 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 12 08 909 INFO  WaitHelper : 45 - waiting for page to load for : SECONDS seconds
+2018 08 27 12 08 912 INFO  WaitHelper : 47 - page is loaded
+2018 08 27 12 08 89 INFO  TestBase : 110 - The driver executable does not exist: C:\Users\msharma13\eclipse-workspace\uiFramework\src\main\resources\driver\iedriver.exe
+2018 08 27 12 08 375 INFO  TestBase : 117 - Initialize web driver : 702025003
+2018 08 27 12 08 393 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 12 08 406 INFO  WaitHelper : 45 - waiting for page to load for : SECONDS seconds
+2018 08 27 12 08 413 INFO  WaitHelper : 47 - page is loaded
+2018 08 27 13 08 770 INFO  TestBase : 117 - Initialize web driver : 76659128
+2018 08 27 13 08 772 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 13 08 776 INFO  WaitHelper : 45 - waiting for page to load for : SECONDS seconds
+2018 08 27 13 08 778 INFO  WaitHelper : 47 - page is loaded
+2018 08 27 13 08 396 INFO  TestBase : 117 - Initialize web driver : 702025003
+2018 08 27 13 08 399 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 13 08 404 INFO  WaitHelper : 45 - waiting for page to load for : SECONDS seconds
+2018 08 27 13 08 407 INFO  WaitHelper : 47 - page is loaded
+2018 08 27 13 08 704 INFO  TestBase : 117 - Initialize web driver : 1902671237
+2018 08 27 13 08 706 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 13 08 342 INFO  TestBase : 116 - Timed out waiting for driver server to start.
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'XAV-101001034', ip: '10.2.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: EdgeDriver
+2018 08 27 14 08 486 INFO  TestBase : 116 - Timed out waiting for driver server to start.
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'XAV-101001034', ip: '10.2.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: driver.version: EdgeDriver
+2018 08 27 14 08 253 INFO  TestBase : 123 - Initialize web driver : 76659128
+2018 08 27 14 08 255 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 14 08 259 INFO  WaitHelper : 45 - waiting for page to load for : SECONDS seconds
+2018 08 27 14 08 261 INFO  WaitHelper : 47 - page is loaded
+2018 08 27 15 08 49 INFO  TestBase : 123 - Initialize web driver : 76659128
+2018 08 27 15 08 110 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 15 08 115 INFO  WaitHelper : 45 - waiting for page to load for : SECONDS seconds
+2018 08 27 15 08 118 INFO  WaitHelper : 47 - page is loaded
+2018 08 27 15 08 197 INFO  TestBase : 123 - Initialize web driver : 1383519982
+2018 08 27 15 08 223 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 15 08 106 INFO  TestBase : 123 - Initialize web driver : 1383519982
+2018 08 27 15 08 108 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 15 08 546 INFO  TestBase : 123 - Initialize web driver : 643290333
+2018 08 27 15 08 548 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 15 08 866 INFO  TestBase : 123 - Initialize web driver : 1383519982
+2018 08 27 15 08 881 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 15 08 540 INFO  TestBase : 123 - Initialize web driver : 1383519982
+2018 08 27 15 08 542 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 15 08 573 INFO  TestBase : 123 - Initialize web driver : 1383519982
+2018 08 27 15 08 574 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 15 08 248 INFO  TestBase : 123 - Initialize web driver : 712732521
+2018 08 27 15 08 777 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 15 08 195 INFO  TestBase : 123 - Initialize web driver : 712732521
+2018 08 27 15 08 89 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 15 08 458 INFO  TestBase : 123 - Initialize web driver : 1383519982
+2018 08 27 15 08 461 INFO  WaitHelper : 36 - ImplicitWait has been set to 30 SECONDS
+2018 08 27 15 08 386 INFO  TestBase : 123 - Initialize web driver : 1383519982
+2018 08 27 15 08 391 INFO  WaitHelper : 36 - ImplicitWait has been set to 30 
+2018 08 27 15 08 79 INFO  TestBase : 133 - driver is null
+2018 08 27 15 08 421 INFO  TestBase : 133 - driver is null
+2018 08 27 15 08 418 INFO  TestBase : 123 - Initialize web driver : 712732521
+2018 08 27 15 08 974 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 15 08 40 INFO  TestBase : 123 - Initialize web driver : 1383519982
+2018 08 27 15 08 634 INFO  TestBase : 66 - **************Started***************
+2018 08 27 16 08 108 INFO  TestBase : 123 - Initialize web driver : 1383519982
+2018 08 27 16 08 658 INFO  TestBase : 66 - **************Started***************
+2018 08 27 16 08 540 INFO  TestBase : 124 - Initialize web driver : 1383519982
+2018 08 27 16 08 89 INFO  TestBase : 67 - **************Started***************
+2018 08 27 17 08 09 INFO  TestBase : 124 - Initialize web driver : 1894698434
+2018 08 27 17 08 858 INFO  TestBase : 67 - **************Started***************
+2018 08 27 17 08 569 INFO  TestBase : 124 - Initialize web driver : 1383519982
+2018 08 27 17 08 97 INFO  TestBase : 67 - **************Started***************
+2018 08 27 17 08 386 INFO  TestBase : 133 - Initialize web driver : 1551629761
+2018 08 27 17 08 389 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 27 17 08 69 INFO  TestBase : 133 - Initialize web driver : 1902671237
+2018 08 27 17 08 72 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 10 08 769 INFO  TestBase : 143 - driver is null
+2018 08 28 10 08 389 INFO  TestBase : 133 - Initialize web driver : 1902671237
+2018 08 28 10 08 391 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 10 08 784 INFO  TestBase : 133 - Initialize web driver : 1902671237
+2018 08 28 10 08 795 INFO  TestBase : 68 - **************Started***************
+2018 08 28 10 08 240 INFO  TestBase : 133 - Initialize web driver : 1383519982
+2018 08 28 10 08 345 INFO  TestBase : 68 - **************Started***************
+2018 08 28 10 08 871 INFO  TestBase : 133 - Initialize web driver : 1902671237
+2018 08 28 10 08 873 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 10 08 254 INFO  TestBase : 133 - Initialize web driver : 1902671237
+2018 08 28 10 08 727 INFO  TestBase : 133 - Initialize web driver : 1383519982
+2018 08 28 10 08 932 INFO  TestBase : 133 - Initialize web driver : 1902671237
+2018 08 28 10 08 464 INFO  TestBase : 68 - **************Started***************
+2018 08 28 10 08 233 INFO  TestBase : 133 - Initialize web driver : 1902671237
+2018 08 28 10 08 795 INFO  TestBase : 68 - **************Started***************
+2018 08 28 10 08 983 INFO  TestBase : 133 - Initialize web driver : 403174823
+2018 08 28 10 08 512 INFO  TestBase : 68 - **************Started***************
+2018 08 28 11 08 275 INFO  Retry : 19 - Retrying test testLoginB with status FAILUREfor the 1times.
+2018 08 28 11 08 282 INFO  Retry : 19 - Retrying test testLoginB with status FAILUREfor the 2times.
+2018 08 28 11 08 348 INFO  Retry : 19 - Retrying test testLoginC with status FAILUREfor the 1times.
+2018 08 28 11 08 352 INFO  Retry : 19 - Retrying test testLoginC with status FAILUREfor the 2times.
+2018 08 28 11 08 714 INFO  TestBase : 132 - Initialize web driver : 873827336
+2018 08 28 11 08 238 INFO  TestBase : 65 - **************Started***************
+2018 08 28 11 08 439 INFO  TestBase : 134 - Initialize web driver : 873827336
+2018 08 28 11 08 960 INFO  TestBase : 65 - **************Started***************
+2018 08 28 12 08 38 INFO  TestBase : 134 - Initialize web driver : 1902671237
+2018 08 28 12 08 616 INFO  TestBase : 65 - **************Started***************
+2018 08 28 12 08 473 INFO  TestBase : 134 - Initialize web driver : 1508181426
+2018 08 28 12 08 46 INFO  TestBase : 65 - **************Started***************
+2018 08 28 12 08 517 INFO  TestBase : 137 - Initialize web driver : 1508181426
+2018 08 28 12 08 519 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 12 08 332 INFO  TestBase : 137 - Initialize web driver : 706895319
+2018 08 28 12 08 335 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 12 08 340 INFO  WaitHelper : 45 - waiting for page to load for : 200 seconds
+2018 08 28 12 08 343 INFO  WaitHelper : 47 - page is loaded
+2018 08 28 12 08 951 INFO  TestBase : 147 - driver is null
+2018 08 28 12 08 904 INFO  TestBase : 147 - driver is null
+2018 08 28 12 08 840 INFO  TestBase : 147 - driver is null
+2018 08 28 17 08 902 INFO  TestBase : 137 - Initialize web driver : 706895319
+2018 08 28 17 08 905 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 17 08 911 INFO  WaitHelper : 45 - waiting for page to load for : 200 seconds
+2018 08 28 17 08 914 INFO  WaitHelper : 47 - page is loaded
+2018 08 28 17 08 52 INFO  ExtentListener : 53 - A Class started
+2018 08 28 17 08 80 INFO  ExtentListener : 59 - A Test finished
+2018 08 28 17 08 870 INFO  ExtentListener : 53 - A Class started
+2018 08 28 17 08 883 INFO  ExtentListener : 23 - testLogin started..
+2018 08 28 17 08 885 INFO  ExtentListener : 29 - testLogin passed..
+2018 08 28 17 08 894 INFO  ExtentListener : 59 - A Test finished
+2018 08 28 17 08 895 INFO  ExtentListener : 53 - B Class started
+2018 08 28 17 08 897 INFO  ExtentListener : 23 - testLoginB started..
+2018 08 28 17 08 900 ERROR ExtentListener : 35 - testLoginB test failed..java.lang.AssertionError: expected [true] but found [false]
+2018 08 28 17 08 907 INFO  ExtentListener : 59 - B Test finished
+2018 08 28 17 08 908 INFO  ExtentListener : 53 - C Class started
+2018 08 28 17 08 910 INFO  ExtentListener : 23 - testLoginC started..
+2018 08 28 17 08 912 ERROR ExtentListener : 35 - testLoginC test failed..java.lang.AssertionError: expected [true] but found [false]
+2018 08 28 17 08 922 INFO  ExtentListener : 59 - C Test finished
+2018 08 28 17 08 923 INFO  ExtentListener : 53 - TestScreenShot Class started
+2018 08 28 17 08 196 INFO  TestBase : 137 - Initialize web driver : 1845517769
+2018 08 28 17 08 197 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 17 08 201 INFO  WaitHelper : 45 - waiting for page to load for : 200 seconds
+2018 08 28 17 08 204 INFO  WaitHelper : 47 - page is loaded
+2018 08 28 17 08 322 WARN  ExtentListener : 41 - testScreen skipped..org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'XAV-101001034', ip: '10.2.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.28.455520 (cc17746adff549..., userDataDir: C:\Users\MSHARM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: b0434f7c69a5907008449f8f1e57f9a1
+2018 08 28 17 08 342 INFO  ExtentListener : 59 - TestScreenShot Test finished
+2018 08 28 17 08 865 INFO  ExtentListener : 53 - A Class started
+2018 08 28 17 08 217 INFO  TestBase : 137 - Initialize web driver : 1826334428
+2018 08 28 17 08 219 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 17 08 227 INFO  WaitHelper : 45 - waiting for page to load for : 200 seconds
+2018 08 28 17 08 231 INFO  WaitHelper : 47 - page is loaded
+2018 08 28 17 08 374 WARN  ExtentListener : 41 - testLogin skipped..org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'XAV-101001034', ip: '10.2.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.28.455520 (cc17746adff549..., userDataDir: C:\Users\MSHARM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 73fb74f633a2e096d7565797b26993b3
+2018 08 28 17 08 401 INFO  ExtentListener : 59 - A Test finished
+2018 08 28 17 08 403 INFO  ExtentListener : 53 - B Class started
+2018 08 28 17 08 324 INFO  TestBase : 137 - Initialize web driver : 1450500594
+2018 08 28 17 08 325 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 17 08 333 INFO  WaitHelper : 45 - waiting for page to load for : 200 seconds
+2018 08 28 17 08 341 INFO  WaitHelper : 47 - page is loaded
+2018 08 28 17 08 441 WARN  ExtentListener : 41 - testLoginB skipped..org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'XAV-101001034', ip: '10.2.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.28.455520 (cc17746adff549..., userDataDir: C:\Users\MSHARM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: f2324f995046dbe2fce98d9634480091
+2018 08 28 17 08 469 INFO  ExtentListener : 59 - B Test finished
+2018 08 28 17 08 470 INFO  ExtentListener : 53 - C Class started
+2018 08 28 17 08 416 INFO  TestBase : 137 - Initialize web driver : 785306763
+2018 08 28 17 08 417 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 17 08 425 INFO  WaitHelper : 45 - waiting for page to load for : 200 seconds
+2018 08 28 17 08 433 INFO  WaitHelper : 47 - page is loaded
+2018 08 28 17 08 529 WARN  ExtentListener : 41 - testLoginC skipped..org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'XAV-101001034', ip: '10.2.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.28.455520 (cc17746adff549..., userDataDir: C:\Users\MSHARM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: b4d92b36deaf43f55cfc0b317daebf00
+2018 08 28 17 08 551 INFO  ExtentListener : 59 - C Test finished
+2018 08 28 17 08 553 INFO  ExtentListener : 53 - TestScreenShot Class started
+2018 08 28 17 08 484 INFO  TestBase : 137 - Initialize web driver : 42820240
+2018 08 28 17 08 485 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 17 08 494 INFO  WaitHelper : 45 - waiting for page to load for : 200 seconds
+2018 08 28 17 08 501 INFO  WaitHelper : 47 - page is loaded
+2018 08 28 17 08 586 WARN  ExtentListener : 41 - testScreen skipped..org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'XAV-101001034', ip: '10.2.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.28.455520 (cc17746adff549..., userDataDir: C:\Users\MSHARM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 3f60868053a9664f241ce18ea55beab5
+2018 08 28 17 08 619 INFO  ExtentListener : 59 - TestScreenShot Test finished
+2018 08 28 17 08 383 INFO  ExtentListener : 53 - A Class started
+2018 08 28 17 08 684 INFO  TestBase : 137 - Initialize web driver : 1826334428
+2018 08 28 17 08 701 INFO  TestBase : 68 - **************Started***************
+2018 08 28 17 08 704 INFO  ExtentListener : 23 - testLogin started..
+2018 08 28 17 08 707 INFO  ExtentListener : 29 - testLogin passed..
+2018 08 28 17 08 721 INFO  ExtentListener : 59 - A Test finished
+2018 08 28 17 08 724 INFO  ExtentListener : 53 - B Class started
+2018 08 28 17 08 651 INFO  TestBase : 137 - Initialize web driver : 1765702
+2018 08 28 17 08 655 INFO  TestBase : 68 - **************Started***************
+2018 08 28 17 08 657 INFO  ExtentListener : 23 - testLoginB started..
+2018 08 28 17 08 663 ERROR ExtentListener : 35 - testLoginB test failed..java.lang.AssertionError: expected [true] but found [false]
+2018 08 28 17 08 605 INFO  ExtentListener : 59 - B Test finished
+2018 08 28 17 08 606 INFO  ExtentListener : 53 - C Class started
+2018 08 28 17 08 546 INFO  TestBase : 137 - Initialize web driver : 276748028
+2018 08 28 17 08 549 INFO  TestBase : 68 - **************Started***************
+2018 08 28 17 08 552 INFO  ExtentListener : 23 - testLoginC started..
+2018 08 28 17 08 557 ERROR ExtentListener : 35 - testLoginC test failed..java.lang.AssertionError: expected [true] but found [false]
+2018 08 28 17 08 619 INFO  ExtentListener : 59 - C Test finished
+2018 08 28 17 08 622 INFO  ExtentListener : 53 - TestScreenShot Class started
+2018 08 28 17 08 559 INFO  TestBase : 137 - Initialize web driver : 779598031
+2018 08 28 17 08 561 INFO  TestBase : 68 - **************Started***************
+2018 08 28 17 08 562 INFO  ExtentListener : 23 - testScreen started..
+2018 08 28 17 08 06 INFO  ExtentListener : 29 - testScreen passed..
+2018 08 28 17 08 869 INFO  ExtentListener : 59 - TestScreenShot Test finished
+2018 08 28 17 08 653 INFO  ExtentListener : 53 - A Class started
+2018 08 28 17 08 955 INFO  TestBase : 137 - Initialize web driver : 1826334428
+2018 08 28 17 08 975 INFO  TestBase : 68 - **************Started***************
+2018 08 28 17 08 978 INFO  ExtentListener : 23 - testLogin started..
+2018 08 28 17 08 980 INFO  ExtentListener : 29 - testLogin passed..
+2018 08 28 17 08 22 INFO  ExtentListener : 59 - A Test finished
+2018 08 28 17 08 26 INFO  ExtentListener : 53 - B Class started
+2018 08 28 17 08 944 INFO  TestBase : 137 - Initialize web driver : 864326906
+2018 08 28 17 08 949 INFO  TestBase : 68 - **************Started***************
+2018 08 28 17 08 951 INFO  ExtentListener : 23 - testLoginB started..
+2018 08 28 17 08 955 ERROR ExtentListener : 35 - testLoginB test failed..java.lang.AssertionError: expected [true] but found [false]
+2018 08 28 17 08 924 INFO  ExtentListener : 59 - B Test finished
+2018 08 28 17 08 927 INFO  ExtentListener : 53 - C Class started
+2018 08 28 17 08 869 INFO  TestBase : 137 - Initialize web driver : 265577219
+2018 08 28 17 08 879 INFO  TestBase : 68 - **************Started***************
+2018 08 28 17 08 882 INFO  ExtentListener : 23 - testLoginC started..
+2018 08 28 17 08 887 ERROR ExtentListener : 35 - testLoginC test failed..java.lang.AssertionError: expected [true] but found [false]
+2018 08 28 17 08 917 INFO  ExtentListener : 59 - C Test finished
+2018 08 28 17 08 920 INFO  ExtentListener : 53 - TestScreenShot Class started
+2018 08 28 17 08 836 INFO  TestBase : 137 - Initialize web driver : 1886567481
+2018 08 28 17 08 841 INFO  TestBase : 68 - **************Started***************
+2018 08 28 17 08 842 INFO  ExtentListener : 23 - testScreen started..
+2018 08 28 17 08 406 INFO  ExtentListener : 29 - testScreen passed..
+2018 08 28 17 08 252 INFO  ExtentListener : 59 - TestScreenShot Test finished
+2018 08 28 17 08 307 INFO  ExtentListener : 53 - A Class started
+2018 08 28 17 08 608 INFO  TestBase : 137 - Initialize web driver : 1826334428
+2018 08 28 17 08 609 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 17 08 616 INFO  WaitHelper : 45 - waiting for page to load for : 200 seconds
+2018 08 28 17 08 619 INFO  WaitHelper : 47 - page is loaded
+2018 08 28 17 08 632 INFO  TestBase : 68 - **************Started***************
+2018 08 28 17 08 635 INFO  ExtentListener : 23 - testLogin started..
+2018 08 28 17 08 638 INFO  ExtentListener : 29 - testLogin passed..
+2018 08 28 17 08 654 INFO  ExtentListener : 59 - A Test finished
+2018 08 28 17 08 659 INFO  ExtentListener : 53 - B Class started
+2018 08 28 17 08 568 INFO  TestBase : 137 - Initialize web driver : 1078566479
+2018 08 28 17 08 569 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 17 08 574 INFO  WaitHelper : 45 - waiting for page to load for : 200 seconds
+2018 08 28 17 08 580 INFO  WaitHelper : 47 - page is loaded
+2018 08 28 17 08 581 INFO  TestBase : 68 - **************Started***************
+2018 08 28 17 08 584 INFO  ExtentListener : 23 - testLoginB started..
+2018 08 28 17 08 587 ERROR ExtentListener : 35 - testLoginB test failed..java.lang.AssertionError: expected [true] but found [false]
+2018 08 28 17 08 487 INFO  ExtentListener : 59 - B Test finished
+2018 08 28 17 08 490 INFO  ExtentListener : 53 - C Class started
+2018 08 28 17 08 416 INFO  TestBase : 137 - Initialize web driver : 546796969
+2018 08 28 17 08 417 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 17 08 423 INFO  WaitHelper : 45 - waiting for page to load for : 200 seconds
+2018 08 28 17 08 428 INFO  WaitHelper : 47 - page is loaded
+2018 08 28 17 08 430 INFO  TestBase : 68 - **************Started***************
+2018 08 28 17 08 432 INFO  ExtentListener : 23 - testLoginC started..
+2018 08 28 17 08 436 ERROR ExtentListener : 35 - testLoginC test failed..java.lang.AssertionError: expected [true] but found [false]
+2018 08 28 17 08 372 INFO  ExtentListener : 59 - C Test finished
+2018 08 28 17 08 374 INFO  ExtentListener : 53 - TestScreenShot Class started
+2018 08 28 17 08 302 INFO  TestBase : 137 - Initialize web driver : 1829966070
+2018 08 28 17 08 303 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 17 08 309 INFO  WaitHelper : 45 - waiting for page to load for : 200 seconds
+2018 08 28 17 08 315 INFO  WaitHelper : 47 - page is loaded
+2018 08 28 17 08 316 INFO  TestBase : 68 - **************Started***************
+2018 08 28 17 08 318 INFO  ExtentListener : 23 - testScreen started..
+2018 08 28 17 08 380 INFO  ExtentListener : 29 - testScreen passed..
+2018 08 28 17 08 236 INFO  ExtentListener : 59 - TestScreenShot Test finished
+2018 08 28 17 08 733 INFO  ExtentListener : 53 - A Class started
+2018 08 28 17 08 32 INFO  TestBase : 137 - Initialize web driver : 1826334428
+2018 08 28 17 08 34 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 17 08 39 INFO  WaitHelper : 45 - waiting for page to load for : 200 seconds
+2018 08 28 17 08 42 INFO  WaitHelper : 47 - page is loaded
+2018 08 28 17 08 185 WARN  ExtentListener : 41 - testLogin skipped..org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'XAV-101001034', ip: '10.2.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.28.455520 (cc17746adff549..., userDataDir: C:\Users\MSHARM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: f6a865ef9c836278fce122e477f73f34
+2018 08 28 17 08 211 INFO  ExtentListener : 59 - A Test finished
+2018 08 28 17 08 213 INFO  ExtentListener : 53 - B Class started
+2018 08 28 17 08 117 INFO  TestBase : 137 - Initialize web driver : 1450500594
+2018 08 28 17 08 118 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 17 08 124 INFO  WaitHelper : 45 - waiting for page to load for : 200 seconds
+2018 08 28 17 08 129 INFO  WaitHelper : 47 - page is loaded
+2018 08 28 17 08 213 WARN  ExtentListener : 41 - testLoginB skipped..org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from unknown error: page could not be found: chrome-extension://aapnijgdinlhnhlmodcfapnahmbfebeb/_generated_background_page.html
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'XAV-101001034', ip: '10.2.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.28.455520 (cc17746adff549..., userDataDir: C:\Users\MSHARM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 71696fce8aded4ba6cc9191888402026
+2018 08 28 17 08 238 INFO  ExtentListener : 59 - B Test finished
+2018 08 28 17 08 239 INFO  ExtentListener : 53 - C Class started
+2018 08 28 17 08 140 INFO  TestBase : 137 - Initialize web driver : 785306763
+2018 08 28 17 08 142 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 17 08 153 INFO  WaitHelper : 45 - waiting for page to load for : 200 seconds
+2018 08 28 17 08 160 INFO  WaitHelper : 47 - page is loaded
+2018 08 28 17 08 153 WARN  ExtentListener : 41 - testLoginC skipped..org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'XAV-101001034', ip: '10.2.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.28.455520 (cc17746adff549..., userDataDir: C:\Users\MSHARM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: f05459f100fa55c594fc0996456d0a21
+2018 08 28 17 08 177 INFO  ExtentListener : 59 - C Test finished
+2018 08 28 17 08 178 INFO  ExtentListener : 53 - TestScreenShot Class started
+2018 08 28 17 08 106 INFO  TestBase : 137 - Initialize web driver : 42820240
+2018 08 28 17 08 106 INFO  WaitHelper : 36 - ImplicitWait has been set to 120 SECONDS
+2018 08 28 17 08 111 INFO  WaitHelper : 45 - waiting for page to load for : 200 seconds
+2018 08 28 17 08 116 INFO  WaitHelper : 47 - page is loaded
+2018 08 28 17 08 173 WARN  ExtentListener : 41 - testScreen skipped..org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+from chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.10240 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'XAV-101001034', ip: '10.2.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.28.455520 (cc17746adff549..., userDataDir: C:\Users\MSHARM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: d2c07e39f7e0d6433a8dbaac90282760
+2018 08 28 17 08 194 INFO  ExtentListener : 59 - TestScreenShot Test finished

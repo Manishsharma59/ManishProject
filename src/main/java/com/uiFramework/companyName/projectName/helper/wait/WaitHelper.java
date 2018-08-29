@@ -32,7 +32,7 @@ public class WaitHelper {
 	 * @param timeOut
 	 * @param unit
 	 */
-	public void setImplicitWait(long timeOut, TimeUnit unit) {
+	public void setImplicitWait(int timeOut, TimeUnit unit) {
 		log.info("ImplicitWait has been set to "+timeOut+" "+unit);
 		driver.manage().timeouts().implicitlyWait(timeOut, unit);
 	}
@@ -42,7 +42,7 @@ public class WaitHelper {
 	 * @param unit
 	 */
 	public void pageLoadTimeOut(int timeOutInSeconds, TimeUnit unit) {
-		log.info("waiting for page to load for : "+ unit+ " seconds");	
+		log.info("waiting for page to load for : "+timeOutInSeconds+ " seconds");	
 		driver.manage().timeouts().pageLoadTimeout(timeOutInSeconds, unit);
 		log.info("page is loaded");
 	}

@@ -2,9 +2,11 @@ package com.uiFramework;
 
 import org.testng.annotations.Test;
 
-import junit.framework.Assert;
+import com.uiFramework.companyName.projectName.testbase.TestBase;
 
-public class C {
+import org.testng.Assert;
+
+public class C extends TestBase{
 	int i=1;
 	@Test
 	public void testLoginC() {

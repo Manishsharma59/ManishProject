@@ -32,7 +32,7 @@ public class ExcelHelper {
 			int totalRow = sheet.getLastRowNum();
 			// count number of active column in row
 			short totalColumn = sheet.getRow(0).getLastCellNum();
-
+			System.out.println(totalColumn);
 			dataSets = new Object[totalRow+1][totalColumn];
 			// Iterator through each row one by one
 			Iterator<Row> rowIterator = sheet.iterator();

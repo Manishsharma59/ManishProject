@@ -13,11 +13,12 @@ public class FirefoxBrowser {
 	
 	public FirefoxOptions getFirefoxOptions() {
 		
+		
+		
+		DesiredCapabilities firefox = DesiredCapabilities.firefox();;
 		FirefoxProfile profile = new FirefoxProfile();
 		profile.setAcceptUntrustedCertificates(true);
 		profile.setAssumeUntrustedCertificateIssuer(true);
-		
-		DesiredCapabilities firefox = DesiredCapabilities.firefox();
 		firefox.setCapability(FirefoxDriver.PROFILE, profile);
 		firefox.setCapability("marionette", true);
 		
@@ -34,18 +35,25 @@ public class FirefoxBrowser {
 	public WebDriver getFirefoxDriver(FirefoxOptions firefoxOptions) {
 		
 		if(System.getProperty("os.name").contains("Mac")) {
-			System.setProperty("webdriver.gecko.driver", ResouceHelper.getResources("src\\main\\resources\\driver\\chromedriver"));
+			System.setProperty("webdriver.gecko.driver", ResouceHelper.getResources("src\\main\\resources\\driver\\geckodriver"));
 		return new FirefoxDriver(firefoxOptions);
 		}
-		if(System.getProperty("os.name").contains("Window")) {
-			System.setProperty("webdriver.gecko.driver", ResouceHelper.getResources("src\\main\\resources\\driver\\chromedriver.exe"));
+		else if(System.getProperty("os.name").contains("Window")) {
+			System.setProperty("webdriver.gecko.driver",ResouceHelper.getResources("src\\main\\resources\\driver\\geckodriver.exe"));
 		return new FirefoxDriver(firefoxOptions);
 		}
-		if(System.getProperty("os.name").contains("Linux")) {
-			System.setProperty("webdriver.gecko.driver", ResouceHelper.getResources("\\usr\\bin\\chromedriver"));
+		else if(System.getProperty("os.name").contains("Linux")) {
+			System.setProperty("webdriver.gecko.driver", ResouceHelper.getResources("\\usr\\bin\\geckodriver"));
 		return new FirefoxDriver(firefoxOptions);
 		}
 		return null;
+	}
+	
+	public static void main(String[] args) {
+		FirefoxBrowser obj = new FirefoxBrowser();
+		WebDriver driver = obj.getFirefoxDriver(obj.getFirefoxOptions());
+		driver.get("https://www.zomato.com/bangalore/punjabi-nawabi-hsr/order/LoqDdXx");
+
 	}
 
 }

@@ -1,10 +1,12 @@
 package com.uiFramework;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import junit.framework.Assert;
+import com.uiFramework.companyName.projectName.testbase.TestBase;
 
-public class A {
+
+public class A extends TestBase{
 	int i=1;
 	@Test
 	public void testLogin() {

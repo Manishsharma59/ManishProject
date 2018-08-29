@@ -28,17 +28,17 @@ public class ChromeBrowser {
 	
 	public WebDriver getChromeDriver(ChromeOptions chromeoptions) {
 		if(System.getProperty("os.name").contains("Mac")) {
-			System.setProperty("webdriver.driver.chromedriver", ResouceHelper.getResources("src\\main\\resources\\driver\\chromedriver"));
+			System.setProperty("webdriver.chrome.driver", ResouceHelper.getResources("src\\main\\resources\\driver\\chromedriver"));
 			return new ChromeDriver(chromeoptions);
 		}
 		
 		if(System.getProperty("os.name").contains("Window")) {
-			System.setProperty("webdriver.driver.chromedriver", ResouceHelper.getResources("src\\main\\resources\\driver\\chromedriver.exe"));
+			System.setProperty("webdriver.chrome.driver", ResouceHelper.getResources("src\\main\\resources\\driver\\chromedriver.exe"));
 			return new ChromeDriver(chromeoptions);
 		}
 		
 		if(System.getProperty("os.name").contains("Linux")) {
-			System.setProperty("webdriver.driver.chromedriver", ResouceHelper.getResources("\\usr\\bin\\chromedriver"));
+			System.setProperty("webdriver.chrome.driver", ResouceHelper.getResources("\\usr\\bin\\chromedriver"));
 			return new ChromeDriver(chromeoptions);
 		}
 		

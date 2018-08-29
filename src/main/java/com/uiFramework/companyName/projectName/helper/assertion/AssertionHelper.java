@@ -1,10 +1,10 @@
 package com.uiFramework.companyName.projectName.helper.assertion;
 
 import org.apache.log4j.Logger;
-
+import org.testng.Assert;
 import com.uiFramework.companyName.projectName.helper.logger.LoggerHelper;
 
-import junit.framework.Assert;
+
 
 public class AssertionHelper {
 
@@ -22,7 +22,7 @@ public class AssertionHelper {
 
 	public static void makeTrue(String message) {
 		log.info("making script pass "+message);
-		Assert.assertTrue(message, true);
+		Assert.assertTrue(true,message);
 	}
 
 	public static void makeFalse() {
@@ -32,7 +32,7 @@ public class AssertionHelper {
 
 	public static void makeFalse(String message) {
 		log.info("making script pass");
-		Assert.assertFalse(message, true);
+		Assert.assertFalse(true,message);
 	}
 	
 	public void verifyTrue(boolean status) {
