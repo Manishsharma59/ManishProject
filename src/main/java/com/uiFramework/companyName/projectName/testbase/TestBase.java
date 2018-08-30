@@ -73,12 +73,12 @@ public class TestBase {
 	public void afterMethod(ITestResult result) throws IOException {
 		if(result.getStatus()==ITestResult.FAILURE) {
 			test.log(Status.FAIL, result.getName()+" is fail" + result.getThrowable());
-			String imagePath = captureScreen(result.getName());
+			String imagePath = captureScreen(result.getName(),driver);
 			test.addScreenCaptureFromPath(imagePath);
 		}
 		else if(result.getStatus()==ITestResult.SUCCESS) {
 			test.log(Status.PASS, result.getName()+" is pass");
-			String imagePath = captureScreen(result.getName());
+			String imagePath = captureScreen(result.getName(),driver);
 			test.addScreenCaptureFromPath(imagePath);
 		}
 		else if(result.getStatus()==ITestResult.SKIP) {
@@ -143,7 +143,7 @@ public class TestBase {
 		
 	}
 	
-	public String captureScreen(String fileName) {
+	public String captureScreen(String fileName, WebDriver driver) {
 		
 		if(driver == null) {
 			log.info("driver is null");
@@ -169,35 +169,15 @@ public class TestBase {
 		return destFile.toString();
 	}
 	
-	public String getScreenshot(String fileName, WebDriver driver){
-		if(driver == null){
-			log.info("driver is null..");
-			return null;
-		}
-		if(fileName==""){
-			fileName = "blank";
-		}
-		Reporter.log("captureScreen method called");
-		File destFile = null;
-		Calendar calendar = Calendar.getInstance();
-		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-		File screFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		try{
-			destFile = new File(reportDirectory+"/"+fileName+"_"+formater.format(calendar.getTime())+".png");
-			Files.copy(screFile.toPath(), destFile.toPath());
-			Reporter.log("<a href='"+destFile.getAbsolutePath()+"'><img src='"+destFile.getAbsolutePath()+"'height='100' width='100'/></a>");
-		}
-		catch(Exception e){
-			e.printStackTrace();
-		}
-		return destFile.toString();
-	}
 	
 	public void getNavigationScreen(WebDriver driver) throws IOException {
 		log.info("Capturing ui navigation screen..");
-		String screen = getScreenshot("",driver);
+		String screen = captureScreen("",driver);
 				test.addScreenCaptureFromPath(screen);
 	}
-
+	
+	public static void logExtentReport(String s1) {
+		TestBase.test.log(Status.INFO, s1);
+	}
 
 }

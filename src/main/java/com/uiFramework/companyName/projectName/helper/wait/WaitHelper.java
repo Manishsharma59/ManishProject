@@ -25,6 +25,7 @@ public class WaitHelper {
 	
 	public WaitHelper(WebDriver driver) {
 		this.driver=driver;
+		log.info("WaitHelper object created");
 	}
 	
 	/**
