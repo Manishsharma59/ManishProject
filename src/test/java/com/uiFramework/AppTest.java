@@ -17,7 +17,7 @@ public class AppTest {
 	
   @Test
   public void f() {
-	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\msharma13\\eclipse-workspace\\uiFramework\\src\\main\\resources\\driver\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\msharma13\\Downloads\\chromedriver_win32\\chromedriver.exe");
 	  driver = new ChromeDriver();
 	  driver.get("https://intranet.xavient.com/xap/");
 	  driver.manage().timeouts().implicitlyWait(101, TimeUnit.SECONDS);

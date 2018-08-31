@@ -22,33 +22,61 @@ public class LoginPage {
 	private Logger log = LoggerHelper.getLogger(LoginPage.class);
 	
 	
-	@FindBy(xpath  = "//input[@name='signIn']")
-	public WebElement signIn;
+	@FindBy(id  = "input_0")
+	public WebElement mobOrEmailId;
 	
-	@FindBy(xpath  = "//input[@name='submit']")
-	public WebElement submitBtn;
+	@FindBy(id  = "input_1")
+	public WebElement password;
+	
+	@FindBy(xpath  = "//button[@type='submit']")
+	public WebElement loginSecurely;
+	
+	
+	@FindBy(xpath="//div[@id='login-header-wrapper']/ul/li[2]")
+	public WebElement signUp;
+	
 	
 	public LoginPage(WebDriver driver) throws IOException {
 		
 		this.driver= driver;
 		PageFactory.initElements(driver, this);
 		WaitHelper wait = new WaitHelper(driver);
-		wait.waitForElement(signIn, ObjectReader.reader.getImplicitWait());
-		logExtentReport("My account page object created");
+		wait.waitForElement(mobOrEmailId, ObjectReader.reader.getImplicitWait());
+		log.info("Login page object created");
 		new TestBase().getNavigationScreen(driver);
 		
 	}
 	
-	public HomePage clickOnSubmit() throws IOException {
-		submitBtn.click();
-		log.info("clicked on submit Button");
-		logExtentReport("Clicked on Submit");
-		return new HomePage(driver);
-		
-		
+	public void enterUserName() {
+		mobOrEmailId.sendKeys(ObjectReader.reader.getUserName());
+		log.info("Entering username " +ObjectReader.reader.getUserName() );
+		TestBase.logExtentReport("Entering username " +ObjectReader.reader.getUserName());
 	}
 	
-	public void logExtentReport(String s1) {
-		TestBase.test.log(Status.INFO, s1);
+	public void enterPassword() {
+		password.sendKeys(ObjectReader.reader.getPassword());
+		log.info("Entering password " +ObjectReader.reader.getPassword() );
+		TestBase.logExtentReport("Entering password " +ObjectReader.reader.getPassword());
 	}
+	
+	public void clickOnloginSecurely() {
+		loginSecurely.click();
+		log.info("Click on loginSecurely" );
+		TestBase.logExtentReport("Click on loginSecurely" );
+	}
+	public HomePage login() throws IOException {
+		enterUserName();
+		enterPassword();
+		clickOnloginSecurely();
+		return new HomePage(driver);	
+	}
+	
+	public SignUpPage clickOnSignUp() throws IOException {
+		signUp.click();
+		log.info("click on signup");
+		TestBase.logExtentReport("Click on Sign Up" );
+		return new SignUpPage(driver);
+		
+	}
+
 }

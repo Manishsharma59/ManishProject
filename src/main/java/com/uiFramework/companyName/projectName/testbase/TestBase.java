@@ -139,7 +139,7 @@ public class TestBase {
 		WaitHelper wait = new WaitHelper(driver);
 		wait.setImplicitWait(ObjectReader.reader.getImplicitWait(), TimeUnit.SECONDS);
 		wait.pageLoadTimeOut(ObjectReader.reader.getExplicitWait(), TimeUnit.SECONDS);
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		
 	}
 	

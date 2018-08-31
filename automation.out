@@ -478,3 +478,556 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptSslCerts: true, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.28.455520 (cc17746adff549..., userDataDir: C:\Users\MSHARM~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
 Session ID: d2c07e39f7e0d6433a8dbaac90282760
 2018 08 28 17 08 194 INFO  ExtentListener : 59 - TestScreenShot Test finished
+2018 08 31 11 08 37 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 11 08 62 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 11 08 62 INFO  WaitHelper : 37 - ImplicitWait has been set to 120 SECONDS
+2018 08 31 11 08 67 INFO  WaitHelper : 46 - waiting for page to load for : 200 seconds
+2018 08 31 11 08 71 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 11 08 143 INFO  TestBase : 68 - **************Started***************
+2018 08 31 11 08 247 INFO  ExtentListener : 53 - A Class started
+2018 08 31 11 08 41 INFO  TestBase : 137 - Initialize web driver : 51152513
+2018 08 31 11 08 43 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 11 08 43 INFO  WaitHelper : 37 - ImplicitWait has been set to 120 SECONDS
+2018 08 31 11 08 49 INFO  WaitHelper : 46 - waiting for page to load for : 200 seconds
+2018 08 31 11 08 52 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 11 08 67 INFO  TestBase : 68 - **************Started***************
+2018 08 31 11 08 70 INFO  ExtentListener : 23 - testLogin started..
+2018 08 31 11 08 74 INFO  ExtentListener : 29 - testLogin passed..
+2018 08 31 11 08 144 INFO  ExtentListener : 59 - A Test finished
+2018 08 31 11 08 148 INFO  ExtentListener : 53 - B Class started
+2018 08 31 11 08 242 INFO  TestBase : 137 - Initialize web driver : 1288108586
+2018 08 31 11 08 244 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 11 08 244 INFO  WaitHelper : 37 - ImplicitWait has been set to 120 SECONDS
+2018 08 31 11 08 249 INFO  WaitHelper : 46 - waiting for page to load for : 200 seconds
+2018 08 31 11 08 255 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 11 08 257 INFO  TestBase : 68 - **************Started***************
+2018 08 31 11 08 258 INFO  ExtentListener : 23 - testLoginB started..
+2018 08 31 11 08 261 ERROR ExtentListener : 35 - testLoginB test failed..java.lang.AssertionError: expected [true] but found [false]
+2018 08 31 11 08 119 INFO  ExtentListener : 59 - B Test finished
+2018 08 31 11 08 122 INFO  ExtentListener : 53 - C Class started
+2018 08 31 11 08 167 INFO  TestBase : 137 - Initialize web driver : 1959708563
+2018 08 31 11 08 167 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 11 08 168 INFO  WaitHelper : 37 - ImplicitWait has been set to 120 SECONDS
+2018 08 31 11 08 172 INFO  WaitHelper : 46 - waiting for page to load for : 200 seconds
+2018 08 31 11 08 175 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 11 08 177 INFO  TestBase : 68 - **************Started***************
+2018 08 31 11 08 178 INFO  ExtentListener : 23 - testLoginC started..
+2018 08 31 11 08 183 ERROR ExtentListener : 35 - testLoginC test failed..java.lang.AssertionError: expected [true] but found [false]
+2018 08 31 11 08 105 INFO  ExtentListener : 59 - C Test finished
+2018 08 31 11 08 107 INFO  ExtentListener : 53 - TestScreenShot Class started
+2018 08 31 11 08 205 INFO  TestBase : 137 - Initialize web driver : 626626764
+2018 08 31 11 08 206 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 11 08 206 INFO  WaitHelper : 37 - ImplicitWait has been set to 120 SECONDS
+2018 08 31 11 08 211 INFO  WaitHelper : 46 - waiting for page to load for : 200 seconds
+2018 08 31 11 08 217 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 11 08 220 INFO  TestBase : 68 - **************Started***************
+2018 08 31 11 08 222 INFO  ExtentListener : 23 - testScreen started..
+2018 08 31 11 08 713 INFO  ExtentListener : 29 - testScreen passed..
+2018 08 31 11 08 626 INFO  ExtentListener : 59 - TestScreenShot Test finished
+2018 08 31 12 08 509 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 12 08 511 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 512 INFO  WaitHelper : 37 - ImplicitWait has been set to 120 SECONDS
+2018 08 31 12 08 518 INFO  WaitHelper : 46 - waiting for page to load for : 200 seconds
+2018 08 31 12 08 523 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 12 08 540 INFO  TestBase : 68 - **************Started***************
+2018 08 31 12 08 505 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 12 08 647 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 678 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6240a641823807ff7589d1c67e713127)] -> css selector: div._3ac-] for 120 seconds
+2018 08 31 12 08 755 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 12 08 755 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 12 08 66 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 766 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 12 08 768 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 768 INFO  WaitHelper : 37 - ImplicitWait has been set to 120 SECONDS
+2018 08 31 12 08 773 INFO  WaitHelper : 46 - waiting for page to load for : 200 seconds
+2018 08 31 12 08 777 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 12 08 791 INFO  TestBase : 68 - **************Started***************
+2018 08 31 12 08 720 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 12 08 742 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 758 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (d266ad0591182edda6a43b53fdbe31e9)] -> css selector: div._3ac-] for 120 seconds
+2018 08 31 12 08 786 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 12 08 787 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 12 08 81 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 173 INFO  WaitHelper : 155 - Waiting for element Proxy element for: DefaultElementLocator 'By.id: input_0' for 120 seconds
+2018 08 31 12 08 65 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 12 08 68 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 68 INFO  WaitHelper : 37 - ImplicitWait has been set to 120 SECONDS
+2018 08 31 12 08 76 INFO  WaitHelper : 46 - waiting for page to load for : 200 seconds
+2018 08 31 12 08 79 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 12 08 280 INFO  TestBase : 68 - **************Started***************
+2018 08 31 12 08 603 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 12 08 622 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 644 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (fd9ed1519b3fae76f786623e79ddce65)] -> xpath: //div[@id='app']/div/div[2]/div[2]/div[3]/div[3]/div] for 120 seconds
+2018 08 31 12 08 674 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 12 08 674 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 12 08 958 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 44 INFO  WaitHelper : 155 - Waiting for element Proxy element for: DefaultElementLocator 'By.id: input_0' for 120 seconds
+2018 08 31 12 08 673 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 12 08 676 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 677 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 12 08 684 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 12 08 688 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 12 08 868 INFO  TestBase : 68 - **************Started***************
+2018 08 31 12 08 869 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 12 08 907 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 934 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (5c03d74fc79bccb95ee3abf6125ca547)] -> xpath: //div[@id='app']/div/div[2]/div[2]/div[3]/div[3]/div] for 10 seconds
+2018 08 31 12 08 963 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 12 08 963 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 12 08 275 INFO  HomePage : 36 - Clicked on login/Sign up
+2018 08 31 12 08 285 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 369 INFO  WaitHelper : 155 - Waiting for element Proxy element for: DefaultElementLocator 'By.id: input_0' for 10 seconds
+2018 08 31 12 08 962 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 12 08 967 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 968 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 12 08 974 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 12 08 977 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 12 08 156 INFO  TestBase : 68 - **************Started***************
+2018 08 31 12 08 266 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 12 08 279 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 301 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (52d25d5be15234e84b99a58a550233dd)] -> xpath: //div[@id='app']/div/div[2]/div[2]/div[3]/div[3]/div] for 10 seconds
+2018 08 31 12 08 328 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 12 08 328 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 12 08 644 INFO  HomePage : 37 - Clicked on login/Sign up
+2018 08 31 12 08 684 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 769 INFO  WaitHelper : 155 - Waiting for element Proxy element for: DefaultElementLocator 'By.id: input_0' for 10 seconds
+2018 08 31 12 08 995 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 12 08 36 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 37 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 12 08 42 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 12 08 46 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 12 08 244 INFO  TestBase : 68 - **************Started***************
+2018 08 31 12 08 761 INFO  Paytm : 22 - Opening url https://paytm.com/
+2018 08 31 12 08 778 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 797 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (8c26f9f2d52d7a141168c1f9359e1f22)] -> xpath: //div[@id='app']/div/div[2]/div[2]/div[3]/div[3]/div] for 10 seconds
+2018 08 31 12 08 824 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 12 08 824 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 12 08 98 INFO  HomePage : 37 - Clicked on login/Sign up
+2018 08 31 12 08 194 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 195 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 12 08 30 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 12 08 34 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 34 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 12 08 39 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 12 08 43 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 12 08 216 INFO  TestBase : 68 - **************Started***************
+2018 08 31 12 08 364 INFO  Paytm : 22 - Opening url https://paytm.com/
+2018 08 31 12 08 381 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 398 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (20b8810b0de9b84faeca81af6d12d6aa)] -> xpath: //div[@id='app']/div/div[2]/div[2]/div[3]/div[3]/div] for 10 seconds
+2018 08 31 12 08 423 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 12 08 423 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 12 08 507 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 12 08 510 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 510 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 12 08 518 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 12 08 520 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 12 08 695 INFO  TestBase : 68 - **************Started***************
+2018 08 31 12 08 899 INFO  Paytm : 22 - Opening url https://paytm.com/
+2018 08 31 12 08 942 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 971 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (7d75e59374724e98e88abfb0e8090786)] -> xpath: //div[@id='app']/div/div[2]/div[2]/div[3]/div[3]/div] for 10 seconds
+2018 08 31 12 08 01 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 12 08 01 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 12 08 309 INFO  HomePage : 42 - Clicked on login/Sign up
+2018 08 31 12 08 325 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 12 08 326 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 13 08 360 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 13 08 364 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 13 08 364 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 13 08 372 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 13 08 375 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 13 08 579 INFO  TestBase : 68 - **************Started***************
+2018 08 31 13 08 252 INFO  Paytm : 22 - Opening url https://paytm.com/
+2018 08 31 13 08 293 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 13 08 322 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (4874cb2663620db76b65dd5e3ec92d5d)] -> xpath: //div[@id='app']/div/div[2]/div[2]/div[3]/div[3]/div] for 10 seconds
+2018 08 31 13 08 352 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 13 08 352 INFO  HomePage : 38 - HomePage Object created
+2018 08 31 13 08 352 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 15 08 436 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 15 08 439 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 439 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 444 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 448 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 627 INFO  TestBase : 68 - **************Started***************
+2018 08 31 15 08 847 INFO  Paytm : 22 - Opening url https://paytm.com/
+2018 08 31 15 08 862 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 880 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (4ad67fbc7008eec445f5e8ca25c3a349)] -> xpath: //div[@id='app']/div/div[2]/div[2]/div[3]/div[3]/div] for 10 seconds
+2018 08 31 15 08 913 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 15 08 913 INFO  HomePage : 38 - HomePage Object created
+2018 08 31 15 08 913 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 15 08 639 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 15 08 643 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 643 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 649 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 652 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 847 INFO  TestBase : 68 - **************Started***************
+2018 08 31 15 08 957 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 15 08 23 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 15 08 25 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 25 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 31 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 34 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 213 INFO  TestBase : 68 - **************Started***************
+2018 08 31 15 08 594 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 15 08 448 INFO  TestBase : 137 - Initialize web driver : 1872973138
+2018 08 31 15 08 452 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 452 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 458 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 461 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 647 INFO  TestBase : 68 - **************Started***************
+2018 08 31 15 08 160 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 15 08 763 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 15 08 765 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 765 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 773 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 776 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 934 INFO  TestBase : 68 - **************Started***************
+2018 08 31 15 08 408 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 15 08 341 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 15 08 344 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 344 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 349 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 352 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 498 INFO  TestBase : 68 - **************Started***************
+2018 08 31 15 08 335 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 15 08 498 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 15 08 500 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 501 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 506 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 509 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 705 INFO  TestBase : 68 - **************Started***************
+2018 08 31 15 08 222 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 15 08 83 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 15 08 85 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 86 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 92 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 95 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 268 INFO  TestBase : 68 - **************Started***************
+2018 08 31 15 08 274 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 15 08 920 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 15 08 933 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 934 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 942 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 948 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 112 INFO  TestBase : 68 - **************Started***************
+2018 08 31 15 08 660 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 15 08 676 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 695 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (4a8b6ac101c82618dda30c2002b2de98)] -> css selector: div._3ac-] for 10 seconds
+2018 08 31 15 08 721 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 15 08 721 INFO  HomePage : 38 - HomePage Object created
+2018 08 31 15 08 722 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 15 08 184 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 15 08 187 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 188 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 193 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 197 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 372 INFO  TestBase : 68 - **************Started***************
+2018 08 31 15 08 972 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 15 08 16 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 40 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (e4be7d940cb970372e2b743b8081a731)] -> css selector: div._3ac-] for 10 seconds
+2018 08 31 15 08 68 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 15 08 69 INFO  HomePage : 39 - HomePage Object created
+2018 08 31 15 08 69 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 15 08 351 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 15 08 369 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 369 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 375 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 378 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 557 INFO  TestBase : 68 - **************Started***************
+2018 08 31 15 08 990 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 15 08 10 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 27 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (da58edcc7b2ed80901ab17c102862e86)] -> css selector: div._3ac-] for 10 seconds
+2018 08 31 15 08 52 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 15 08 52 INFO  HomePage : 39 - HomePage Object created
+2018 08 31 15 08 52 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 15 08 753 INFO  HomePage : 49 - Clicked on login/Sign up
+2018 08 31 15 08 773 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 818 INFO  WaitHelper : 155 - Waiting for element Proxy element for: DefaultElementLocator 'By.id: input_0' for 10 seconds
+2018 08 31 15 08 753 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 15 08 757 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 757 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 763 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 767 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 970 INFO  TestBase : 68 - **************Started***************
+2018 08 31 15 08 981 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 15 08 03 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 22 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (3c0cdb8ba66f7583c9a435a957d50f86)] -> css selector: div._3ac-] for 10 seconds
+2018 08 31 15 08 50 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 15 08 50 INFO  HomePage : 39 - HomePage Object created
+2018 08 31 15 08 51 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 15 08 70 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 15 08 83 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 83 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 89 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 92 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 280 INFO  TestBase : 68 - **************Started***************
+2018 08 31 15 08 188 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 15 08 206 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 222 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (597995e230c1bc655b7fe22ab0ea8f67)] -> css selector: div._3ac-] for 10 seconds
+2018 08 31 15 08 247 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 15 08 247 INFO  HomePage : 39 - HomePage Object created
+2018 08 31 15 08 248 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 15 08 179 INFO  TestBase : 137 - Initialize web driver : 1872973138
+2018 08 31 15 08 181 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 182 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 187 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 190 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 359 INFO  TestBase : 68 - **************Started***************
+2018 08 31 15 08 976 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 15 08 06 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 26 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (ae891b6ccf7af8e16dbcf639b81f61e4)] -> css selector: div._3ac-] for 10 seconds
+2018 08 31 15 08 55 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 15 08 55 INFO  HomePage : 39 - HomePage Object created
+2018 08 31 15 08 55 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 15 08 447 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 15 08 451 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 451 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 458 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 461 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 640 INFO  TestBase : 68 - **************Started***************
+2018 08 31 15 08 272 INFO  Paytm : 23 - Opening url https://paytm.com/
+2018 08 31 15 08 291 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 311 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (632a1d86c459cb776341b6bf9c8c47fd)] -> css selector: div._3ac-] for 10 seconds
+2018 08 31 15 08 340 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 15 08 340 INFO  HomePage : 39 - HomePage Object created
+2018 08 31 15 08 341 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 15 08 205 INFO  FrameHelper : 24 - switch to frame 0
+2018 08 31 15 08 205 INFO  HomePage : 48 - Clicked on login/Sign up
+2018 08 31 15 08 256 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 289 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (632a1d86c459cb776341b6bf9c8c47fd)] -> id: input_0] for 10 seconds
+2018 08 31 15 08 331 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 15 08 332 INFO  LoginPage : 40 - Login page object created
+2018 08 31 15 08 332 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 15 08 91 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 15 08 94 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 94 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 99 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 103 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 285 INFO  TestBase : 68 - **************Started***************
+2018 08 31 15 08 719 INFO  Paytm : 24 - Opening url https://paytm.com/
+2018 08 31 15 08 747 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 768 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (7b28128d05a9be297867a646b6e7c0cb)] -> css selector: div._3ac-] for 10 seconds
+2018 08 31 15 08 796 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 15 08 797 INFO  HomePage : 39 - HomePage Object created
+2018 08 31 15 08 797 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 15 08 650 INFO  FrameHelper : 24 - switch to frame 0
+2018 08 31 15 08 650 INFO  HomePage : 48 - Clicked on login/Sign up
+2018 08 31 15 08 733 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 761 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (7b28128d05a9be297867a646b6e7c0cb)] -> id: input_0] for 10 seconds
+2018 08 31 15 08 790 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 15 08 790 INFO  LoginPage : 40 - Login page object created
+2018 08 31 15 08 790 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 15 08 131 INFO  LoginPage : 59 - clicked on submit Button
+2018 08 31 15 08 132 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 144 INFO  WaitHelper : 155 - Waiting for element Proxy element for: DefaultElementLocator 'By.cssSelector: div._3ac-' for 10 seconds
+2018 08 31 15 08 233 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 15 08 235 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 235 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 241 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 244 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 411 INFO  TestBase : 68 - **************Started***************
+2018 08 31 15 08 377 INFO  Paytm : 24 - Opening url https://paytm.com/
+2018 08 31 15 08 415 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 439 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (539546a943ee7905dd6a3b8ff0a0935a)] -> css selector: div._3ac-] for 10 seconds
+2018 08 31 15 08 466 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 15 08 467 INFO  HomePage : 39 - HomePage Object created
+2018 08 31 15 08 467 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 15 08 169 INFO  FrameHelper : 24 - switch to frame 0
+2018 08 31 15 08 170 INFO  HomePage : 48 - Clicked on login/Sign up
+2018 08 31 15 08 221 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 251 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (539546a943ee7905dd6a3b8ff0a0935a)] -> id: input_0] for 10 seconds
+2018 08 31 15 08 280 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 15 08 280 INFO  LoginPage : 40 - Login page object created
+2018 08 31 15 08 280 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 15 08 608 INFO  LoginPage : 47 - Entering username 8527409595
+2018 08 31 15 08 653 INFO  LoginPage : 53 - Entering password 
+2018 08 31 15 08 763 INFO  LoginPage : 59 - Click on loginSecurely
+2018 08 31 15 08 764 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 782 INFO  WaitHelper : 155 - Waiting for element Proxy element for: DefaultElementLocator 'By.cssSelector: div._3ac-' for 10 seconds
+2018 08 31 15 08 471 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 15 08 473 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 473 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 478 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 481 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 677 INFO  TestBase : 68 - **************Started***************
+2018 08 31 15 08 966 INFO  Paytm : 35 - Opening url https://paytm.com/
+2018 08 31 15 08 981 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 999 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (f7a312469fdb4657db99fa3a9d8ec727)] -> css selector: div._3ac-] for 10 seconds
+2018 08 31 15 08 26 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 15 08 27 INFO  HomePage : 39 - HomePage Object created
+2018 08 31 15 08 27 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 15 08 152 INFO  FrameHelper : 24 - switch to frame 0
+2018 08 31 15 08 153 INFO  HomePage : 48 - Clicked on login/Sign up
+2018 08 31 15 08 212 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 236 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (f7a312469fdb4657db99fa3a9d8ec727)] -> id: input_0] for 10 seconds
+2018 08 31 15 08 262 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 15 08 263 INFO  LoginPage : 45 - Login page object created
+2018 08 31 15 08 263 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 15 08 624 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 15 08 626 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 15 08 626 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 15 08 631 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 15 08 635 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 15 08 824 INFO  TestBase : 68 - **************Started***************
+2018 08 31 16 08 397 INFO  Paytm : 35 - Opening url https://paytm.com/
+2018 08 31 16 08 419 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 437 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (43f273cdff25e448cc4c44df892d3b18)] -> css selector: div._3ac-] for 10 seconds
+2018 08 31 16 08 462 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 16 08 462 INFO  HomePage : 39 - HomePage Object created
+2018 08 31 16 08 462 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 16 08 236 INFO  FrameHelper : 24 - switch to frame 0
+2018 08 31 16 08 237 INFO  HomePage : 48 - Clicked on login/Sign up
+2018 08 31 16 08 329 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 353 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (43f273cdff25e448cc4c44df892d3b18)] -> id: input_0] for 10 seconds
+2018 08 31 16 08 379 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 16 08 380 INFO  LoginPage : 45 - Login page object created
+2018 08 31 16 08 380 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 16 08 727 INFO  LoginPage : 76 - click on signup
+2018 08 31 16 08 728 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 740 INFO  WaitHelper : 155 - Waiting for element Proxy element for: DefaultElementLocator 'By.id: input_12' for 10 seconds
+2018 08 31 16 08 377 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 16 08 379 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 380 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 16 08 387 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 16 08 391 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 16 08 570 INFO  TestBase : 68 - **************Started***************
+2018 08 31 16 08 156 INFO  Paytm : 35 - Opening url https://paytm.com/
+2018 08 31 16 08 183 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 203 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (32c89dc20f58cbb06bd84712e2e6ddfa)] -> css selector: div._3ac-] for 10 seconds
+2018 08 31 16 08 231 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 16 08 231 INFO  HomePage : 39 - HomePage Object created
+2018 08 31 16 08 232 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 16 08 355 INFO  FrameHelper : 24 - switch to frame 0
+2018 08 31 16 08 355 INFO  HomePage : 48 - Clicked on login/Sign up
+2018 08 31 16 08 430 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 458 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (32c89dc20f58cbb06bd84712e2e6ddfa)] -> id: input_0] for 10 seconds
+2018 08 31 16 08 491 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 16 08 492 INFO  LoginPage : 45 - Login page object created
+2018 08 31 16 08 492 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 16 08 855 INFO  LoginPage : 76 - click on signup
+2018 08 31 16 08 857 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 188 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (32c89dc20f58cbb06bd84712e2e6ddfa)] -> xpath: //input[@name='mobileNumber']] for 10 seconds
+2018 08 31 16 08 220 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 16 08 220 INFO  SignUpPage : 41 - Sign Up page object created
+2018 08 31 16 08 220 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 16 08 616 INFO  SignUpPage : 49 - Entering Mobile number
+2018 08 31 16 08 694 INFO  SignUpPage : 55 - Entering create password
+2018 08 31 16 08 780 INFO  SignUpPage : 61 - Entering Email
+2018 08 31 16 08 464 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 16 08 467 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 467 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 16 08 472 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 16 08 476 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 16 08 644 INFO  TestBase : 68 - **************Started***************
+2018 08 31 16 08 65 INFO  Paytm : 35 - Opening url https://paytm.com/
+2018 08 31 16 08 95 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 119 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c35748bdb6d7eac31d55b39266cc1555)] -> css selector: div._3ac-] for 10 seconds
+2018 08 31 16 08 148 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 16 08 148 INFO  HomePage : 39 - HomePage Object created
+2018 08 31 16 08 148 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 16 08 490 INFO  FrameHelper : 24 - switch to frame 0
+2018 08 31 16 08 492 INFO  HomePage : 48 - Clicked on login/Sign up
+2018 08 31 16 08 518 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 548 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c35748bdb6d7eac31d55b39266cc1555)] -> id: input_0] for 10 seconds
+2018 08 31 16 08 595 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 16 08 595 INFO  LoginPage : 45 - Login page object created
+2018 08 31 16 08 596 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 16 08 978 INFO  LoginPage : 76 - click on signup
+2018 08 31 16 08 979 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 119 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c35748bdb6d7eac31d55b39266cc1555)] -> xpath: //input[@name='mobileNumber']] for 10 seconds
+2018 08 31 16 08 144 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 16 08 144 INFO  SignUpPage : 42 - Sign Up page object created
+2018 08 31 16 08 145 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 16 08 524 INFO  SignUpPage : 50 - Entering Mobile number
+2018 08 31 16 08 640 INFO  SignUpPage : 56 - Entering create password
+2018 08 31 16 08 741 INFO  SignUpPage : 62 - Entering Email
+2018 08 31 16 08 742 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 760 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c35748bdb6d7eac31d55b39266cc1555)] -> xpath: //button[@name='signupBtn']] for 20 seconds
+2018 08 31 16 08 952 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 16 08 954 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 954 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 16 08 960 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 16 08 963 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 16 08 138 INFO  TestBase : 68 - **************Started***************
+2018 08 31 16 08 617 INFO  Paytm : 35 - Opening url https://paytm.com/
+2018 08 31 16 08 654 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 680 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (1672851181b023119a1dff3eeed45114)] -> css selector: div._3ac-] for 10 seconds
+2018 08 31 16 08 707 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 16 08 707 INFO  HomePage : 39 - HomePage Object created
+2018 08 31 16 08 707 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 16 08 533 INFO  FrameHelper : 24 - switch to frame 0
+2018 08 31 16 08 533 INFO  HomePage : 48 - Clicked on login/Sign up
+2018 08 31 16 08 594 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 628 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (1672851181b023119a1dff3eeed45114)] -> id: input_0] for 10 seconds
+2018 08 31 16 08 683 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 16 08 684 INFO  LoginPage : 45 - Login page object created
+2018 08 31 16 08 685 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 16 08 62 INFO  LoginPage : 76 - click on signup
+2018 08 31 16 08 63 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 312 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (1672851181b023119a1dff3eeed45114)] -> xpath: //input[@name='mobileNumber']] for 10 seconds
+2018 08 31 16 08 346 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 16 08 347 INFO  SignUpPage : 42 - Sign Up page object created
+2018 08 31 16 08 347 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 16 08 709 INFO  SignUpPage : 50 - Entering Mobile number
+2018 08 31 16 08 790 INFO  SignUpPage : 56 - Entering create password
+2018 08 31 16 08 875 INFO  SignUpPage : 62 - Entering Email
+2018 08 31 16 08 875 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 891 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (1672851181b023119a1dff3eeed45114)] -> xpath: (//button[@name='signupBtn'])[2]] for 20 seconds
+2018 08 31 16 08 913 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 16 08 07 INFO  SignUpPage : 68 - Click on Proceed
+2018 08 31 16 08 77 INFO  TestBase : 137 - Initialize web driver : 307400933
+2018 08 31 16 08 79 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 80 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 16 08 85 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 16 08 89 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 16 08 276 INFO  TestBase : 68 - **************Started***************
+2018 08 31 16 08 353 INFO  Paytm : 25 - Opening url https://paytm.com/
+2018 08 31 16 08 374 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 391 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (7650c741baf221f82f415cd4d30e1fab)] -> css selector: div._3ac-] for 10 seconds
+2018 08 31 16 08 417 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 16 08 417 INFO  HomePage : 39 - HomePage Object created
+2018 08 31 16 08 417 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 16 08 899 INFO  FrameHelper : 24 - switch to frame 0
+2018 08 31 16 08 899 INFO  HomePage : 48 - Clicked on login/Sign up
+2018 08 31 16 08 952 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 981 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (7650c741baf221f82f415cd4d30e1fab)] -> id: input_0] for 10 seconds
+2018 08 31 16 08 13 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 16 08 13 INFO  LoginPage : 45 - Login page object created
+2018 08 31 16 08 13 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 16 08 381 INFO  LoginPage : 52 - Entering username 8527409595
+2018 08 31 16 08 424 INFO  LoginPage : 58 - Entering password 
+2018 08 31 16 08 545 INFO  LoginPage : 64 - Click on loginSecurely
+2018 08 31 16 08 545 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 563 INFO  WaitHelper : 155 - Waiting for element Proxy element for: DefaultElementLocator 'By.cssSelector: div._3ac-' for 10 seconds
+2018 08 31 16 08 155 INFO  TestBase : 68 - **************Started***************
+2018 08 31 16 08 640 INFO  Paytm : 35 - Opening url https://paytm.com/
+2018 08 31 16 08 641 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 658 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (7650c741baf221f82f415cd4d30e1fab)] -> css selector: div._3ac-] for 10 seconds
+2018 08 31 16 08 696 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 16 08 696 INFO  HomePage : 39 - HomePage Object created
+2018 08 31 16 08 697 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 16 08 382 INFO  FrameHelper : 24 - switch to frame 0
+2018 08 31 16 08 383 INFO  HomePage : 48 - Clicked on login/Sign up
+2018 08 31 16 08 425 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 466 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (7650c741baf221f82f415cd4d30e1fab)] -> id: input_0] for 10 seconds
+2018 08 31 16 08 521 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 16 08 521 INFO  LoginPage : 45 - Login page object created
+2018 08 31 16 08 522 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 16 08 860 INFO  LoginPage : 76 - click on signup
+2018 08 31 16 08 872 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 90 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (7650c741baf221f82f415cd4d30e1fab)] -> xpath: //input[@name='mobileNumber']] for 10 seconds
+2018 08 31 16 08 111 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 16 08 112 INFO  SignUpPage : 42 - Sign Up page object created
+2018 08 31 16 08 112 INFO  TestBase : 174 - Capturing ui navigation screen..
+2018 08 31 16 08 438 INFO  SignUpPage : 50 - Entering Mobile number
+2018 08 31 16 08 516 INFO  SignUpPage : 56 - Entering create password
+2018 08 31 16 08 597 INFO  SignUpPage : 62 - Entering Email
+2018 08 31 16 08 598 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 611 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (7650c741baf221f82f415cd4d30e1fab)] -> xpath: (//button[@name='signupBtn'])[2]] for 20 seconds
+2018 08 31 16 08 633 INFO  WaitHelper : 158 - Element is visisble now
+2018 08 31 16 08 718 INFO  SignUpPage : 68 - Click on Proceed
+2018 08 31 16 08 465 INFO  ExtentListener : 53 - TestScreenShot Class started
+2018 08 31 16 08 941 INFO  TestBase : 137 - Initialize web driver : 1664598529
+2018 08 31 16 08 942 INFO  WaitHelper : 28 - WaitHelper object created
+2018 08 31 16 08 943 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 08 31 16 08 949 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 08 31 16 08 953 INFO  WaitHelper : 48 - page is loaded
+2018 08 31 16 08 723 INFO  ExtentListener : 59 - TestScreenShot Test finished
