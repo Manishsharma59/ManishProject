@@ -55,6 +55,7 @@ public class TestBase {
 		ObjectReader.reader = new PropertyReader();
 		reportDirectory = new File(ResouceHelper.getResources("src\\main\\resources\\Screenshots"));
 		setUpDriver(ObjectReader.reader.getBrowserType());
+		
 	}
 	@BeforeClass
 	public void beforeClass() {
@@ -85,12 +86,13 @@ public class TestBase {
 			test.log(Status.SKIP, result.getName()+" is skip" + result.getThrowable());
 		}
 		extent.flush();
+		
 	}
 	
 	@AfterTest
 	public void afterTest() throws Exception{
 		if(driver!=null){
-			driver.quit();
+			//driver.quit();
 		}
 	}
 
@@ -140,7 +142,7 @@ public class TestBase {
 		wait.setImplicitWait(ObjectReader.reader.getImplicitWait(), TimeUnit.SECONDS);
 		wait.pageLoadTimeOut(ObjectReader.reader.getExplicitWait(), TimeUnit.SECONDS);
 		driver.manage().window().maximize();
-		
+	
 	}
 	
 	public String captureScreen(String fileName, WebDriver driver) {
@@ -178,6 +180,12 @@ public class TestBase {
 	
 	public static void logExtentReport(String s1) {
 		TestBase.test.log(Status.INFO, s1);
+	}
+	
+	public void getApplicationUrl(String url) {
+		driver.get(url);
+		log.info("Opening url "+ObjectReader.reader.getURL());
+		logExtentReport("Opening url "+ObjectReader.reader.getURL());
 	}
 
 }

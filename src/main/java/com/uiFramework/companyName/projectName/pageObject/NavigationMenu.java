@@ -27,16 +27,35 @@ public class NavigationMenu {
 	public NavigationMenu(WebDriver driver) throws IOException {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
-		wait = new WaitHelper(driver);
-		wait.waitForElement(menuOption, ObjectReader.reader.getImplicitWait());
-		new TestBase().getNavigationScreen(driver);
-		TestBase.logExtentReport("Home Page objectcreated");
+		log.info("NavigationMenu object created");
 	}
 	
-	public void mouseOver(String data) {
-		log.info("doing mouse over "+data);
-		TestBase.logExtentReport("doing mouse over "+data);
+	public void mouseOverXpath(String xpath) {
+		log.info("doing mouse over "+xpath);
+		TestBase.logExtentReport("doing mouse over "+xpath);
+		WebElement ele = driver.findElement(By.xpath("//*[contains(text()='"+xpath+"']"));
+		wait = new WaitHelper(driver);
+		wait.waitForElement(ele, 10);
 		Actions act = new Actions(driver);
-		act.moveToElement(driver.findElement(By.xpath("//*[contains(text()='"+data+"']"))).build().perform();
+		act.moveToElement(ele).build().perform();
+	}
+	
+	public void mouseOverCss(String css) {
+		log.info("doing mouse over "+css.toString());
+		TestBase.logExtentReport("doing mouse over "+css.toString());
+		WebElement ele = driver.findElement(By.cssSelector(css));
+		wait = new WaitHelper(driver);
+		wait.waitForElement(ele, 10);
+		Actions act = new Actions(driver);
+		act.moveToElement(ele).build().perform();
+	}
+	
+	public void clickOnMouseOverOption(String data) {
+		log.info("clicking on option "+data.toString());
+		TestBase.logExtentReport("clicked on option "+data.toString());
+		WebElement ele = driver.findElement(By.xpath("//*[text()='"+data+"']"));
+		wait = new WaitHelper(driver);
+		wait.waitForElement(ele, 10);
+		ele.click();
 	}
 }

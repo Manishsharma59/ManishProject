@@ -30,6 +30,7 @@ public class HomePage {
 	@FindBy(xpath="//*[contains(text(),'Log In/Sign Up')]")
 	public WebElement logInSignUpText;
 	
+
 	
 	public HomePage(WebDriver driver) throws IOException {
 		this.driver=driver;
@@ -48,6 +49,12 @@ public class HomePage {
 		log.info("Clicked on login/Sign up");
 		TestBase.logExtentReport("Clicked on login/Sign up "+logInSignUp.toString());
 		return new LoginPage(driver);
+	}
+	
+	public Mens clickOnCategory(String categoryName) throws IOException {
+		
+		driver.findElement(By.xpath("//*[text()='"+categoryName+"']")).click();
+		return new Mens(driver);
 	}
 
 }

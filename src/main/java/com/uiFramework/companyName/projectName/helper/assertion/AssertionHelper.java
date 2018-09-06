@@ -35,11 +35,11 @@ public class AssertionHelper {
 		Assert.assertFalse(true,message);
 	}
 	
-	public void verifyTrue(boolean status) {
+	public static void verifyTrue(boolean status) {
 		Assert.assertTrue(status);
 	}
 	
-	public void verifyFalse(boolean status) {
+	public static void verifyFalse(boolean status) {
 		Assert.assertFalse(status);
 	}
 	
@@ -50,5 +50,22 @@ public class AssertionHelper {
 	public void verifyNotNull(String s1) {
 		log.info("verify object is not null " +s1);
 		Assert.assertNotNull(s1);
+	}
+	
+	public static void fail() {
+		Assert.assertTrue(false);
+	}
+	public static void pass() {
+		Assert.assertTrue(true);
+	}
+	
+	public static void updateTestStatus(boolean status) {
+		
+		if(status) {
+			pass();
+		}
+		else {
+			fail();
+		}
 	}
 }
