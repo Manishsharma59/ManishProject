@@ -110,7 +110,7 @@ public class Paytm extends TestBase{
 	 * @throws IOException
 	 * @throws InterruptedException
 	 */
-	@Test(priority = 5,description="Verify multiple brand filter")
+	//@Test(priority = 5,description="Verify multiple brand filter")
 	public void verifyMultipleBrandFilter() throws IOException, InterruptedException {
 		getApplicationUrl(ObjectReader.reader.getURL());;
 		homePage = new HomePage(driver);
@@ -118,5 +118,17 @@ public class Paytm extends TestBase{
 		boolean flag = mens.checkBrandFilter(Category.BrandName1,Category.BrandName2,Category.BrandName3);
 		AssertionHelper.verifyTrue(flag);
 	}
-	
+	/**
+	 * This method will ensure that item is filtered on the basis of multiple brand
+	 * @throws IOException
+	 * @throws InterruptedException
+	 */
+	@Test(priority = 6,description="Verify Discount Price")
+	public void verifyDiscountPrice() throws IOException, InterruptedException {
+		getApplicationUrl(ObjectReader.reader.getURL());;
+		homePage = new HomePage(driver);
+		mens = homePage.clickOnCategory(Category.Men);
+		boolean flag = mens.verifyDiscount();
+		AssertionHelper.verifyTrue(flag);
+	}
 }

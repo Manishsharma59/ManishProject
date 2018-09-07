@@ -50,8 +50,14 @@ public class Mens {
 	@FindBy(css="span._1kMS")
 	public List<WebElement> listOfPriceWebelements;
 	
+	@FindBy(xpath="//div[@class=\"dQm2\"]")
+	public List<WebElement> listOfDiscountWebelements;
+	
 	@FindBy(css="div._2apC")
 	public List<WebElement> listOfBrandNameWebElement;
+	
+	@FindBy(xpath="//div[@class='pCOS']")
+	public List<WebElement> productDetails;
 	
 	@FindBy(xpath = "//input[@class='Q1U0']")
 	WebElement searchBrand;
@@ -65,6 +71,11 @@ public class Mens {
 	@FindBy(xpath = "//li[@class='_2TzX']")
 	WebElement nextButton;
 	
+	
+	public WebElement category(String category) {
+		return driver.findElement(By.xpath("//*[text()='category']"));
+	}
+	
 	public Mens(WebDriver driver) throws IOException {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
@@ -76,13 +87,13 @@ public class Mens {
 	
 	public void clickOnTopWear() {
 		log.info("Clicking on Top Wear");
-		topwearStore.click();
+		category("Top Wear").click();
 		TestBase.logExtentReport("Clicked on Top Wear");
 	}
 	
 	public void clickOnTShirts() {
 		log.info("Clicking on TShirts");
-		tShirts.click();
+		category("TShirts").click();
 		TestBase.logExtentReport("Clicked on TShirts");
 	}
 	
@@ -291,6 +302,53 @@ public class Mens {
 		Thread.sleep(2000);
 		}
 		return flag;
+	}
+	
+	public boolean verifyDiscount() throws InterruptedException, IOException {
+		int offerPrice;
+		String dicountAndPrice;
+		String[] arr;
+		int priceWithoutDiscount;
+		int priceAfterDicount;
+		int discountPercentage;
+		int j=0;
+		clickOnTopWear();
+		clickOnTShirts();
+		Thread.sleep(2000);
+		boolean flag = true;
+		List<WebElement> ruppeeList = listOfPriceWebelements;
+		List<WebElement> discountList = listOfDiscountWebelements;
+		List<WebElement> productDetailsList = productDetails;
+		for(int i=0;i<= ruppeeList.size()-1;i++) {
+			System.out.println(productDetailsList.get(i).getText());
+			if(!(productDetailsList.get(i).getText().contains("%"))) {	
+				
+			}
+			else {
+				offerPrice = Integer.parseInt(ruppeeList.get(i).getText());
+				dicountAndPrice = discountList.get(j).getText();
+				System.out.println(dicountAndPrice);
+				arr = dicountAndPrice.split("-");
+				System.out.println(arr[0]);
+				System.out.println(arr[1].substring(0, 2));
+					priceWithoutDiscount=Integer.parseInt(arr[0]);
+					discountPercentage = Integer.parseInt(arr[1].substring(0, 2));
+					double calculation = priceWithoutDiscount - priceWithoutDiscount*discountPercentage/100;
+					priceAfterDicount = (int)(calculation);
+					System.out.println("priceWithoutDiscount -" +priceWithoutDiscount+" discountPercentage -"+discountPercentage+" priceAfterDicount -"+priceAfterDicount+"offerPrice -"+offerPrice);
+				if(offerPrice<=priceAfterDicount+5||offerPrice<=priceAfterDicount-5) {
+				flag = true;
+			}
+				else {
+					flag = false;
+				break;
+				}
+				j++;
+			}
+		}
+		
+		return flag;
+		
 	}
 	
 	

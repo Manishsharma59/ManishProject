@@ -19,6 +19,11 @@ import com.uiFramework.companyName.projectName.testbase.TestBase;
 
 public class HomePage {
 	
+	private static final String GROCERY = "Grocery";
+	private static final String MEN = "Men";
+	private static final String WOMEN = "Women";
+	private static final String MOBILES = "Mobiles";
+	
 	private WebDriver driver;
 	private Logger log = LoggerHelper.getLogger(HomePage.class);
 	WaitHelper wait;
@@ -30,7 +35,9 @@ public class HomePage {
 	@FindBy(xpath="//*[contains(text(),'Log In/Sign Up')]")
 	public WebElement logInSignUpText;
 	
-
+	public WebElement CategoryElement(String categoryName) {
+		return driver.findElement(By.xpath("//*[text()='"+categoryName+"']"));
+	}
 	
 	public HomePage(WebDriver driver) throws IOException {
 		this.driver=driver;
@@ -52,9 +59,13 @@ public class HomePage {
 	}
 	
 	public Mens clickOnCategory(String categoryName) throws IOException {
-		
 		driver.findElement(By.xpath("//*[text()='"+categoryName+"']")).click();
 		return new Mens(driver);
+	}
+	
+	public Womens clickOnWomenCategory() throws IOException {
+		CategoryElement(WOMEN);
+		return new Womens(driver);
 	}
 
 }
