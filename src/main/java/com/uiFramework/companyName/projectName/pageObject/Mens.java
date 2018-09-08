@@ -27,10 +27,8 @@ public class Mens {
 	@FindBy(xpath="//*[text()='Topwear Store']")
 	public WebElement topwearStore;
 	
-	
 	@FindBy(xpath="//*[text()='T - Shirts']")
 	public WebElement tShirts;
-	
 	
 	@FindBy(xpath="//*[text()='Price']")
 	public WebElement priceFilter;
@@ -40,6 +38,9 @@ public class Mens {
 	
 	@FindBy(xpath="//*[text()='Color']")
 	public WebElement colorFilter;
+	
+	@FindBy(xpath="//*[text()='Material']")
+	public WebElement materialFilter;
 	
 	@FindBy(xpath="//div[@class='_3GrL']/input")
 	public WebElement minPrice;
