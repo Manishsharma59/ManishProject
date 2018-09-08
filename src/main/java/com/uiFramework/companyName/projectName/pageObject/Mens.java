@@ -38,6 +38,9 @@ public class Mens {
 	@FindBy(xpath="//*[text()='Brand']")
 	public WebElement brandFilter;
 	
+	@FindBy(xpath="//*[text()='Color']")
+	public WebElement colorFilter;
+	
 	@FindBy(xpath="//div[@class='_3GrL']/input")
 	public WebElement minPrice;
 	
