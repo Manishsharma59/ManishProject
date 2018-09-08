@@ -24,6 +24,11 @@ public class Womens {
 	@FindBy(xpath="//*[text()='Price']")
 	public WebElement priceFilter;
 	
+	@FindBy(xpath="//*[text()='Color']")
+	public WebElement colorFilter;
+	
+	
+	
 	@FindBy(xpath="//*[text()='Brand']")
 	public WebElement brandFilter;
 	
@@ -70,6 +75,12 @@ public class Womens {
 		log.info("Clicking on price filter");
 		priceFilter.click();
 		TestBase.logExtentReport("Clicked on price filter");
+	}
+	
+	public void clickOnColorFilter() {
+		log.info("Clicking on color filter");
+		colorFilter.click();
+		TestBase.logExtentReport("Clicked on color filter");
 	}
 	
 	public void clickOnBrandFilter() {
