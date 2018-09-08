@@ -32,6 +32,9 @@ public class Womens {
 	@FindBy(xpath="//*[text()='Brand']")
 	public WebElement brandFilter;
 	
+	@FindBy(xpath="//*[text()='Material']")
+	public WebElement materialFilter;
+	
 	@FindBy(xpath="//div[@class='_3GrL']/input")
 	public WebElement minPrice;
 	
@@ -81,6 +84,12 @@ public class Womens {
 		log.info("Clicking on color filter");
 		colorFilter.click();
 		TestBase.logExtentReport("Clicked on color filter");
+	}
+	
+	public void clickOnMaterialFilter() {
+		log.info("Clicking on material filter");
+		materialFilter.click();
+		TestBase.logExtentReport("Clicked on material filter");
 	}
 	
 	public void clickOnBrandFilter() {
