@@ -48,12 +48,14 @@ public class LoginPage {
 	}
 	
 	public void enterUserName() {
+		mobOrEmailId.clear();
 		mobOrEmailId.sendKeys(ObjectReader.reader.getUserName());
 		log.info("Entering username " +ObjectReader.reader.getUserName() );
 		TestBase.logExtentReport("Entering username " +ObjectReader.reader.getUserName());
 	}
 	
 	public void enterPassword() {
+		password.clear();
 		password.sendKeys(ObjectReader.reader.getPassword());
 		log.info("Entering password " +ObjectReader.reader.getPassword() );
 		TestBase.logExtentReport("Entering password " +ObjectReader.reader.getPassword());
