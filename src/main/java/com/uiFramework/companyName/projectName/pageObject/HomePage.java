@@ -59,7 +59,7 @@ public class HomePage {
 	}
 	
 	public Mens clickOnCategory(String categoryName) throws IOException {
-		driver.findElement(By.xpath("//*[text()='"+categoryName+"']")).click();
+		CategoryElement(categoryName).click();
 		return new Mens(driver);
 	}
 	

@@ -89,6 +89,12 @@ public class Mens {
 		new TestBase().getNavigationScreen(driver);	
 	}
 	
+	public void clickOnCategory(String category){
+		log.info("Clicking on "+category);
+		this.category(category).click();
+		TestBase.logExtentReport("Clicking on "+category);
+	}
+	
 	public void clickOnTopWear() {
 		log.info("Clicking on Top Wear");
 		category("Top Wear").click();

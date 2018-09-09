@@ -68,7 +68,7 @@ public class Paytm extends TestBase{
 	 * @throws IOException
 	 * @throws InterruptedException
 	 */
-	//@Test(priority = 3,description="Verify sorted list by hign price")
+	//@Test(priority = 3,description="Verify sorted list by high price")
 	public void verifyPriceListSortedByHighPrice() throws IOException, InterruptedException {
 		getApplicationUrl(ObjectReader.reader.getURL());
 		homePage = new HomePage(driver);
