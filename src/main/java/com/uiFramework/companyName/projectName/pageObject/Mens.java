@@ -100,6 +100,9 @@ public class Mens {
 	@FindBy(xpath = "//button[@class='_2EmN']")
 	WebElement moreButton;
 	
+	@FindBy(css = "button._2CNI")
+	WebElement buy;
+	
 	public WebElement category(String category) {
 		return driver.findElement(By.xpath("//*[text()='" +category+ "']"));
 	}
@@ -284,14 +287,14 @@ public class Mens {
 		}
 	}
 	
-	public Mens searchMensItem(String item) throws IOException, InterruptedException, AWTException {
+	public void searchMensItem(String item) throws IOException, InterruptedException, AWTException {
 		search.sendKeys(item);
 		Thread.sleep(6000);
 		robo = new Robot();
 		robo.keyPress(KeyEvent.VK_ENTER);
 		search.sendKeys(Keys.ENTER);
 		wait.waitForElement(filter(Brand_FILTER), ObjectReader.reader.getImplicitWait());
-		return new Mens(driver);
+		
 	}
 	
 	public WebElement checkBox(String data) {
@@ -318,7 +321,13 @@ public class Mens {
 			checkBox(size1).click();
 		}
 	}
-
+	
+	public Cart clickOnBuy() {
+		log.info("click on buy");
+		buy.click();
+		TestBase.logExtentReport("click on buy");
+		return new Cart(driver);
+	}
 	
 	public boolean sortedLowPrice() throws InterruptedException, IOException {
 		clickOnTopWear();
@@ -651,6 +660,8 @@ public class Mens {
 		return flag;
 	}
 
-	
+	public void clickOnItem(int itemNumber) {
+		listOfPriceWebelements.get(itemNumber).click();
+	}
 	
 }

@@ -10,9 +10,11 @@ import com.uiFramework.companyName.projectName.helper.assertion.AssertionHelper;
 import com.uiFramework.companyName.projectName.helper.browserConfiguration.config.ObjectReader;
 import com.uiFramework.companyName.projectName.helper.generic.Category;
 import com.uiFramework.companyName.projectName.helper.logger.LoggerHelper;
+import com.uiFramework.companyName.projectName.pageObject.Cart;
 import com.uiFramework.companyName.projectName.pageObject.HomePage;
 import com.uiFramework.companyName.projectName.pageObject.LoginPage;
 import com.uiFramework.companyName.projectName.pageObject.Mens;
+import com.uiFramework.companyName.projectName.pageObject.NavigationMenu;
 import com.uiFramework.companyName.projectName.pageObject.SignUpPage;
 import com.uiFramework.companyName.projectName.testbase.TestBase;
 
@@ -24,6 +26,8 @@ public class Paytm extends TestBase{
 	LoginPage loginPage;
 	SignUpPage signUpPage;
 	Mens mens;
+	Cart cart;
+	NavigationMenu navigation;
 	/**
 	 * This method will used to login
 	 * @throws IOException
@@ -142,12 +146,30 @@ public class Paytm extends TestBase{
 		AssertionHelper.verifyTrue(flag);
 	}
 	
-	@Test(priority = 8,description="Verify Size Filter")
+	//@Test(priority = 8,description="Verify General details")
 	public void verifyGeneralDetails() throws IOException, InterruptedException, AWTException {
 		getApplicationUrl(ObjectReader.reader.getURL());;
 		homePage = new HomePage(driver);
 		mens = homePage.clickOnMenCategory();
 		boolean flag = mens.checkGeneralOverview("RIGO", "XXL", "Cotton", "Black", "Solid", "Full Sleeves", "Round Neck");
 		AssertionHelper.verifyTrue(flag);
+	}
+	
+	@Test(priority = 8,description="Verify remove item details")
+	public void verifyItemRemove() throws IOException, InterruptedException, AWTException {
+		getApplicationUrl(ObjectReader.reader.getURL());;
+		homePage = new HomePage(driver);
+		mens = homePage.clickOnMenCategory();
+		mens.clickOnTShirts();
+		Thread.sleep(2000);
+		mens.searchMensItem("T-Shirts");
+		mens.clickOnItem(0);
+		cart = mens.clickOnBuy();
+		homePage = cart.clickOnContinueShopping();
+		mens = homePage.searchMensItem("T-Shirts");
+		mens.clickOnItem(1);
+		cart = mens.clickOnBuy();
+		cart.clickOnRemove(0);
+		cart.clickOnRemove(1);
 	}
 }

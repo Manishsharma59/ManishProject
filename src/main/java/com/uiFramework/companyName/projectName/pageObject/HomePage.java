@@ -71,9 +71,10 @@ public class HomePage {
 	
 	public Mens searchMensItem(String item) throws IOException, InterruptedException, AWTException {
 		search.sendKeys(item);
-		Thread.sleep(5000);
+		Thread.sleep(6000);
 		robo = new Robot();
 		robo.keyPress(KeyEvent.VK_ENTER);
+		search.sendKeys(Keys.ENTER);
 		return new Mens(driver);
 	}
 	
