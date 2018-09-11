@@ -1,5 +1,6 @@
 package com.uiFramework.companyName.projectName.testScript;
 
+import java.awt.AWTException;
 import java.io.IOException;
 import org.apache.log4j.Logger;
 import org.testng.Assert;
@@ -125,19 +126,28 @@ public class Paytm extends TestBase{
 	 */
 	//@Test(priority = 6,description="Verify Discount Price")
 	public void verifyDiscountPrice() throws IOException, InterruptedException {
-		getApplicationUrl(ObjectReader.reader.getURL());;
+		getApplicationUrl(ObjectReader.reader.getURL());
 		homePage = new HomePage(driver);
 		mens = homePage.clickOnMenCategory();
 		boolean flag = mens.verifyDiscount();
 		AssertionHelper.verifyTrue(flag);
 	}
 	
-	@Test(priority = 6,description="Verify Size Filter")
+	//@Test(priority = 7,description="Verify Size Filter")
 	public void verifySizeFilter() throws IOException, InterruptedException {
 		getApplicationUrl(ObjectReader.reader.getURL());;
 		homePage = new HomePage(driver);
 		mens = homePage.clickOnMenCategory();
 		boolean flag = mens.checkSizeFilter(34,36,38);
+		AssertionHelper.verifyTrue(flag);
+	}
+	
+	@Test(priority = 8,description="Verify Size Filter")
+	public void verifyGeneralDetails() throws IOException, InterruptedException, AWTException {
+		getApplicationUrl(ObjectReader.reader.getURL());;
+		homePage = new HomePage(driver);
+		mens = homePage.clickOnMenCategory();
+		boolean flag = mens.checkGeneralOverview("RIGO", "XXL", "Cotton", "Black", "Solid", "Full Sleeves", "Round Neck");
 		AssertionHelper.verifyTrue(flag);
 	}
 }

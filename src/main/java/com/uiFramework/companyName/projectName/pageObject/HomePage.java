@@ -1,10 +1,14 @@
 package com.uiFramework.companyName.projectName.pageObject;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
 import org.apache.poi.xssf.usermodel.helpers.HeaderFooterHelper;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -28,6 +32,8 @@ public class HomePage {
 	private Logger log = LoggerHelper.getLogger(HomePage.class);
 	WaitHelper wait;
 	FrameHelper frame;
+	Robot robo;
+	
 	@FindBy(css="div._3ac-")
 	public WebElement logInSignUp;
 	
@@ -35,9 +41,14 @@ public class HomePage {
 	@FindBy(xpath="//*[contains(text(),'Log In/Sign Up')]")
 	public WebElement logInSignUpText;
 	
+	@FindBy(xpath="//input[@type='search']")
+	public WebElement search;
+	
 	public WebElement superCategoryElement(String categoryName) {
 		return driver.findElement(By.xpath("//*[text()='"+categoryName+"']"));
 	}
+	
+	
 	
 	public HomePage(WebDriver driver) throws IOException {
 		this.driver=driver;
@@ -56,6 +67,14 @@ public class HomePage {
 		log.info("Clicked on login/Sign up");
 		TestBase.logExtentReport("Clicked on login/Sign up "+logInSignUp.toString());
 		return new LoginPage(driver);
+	}
+	
+	public Mens searchMensItem(String item) throws IOException, InterruptedException, AWTException {
+		search.sendKeys(item);
+		Thread.sleep(5000);
+		robo = new Robot();
+		robo.keyPress(KeyEvent.VK_ENTER);
+		return new Mens(driver);
 	}
 	
 	public Mens clickOnMenCategory() throws IOException {

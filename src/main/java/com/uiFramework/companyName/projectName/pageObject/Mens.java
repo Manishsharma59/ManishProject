@@ -1,10 +1,15 @@
 package com.uiFramework.companyName.projectName.pageObject;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.io.IOException;
 import java.util.List;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.ElementNotVisibleException;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -18,15 +23,22 @@ import com.uiFramework.companyName.projectName.testbase.TestBase;
 
 public class Mens {
 	
+	private WebDriver driver;
+	private Logger log = LoggerHelper.getLogger(Mens.class);
+	WaitHelper wait;
+	FrameHelper frame;
+	NavigationMenu navigationMenu;
+	Robot robo;
+	
 	public static final String TOPWEARSTORE_CATEGORY = "Topwear Store";
-	public static final String TSHIRTS_SUBCATEGORY = "T - Shirts";
+	public static final String TSHIRTS_SUBCATEGORY = "T-Shirts";
 	public static final String PRICE_FILTER = "Price";
 	public static final String Brand_FILTER = "Brand";
 	public static final String Size_FILTER = "Size";
 	public static final String Material_FILTER = "Material";
 	public static final String Color_FILTER = "Color";
 	public static final String Sleeve_FILTER = "Sleeve";
-	public static final String NeckType_FILTER = "NeckType";
+	public static final String NeckType_FILTER = "Neck Type";
 	public static final String Pattern_FILTER = "Pattern";
 	public static final String AuthorisedMerchant_FILTER = "Authorised Merchant";
 	public static final String FulfilledByPaytm_FILTER = "Fulfilled By Paytm";
@@ -34,11 +46,17 @@ public class Mens {
 	public static final String SetContent_FILTER = "Set Content";
 
 	
-	private WebDriver driver;
-	private Logger log = LoggerHelper.getLogger(Mens.class);
-	WaitHelper wait;
-	FrameHelper frame;
-	NavigationMenu navigationMenu;
+	@FindBy(xpath="//input[@type='search']")
+	public WebElement search;
+	
+	@FindBy(xpath = "//span[contains(@class,'_2Ysz')]")
+	WebElement searchIcon;
+	
+	@FindBy(xpath="//a[@class='_36-R']")
+	public WebElement orders;
+	
+	@FindBy(xpath="//a[@class='Tk9i']")
+	public WebElement mensFashion;
 	
 	@FindBy(xpath="//div[@class='_3GrL']/input")
 	public WebElement minPrice;
@@ -79,6 +97,8 @@ public class Mens {
 	@FindBy(xpath = "//*[text()='Size']/following::div[1]")
 	WebElement selectedSizeInGeneral;
 	
+	@FindBy(xpath = "//button[@class='_2EmN']")
+	WebElement moreButton;
 	
 	public WebElement category(String category) {
 		return driver.findElement(By.xpath("//*[text()='" +category+ "']"));
@@ -87,12 +107,16 @@ public class Mens {
 	  public WebElement filter(String filter) { 			
 				               return driver.findElement(By.xpath("//*[text()='" + filter + "']")); 			
 			   }
+	  
+	  public WebElement productGeneralDetails(String detail) { 			
+          return driver.findElement(By.xpath("//*[text()='"+detail+"']/following::div[@class='_2LOI'][1]")); 			
+}
 	
 	public Mens(WebDriver driver) throws IOException {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 		wait = new WaitHelper(driver);
-		wait.waitForElement(category(TOPWEARSTORE_CATEGORY), ObjectReader.reader.getImplicitWait());
+		//wait.waitForElement(orders, ObjectReader.reader.getImplicitWait());
 		log.info("Mens class Object created");
 		new TestBase().getNavigationScreen(driver);	
 	}
@@ -229,6 +253,21 @@ public class Mens {
 		TestBase.logExtentReport("click on next page "+page);
 	}
 	
+	public void clickOnMoreButton() {
+		if(moreButton.isDisplayed()) {
+			try {
+		log.info("click on more button ");
+		moreButton.click();
+		TestBase.logExtentReport("click on more page ");
+			}catch(ElementNotVisibleException e) {
+				e.printStackTrace();
+			}
+		}
+		else {
+			
+		}
+	}
+	
 	public void searchSize(String size) {
 		log.info("Search brand by name " + size);
 		searchBrand.clear();
@@ -237,12 +276,22 @@ public class Mens {
 	}
 	
 	public int searchResultPageCount() {
-		if(noOfSearchResultPages.isDisplayed()) {
-		return Integer.parseInt(noOfSearchResultPages.getText());
+		if(!(noOfSearchResultPages.isDisplayed())) {
+		return 2;
 		}
 		else {
-			return 2;
+			return Integer.parseInt(noOfSearchResultPages.getText());
 		}
+	}
+	
+	public Mens searchMensItem(String item) throws IOException, InterruptedException, AWTException {
+		search.sendKeys(item);
+		Thread.sleep(6000);
+		robo = new Robot();
+		robo.keyPress(KeyEvent.VK_ENTER);
+		search.sendKeys(Keys.ENTER);
+		wait.waitForElement(filter(Brand_FILTER), ObjectReader.reader.getImplicitWait());
+		return new Mens(driver);
 	}
 	
 	public WebElement checkBox(String data) {
@@ -532,11 +581,13 @@ public class Mens {
 		return flag;
 	}
 
-	public boolean checkGeneralOverview(String brand,int size,String material,String color,String pattern, String sleeve,String neckType) throws InterruptedException, IOException {
+	public boolean checkGeneralOverview(String brand,String size,String material,String color,String pattern, String sleeve,String neckType) throws InterruptedException, IOException, AWTException {
 		navigationMenu = new NavigationMenu(driver);
 		boolean flag = true;
-		clickOnTopWear();
 		clickOnTShirts();
+		Thread.sleep(2000);
+		searchMensItem("T-shirts");
+		clickOnMoreButton();
 		Thread.sleep(2000);
 		clickOnBrandFilter();
 		clickOncheckBox(brand);
@@ -567,13 +618,25 @@ public class Mens {
 		clickOnCloseFilter();
 		
 		List<WebElement> productList = productDetails;
-		System.out.println(searchResultPageCount());
-		for (int j = 2; j <= searchResultPageCount(); j++) {
+		//for (int j = 2; j <= searchResultPageCount(); j++) {
 			for (int i = 0; i <= productList.size() - 1; i++) {
 				productList.get(i).click();
-				String sizeSelected = selectedSize.getText();
-				System.out.println(sizeSelected);
-				if (sizeSelected.equals(size) ) {
+				String generalDetailsBrand = productGeneralDetails("Brand").getText();
+				String generalDetailsSize = productGeneralDetails("Size").getText();
+				String generalDetailsMaterial = productGeneralDetails("Material").getText();
+				String generalDetailsColor = productGeneralDetails("Color").getText();
+				String generalDetailsPattern = productGeneralDetails("Pattern").getText();
+				String generalDetailsSleeve = productGeneralDetails("Sleeve").getText();
+				String generalDetailsNeckType = productGeneralDetails("Neck Type").getText();
+				System.out.println("generalDetailsBrand : "+generalDetailsBrand+" generalDetailsSize : "+generalDetailsSize+
+						" generalDetailsMaterial : "+generalDetailsMaterial+
+						" generalDetailsColor : "+generalDetailsColor+
+						" generalDetailsPattern : "+generalDetailsPattern+
+						" generalDetailsSleeve : "+generalDetailsSleeve+
+						" generalDetailsNeckType : "+generalDetailsNeckType);
+				if (generalDetailsBrand.equalsIgnoreCase(brand)&& generalDetailsSize.equalsIgnoreCase(size) && generalDetailsMaterial.equalsIgnoreCase(material)&&
+						generalDetailsColor.equalsIgnoreCase(color)&& generalDetailsPattern.equalsIgnoreCase(pattern)&& generalDetailsSleeve.equalsIgnoreCase(sleeve)&& 
+						generalDetailsNeckType.equalsIgnoreCase(neckType)) {
 					flag = true;
 				} else {
 					flag = false;
@@ -582,9 +645,9 @@ public class Mens {
 
 				navigationMenu.navigateBackward();
 			}
-			clickOnNext(j);
-			Thread.sleep(2000);
-		}
+			//clickOnNext(j);
+			//Thread.sleep(2000);
+		//}
 		return flag;
 	}
 
