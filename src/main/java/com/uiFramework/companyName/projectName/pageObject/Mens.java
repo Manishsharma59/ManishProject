@@ -17,30 +17,28 @@ import com.uiFramework.companyName.projectName.helper.wait.WaitHelper;
 import com.uiFramework.companyName.projectName.testbase.TestBase;
 
 public class Mens {
+	
+	public static final String TOPWEARSTORE_CATEGORY = "Topwear Store";
+	public static final String TSHIRTS_SUBCATEGORY = "T - Shirts";
+	public static final String PRICE_FILTER = "Price";
+	public static final String Brand_FILTER = "Brand";
+	public static final String Size_FILTER = "Size";
+	public static final String Material_FILTER = "Material";
+	public static final String Color_FILTER = "Color";
+	public static final String Sleeve_FILTER = "Sleeve";
+	public static final String NeckType_FILTER = "NeckType";
+	public static final String Pattern_FILTER = "Pattern";
+	public static final String AuthorisedMerchant_FILTER = "Authorised Merchant";
+	public static final String FulfilledByPaytm_FILTER = "Fulfilled By Paytm";
+	public static final String Length_FILTER = "length";
+	public static final String SetContent_FILTER = "Set Content";
 
 	
 	private WebDriver driver;
-	private Logger log = LoggerHelper.getLogger(HomePage.class);
+	private Logger log = LoggerHelper.getLogger(Mens.class);
 	WaitHelper wait;
 	FrameHelper frame;
-	
-	@FindBy(xpath="//*[text()='Topwear Store']")
-	public WebElement topwearStore;
-	
-	@FindBy(xpath="//*[text()='T - Shirts']")
-	public WebElement tShirts;
-	
-	@FindBy(xpath="//*[text()='Price']")
-	public WebElement priceFilter;
-	
-	@FindBy(xpath="//*[text()='Brand']")
-	public WebElement brandFilter;
-	
-	@FindBy(xpath="//*[text()='Color']")
-	public WebElement colorFilter;
-	
-	@FindBy(xpath="//*[text()='Material']")
-	public WebElement materialFilter;
+	NavigationMenu navigationMenu;
 	
 	@FindBy(xpath="//div[@class='_3GrL']/input")
 	public WebElement minPrice;
@@ -75,49 +73,124 @@ public class Mens {
 	@FindBy(xpath = "//li[@class='_2TzX']")
 	WebElement nextButton;
 	
+	@FindBy(xpath = "//a[@class='_1Kbo _24ml']")
+	WebElement selectedSize;
+
+	@FindBy(xpath = "//*[text()='Size']/following::div[1]")
+	WebElement selectedSizeInGeneral;
+	
 	
 	public WebElement category(String category) {
-		return driver.findElement(By.xpath("//*[text()='category']"));
+		return driver.findElement(By.xpath("//*[text()='" +category+ "']"));
 	}
+	
+	  public WebElement filter(String filter) { 			
+				               return driver.findElement(By.xpath("//*[text()='" + filter + "']")); 			
+			   }
 	
 	public Mens(WebDriver driver) throws IOException {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 		wait = new WaitHelper(driver);
-		wait.waitForElement(topwearStore, ObjectReader.reader.getImplicitWait());
+		wait.waitForElement(category(TOPWEARSTORE_CATEGORY), ObjectReader.reader.getImplicitWait());
 		log.info("Mens class Object created");
 		new TestBase().getNavigationScreen(driver);	
 	}
 	
-	public void clickOnCategory(String category){
-		log.info("Clicking on "+category);
-		this.category(category).click();
-		TestBase.logExtentReport("Clicking on "+category);
-	}
 	
 	public void clickOnTopWear() {
 		log.info("Clicking on Top Wear");
-		category("Top Wear").click();
+		category(TOPWEARSTORE_CATEGORY).click();
 		TestBase.logExtentReport("Clicked on Top Wear");
 	}
 	
 	public void clickOnTShirts() {
 		log.info("Clicking on TShirts");
-		category("TShirts").click();
+		category(TSHIRTS_SUBCATEGORY).click();
 		TestBase.logExtentReport("Clicked on TShirts");
 	}
 	
 	public void clickOnPriceFilter() {
 		log.info("Clicking on price filter");
-		priceFilter.click();
+		filter(PRICE_FILTER).click();
 		TestBase.logExtentReport("Clicked on price filter");
 	}
 	
 	public void clickOnBrandFilter() {
 		log.info("Clicking on brand filter");
-		wait.waitForElement(brandFilter, ObjectReader.reader.getImplicitWait());
-		brandFilter.click();
+		wait.waitForElement(filter(Brand_FILTER), ObjectReader.reader.getImplicitWait());
+		filter(Brand_FILTER).click();
 		TestBase.logExtentReport("Clicked on brand filter");
+	}
+	
+	public void clickOnSizeFilter() {
+		log.info("Clicking on Size filter");
+		wait.waitForElement(filter(Size_FILTER), ObjectReader.reader.getImplicitWait());
+		filter(Size_FILTER).click();
+		TestBase.logExtentReport("Clicked on Size filter");
+	}
+
+	public void clickOnMaterialFilter() {
+		log.info("Clicking on Material filter");
+		wait.waitForElement(filter(Material_FILTER), ObjectReader.reader.getImplicitWait());
+		filter(Material_FILTER).click();
+		TestBase.logExtentReport("Clicked on Material filter");
+	}
+
+	public void clickOnColorFilter() {
+		log.info("Clicking on Color filter");
+		wait.waitForElement(filter(Color_FILTER), ObjectReader.reader.getImplicitWait());
+		filter(Color_FILTER).click();
+		TestBase.logExtentReport("Clicked on Color filter");
+	}
+
+	public void clickOnSleeveFilter() {
+		log.info("Clicking on Sleeve filter");
+		wait.waitForElement(filter(Sleeve_FILTER), ObjectReader.reader.getImplicitWait());
+		filter(Sleeve_FILTER).click();
+		TestBase.logExtentReport("Clicked on Sleeve filter");
+	}
+
+	public void clickOnNeckTypeFilter() {
+		log.info("Clicking on Neck Type filter");
+		wait.waitForElement(filter(NeckType_FILTER), ObjectReader.reader.getImplicitWait());
+		filter(NeckType_FILTER).click();
+		TestBase.logExtentReport("Clicked on Neck Type filter");
+	}
+
+	public void clickOnPatternFilter() {
+		log.info("Clicking on Pattern filter");
+		wait.waitForElement(filter(Pattern_FILTER), ObjectReader.reader.getImplicitWait());
+		filter(Pattern_FILTER).click();
+		TestBase.logExtentReport("Clicked on Pattern filter");
+	}
+
+	public void clickOnAuthorisedMerchantFilter() {
+		log.info("Clicking on Authorised Merchant filter");
+		wait.waitForElement(filter(AuthorisedMerchant_FILTER), ObjectReader.reader.getImplicitWait());
+		filter(AuthorisedMerchant_FILTER).click();
+		TestBase.logExtentReport("Clicked on Authorised Merchant filter");
+	}
+
+	public void clickOnFulfilledByPaytmFilter() {
+		log.info("Clicking on Ful filled By Paytm filter");
+		wait.waitForElement(filter(FulfilledByPaytm_FILTER), ObjectReader.reader.getImplicitWait());
+		filter(FulfilledByPaytm_FILTER).click();
+		TestBase.logExtentReport("Clicked on Ful filled By Paytm filter");
+	}
+
+	public void clickOnLengthFilter() {
+		log.info("Clicking on Length filter");
+		wait.waitForElement(filter(Length_FILTER), ObjectReader.reader.getImplicitWait());
+		filter(Length_FILTER).click();
+		TestBase.logExtentReport("Clicked on Length filter");
+	}
+
+	public void clickOnSetContentFilter() {
+		log.info("Clicking on Set Content filter");
+		wait.waitForElement(filter(SetContent_FILTER), ObjectReader.reader.getImplicitWait());
+		filter(SetContent_FILTER).click();
+		TestBase.logExtentReport("Clicked on Set Content filter");
 	}
 	
 	public void enterMinPrice(String min) {
@@ -156,6 +229,13 @@ public class Mens {
 		TestBase.logExtentReport("click on next page "+page);
 	}
 	
+	public void searchSize(String size) {
+		log.info("Search brand by name " + size);
+		searchBrand.clear();
+		searchBrand.sendKeys(size);
+		TestBase.logExtentReport("Search brand by name " + size);
+	}
+	
 	public int searchResultPageCount() {
 		if(noOfSearchResultPages.isDisplayed()) {
 		return Integer.parseInt(noOfSearchResultPages.getText());
@@ -169,6 +249,10 @@ public class Mens {
 		return driver.findElement(By.xpath("//*[text()='"+data+"']/preceding::span[@class='check'][1]"));
 	}
 	
+	public WebElement checkBox(int data) {
+		return driver.findElement(By.xpath("//*[text()='" + data + "']/preceding::span[@class='check'][1]"));
+	}
+	
 	public void clickOncheckBox(String data) {
 		if(checkBox(data).isSelected()) {
 			
@@ -177,6 +261,15 @@ public class Mens {
 			checkBox(data).click();
 		}
 	}
+	
+	public void clickOncheckBox(int size1) {
+		if (checkBox(size1).isSelected()) {
+
+		} else {
+			checkBox(size1).click();
+		}
+	}
+
 	
 	public boolean sortedLowPrice() throws InterruptedException, IOException {
 		clickOnTopWear();
@@ -360,6 +453,141 @@ public class Mens {
 		return flag;
 		
 	}
+	
+	public boolean checkSizeFilter(int size1, int size2, int size3) throws InterruptedException, IOException {
+		navigationMenu = new NavigationMenu(driver);
+		boolean flag = true;
+		clickOnTopWear();
+		clickOnTShirts();
+		Thread.sleep(2000);
+		clickOnSizeFilter();
+		Thread.sleep(2000);
+		clickOncheckBox(size1);
+		clickOncheckBox(size2);
+		searchSize(Integer.toString(size3));
+		Thread.sleep(2000);
+		clickOncheckBox(size3);
+		clickOnCloseFilter();
+		Thread.sleep(2000);
+		List<WebElement> productList = listOfBrandNameWebElement;
+		System.out.println(searchResultPageCount());
+		for (int j = 2; j <= searchResultPageCount(); j++) {
+			for (int i = 0; i <= productList.size() - 1; i++) {
+				productList.get(i).click();
+				int sizeSelected = Integer.parseInt(selectedSize.getText());
+				int sizeSelectedInGeneral = Integer.parseInt(selectedSizeInGeneral.getText());
+				System.out.println("sizeSelected "+ sizeSelected+"sizeSelectedInGeneral "+sizeSelectedInGeneral);
+				
+				if (sizeSelected == size1 || sizeSelected == (size2)
+						|| sizeSelected == (size3) && sizeSelectedInGeneral == size1 || sizeSelectedInGeneral == (size2)
+						|| sizeSelectedInGeneral == (size3)) {
+					flag = true;
+				} else {
+					flag = false;
+					break;
+				}
+
+				navigationMenu.navigateBackward();
+			}
+			clickOnNext(j);
+			Thread.sleep(2000);
+		}
+		return flag;
+	}
+
+	public boolean checkSizeFilter(String size1, String size2, String size3) throws InterruptedException, IOException {
+		navigationMenu = new NavigationMenu(driver);
+		boolean flag = true;
+		clickOnTopWear();
+		clickOnTShirts();
+		Thread.sleep(2000);
+		clickOnSizeFilter();
+		Thread.sleep(2000);
+		clickOncheckBox(size1);
+		clickOncheckBox(size2);
+		searchSize(size3);
+		clickOncheckBox(size3);
+		Thread.sleep(2000);
+		clickOnCloseFilter();
+		
+		List<WebElement> productList = listOfBrandNameWebElement;
+		System.out.println(searchResultPageCount());
+		for (int j = 2; j <= searchResultPageCount(); j++) {
+			for (int i = 0; i <= productList.size() - 1; i++) {
+				productList.get(i).click();
+				String sizeSelected = selectedSize.getText();
+				System.out.println(sizeSelected);
+				if (sizeSelected.equals(size1) || sizeSelected.equals(size2) || sizeSelected.equals(size3)) {
+					flag = true;
+				} else {
+					flag = false;
+					break;
+				}
+
+				navigationMenu.navigateBackward();
+			}
+			clickOnNext(j);
+			Thread.sleep(2000);
+		}
+		return flag;
+	}
+
+	public boolean checkGeneralOverview(String brand,int size,String material,String color,String pattern, String sleeve,String neckType) throws InterruptedException, IOException {
+		navigationMenu = new NavigationMenu(driver);
+		boolean flag = true;
+		clickOnTopWear();
+		clickOnTShirts();
+		Thread.sleep(2000);
+		clickOnBrandFilter();
+		clickOncheckBox(brand);
+		clickOnCloseFilter();
+		Thread.sleep(2000);
+		clickOnSizeFilter();
+		clickOncheckBox(size);
+		clickOnCloseFilter();
+		Thread.sleep(2000);
+		clickOnMaterialFilter();
+		clickOncheckBox(material);
+		clickOnCloseFilter();
+		Thread.sleep(2000);
+		clickOnColorFilter();
+		clickOncheckBox(color);
+		clickOnCloseFilter();
+		Thread.sleep(2000);
+		clickOnPatternFilter();
+		clickOncheckBox(pattern);
+		clickOnCloseFilter();
+		Thread.sleep(2000);
+		clickOnSleeveFilter();
+		clickOncheckBox(sleeve);
+		clickOnCloseFilter();
+		Thread.sleep(2000);
+		clickOnNeckTypeFilter();
+		clickOncheckBox(neckType);
+		clickOnCloseFilter();
+		
+		List<WebElement> productList = productDetails;
+		System.out.println(searchResultPageCount());
+		for (int j = 2; j <= searchResultPageCount(); j++) {
+			for (int i = 0; i <= productList.size() - 1; i++) {
+				productList.get(i).click();
+				String sizeSelected = selectedSize.getText();
+				System.out.println(sizeSelected);
+				if (sizeSelected.equals(size) ) {
+					flag = true;
+				} else {
+					flag = false;
+					break;
+				}
+
+				navigationMenu.navigateBackward();
+			}
+			clickOnNext(j);
+			Thread.sleep(2000);
+		}
+		return flag;
+	}
+
 	
 	
 }

@@ -58,7 +58,7 @@ public class Paytm extends TestBase{
 	public void verifyPriceListSortedByLowPrice() throws IOException, InterruptedException {
 		getApplicationUrl(ObjectReader.reader.getURL());
 		homePage = new HomePage(driver);
-		mens = homePage.clickOnCategory(Category.Men);
+		mens = homePage.clickOnMenCategory();
 		boolean flag = mens.sortedLowPrice();
 		Assert.assertTrue(flag,"Filter sorted ok");
 		AssertionHelper.verifyTrue(flag);
@@ -72,7 +72,7 @@ public class Paytm extends TestBase{
 	public void verifyPriceListSortedByHighPrice() throws IOException, InterruptedException {
 		getApplicationUrl(ObjectReader.reader.getURL());
 		homePage = new HomePage(driver);
-		mens = homePage.clickOnCategory(Category.Men);
+		mens = homePage.clickOnMenCategory();
 		boolean flag = mens.sortedHighPrice();
 		AssertionHelper.verifyTrue(flag);
 	}
@@ -86,7 +86,7 @@ public class Paytm extends TestBase{
 	public void verifyPriceFilterRange() throws IOException, InterruptedException {
 		getApplicationUrl(ObjectReader.reader.getURL());;
 		homePage = new HomePage(driver);
-		mens = homePage.clickOnCategory(Category.Men);
+		mens = homePage.clickOnMenCategory();
 		boolean flag = mens.checkPriceFilterRange(Category.MinRange, Category.MaxRange);
 		AssertionHelper.verifyTrue(flag);
 	}
@@ -100,7 +100,7 @@ public class Paytm extends TestBase{
 	public void verifyBrandFilter() throws IOException, InterruptedException {
 		getApplicationUrl(ObjectReader.reader.getURL());;
 		homePage = new HomePage(driver);
-		mens = homePage.clickOnCategory(Category.Men);
+		mens = homePage.clickOnMenCategory();
 		boolean flag = mens.checkBrandFilter(Category.BrandName1);
 		AssertionHelper.verifyTrue(flag);
 	}
@@ -114,7 +114,7 @@ public class Paytm extends TestBase{
 	public void verifyMultipleBrandFilter() throws IOException, InterruptedException {
 		getApplicationUrl(ObjectReader.reader.getURL());;
 		homePage = new HomePage(driver);
-		mens = homePage.clickOnCategory(Category.Men);
+		mens = homePage.clickOnMenCategory();
 		boolean flag = mens.checkBrandFilter(Category.BrandName1,Category.BrandName2,Category.BrandName3);
 		AssertionHelper.verifyTrue(flag);
 	}
@@ -123,12 +123,21 @@ public class Paytm extends TestBase{
 	 * @throws IOException
 	 * @throws InterruptedException
 	 */
-	@Test(priority = 6,description="Verify Discount Price")
+	//@Test(priority = 6,description="Verify Discount Price")
 	public void verifyDiscountPrice() throws IOException, InterruptedException {
 		getApplicationUrl(ObjectReader.reader.getURL());;
 		homePage = new HomePage(driver);
-		mens = homePage.clickOnCategory(Category.Men);
+		mens = homePage.clickOnMenCategory();
 		boolean flag = mens.verifyDiscount();
+		AssertionHelper.verifyTrue(flag);
+	}
+	
+	@Test(priority = 6,description="Verify Size Filter")
+	public void verifySizeFilter() throws IOException, InterruptedException {
+		getApplicationUrl(ObjectReader.reader.getURL());;
+		homePage = new HomePage(driver);
+		mens = homePage.clickOnMenCategory();
+		boolean flag = mens.checkSizeFilter(34,36,38);
 		AssertionHelper.verifyTrue(flag);
 	}
 }

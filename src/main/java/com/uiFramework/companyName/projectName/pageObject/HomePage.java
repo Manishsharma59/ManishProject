@@ -35,7 +35,7 @@ public class HomePage {
 	@FindBy(xpath="//*[contains(text(),'Log In/Sign Up')]")
 	public WebElement logInSignUpText;
 	
-	public WebElement CategoryElement(String categoryName) {
+	public WebElement superCategoryElement(String categoryName) {
 		return driver.findElement(By.xpath("//*[text()='"+categoryName+"']"));
 	}
 	
@@ -58,13 +58,13 @@ public class HomePage {
 		return new LoginPage(driver);
 	}
 	
-	public Mens clickOnCategory(String categoryName) throws IOException {
-		CategoryElement(categoryName).click();
+	public Mens clickOnMenCategory() throws IOException {
+		superCategoryElement(MEN).click();
 		return new Mens(driver);
 	}
 	
 	public Womens clickOnWomenCategory() throws IOException {
-		CategoryElement(WOMEN);
+		superCategoryElement(WOMEN);
 		return new Womens(driver);
 	}
 
