@@ -5407,3 +5407,436 @@ Session ID: b104e4e88602c6311fb2afb85ac1c7dc
 2018 09 12 11 09 31 INFO  Cart : 65 - Click on remove yes
 2018 09 12 11 09 143 INFO  Cart : 59 - Click on remove
 2018 09 12 11 09 214 INFO  Cart : 65 - Click on remove yes
+2018 09 12 12 09 429 INFO  TestBase : 139 - Initialize web driver : 307400933
+2018 09 12 12 09 431 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 432 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 12 12 09 438 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 12 12 09 441 INFO  WaitHelper : 48 - page is loaded
+2018 09 12 12 09 656 INFO  TestBase : 69 - **************Started***************
+2018 09 12 12 09 292 INFO  TestBase : 187 - Opening url https://paytm.com/
+2018 09 12 12 09 313 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 330 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97123b31d28679c8b1534fb3f6ffa6e3)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 12 09 357 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 358 INFO  HomePage : 55 - HomePage Object created
+2018 09 12 12 09 358 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 12 09 593 INFO  HomePage : 77 - Click on Men Category
+2018 09 12 12 09 03 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 14 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97123b31d28679c8b1534fb3f6ffa6e3)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 12 09 34 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 34 INFO  PaytmMall : 40 - PaytmMall Page Object created
+2018 09 12 12 09 34 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 12 09 365 INFO  PaytmMall : 52 - Clicking on TShirts
+2018 09 12 12 09 117 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 142 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97123b31d28679c8b1534fb3f6ffa6e3)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 12 09 172 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 172 INFO  Mens : 114 - Mens class Object created
+2018 09 12 12 09 172 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 12 09 814 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97123b31d28679c8b1534fb3f6ffa6e3)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 12 09 843 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 844 INFO  HomePage : 30 - NavigationMenu object created
+2018 09 12 12 09 02 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97123b31d28679c8b1534fb3f6ffa6e3)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 12 09 12 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 42 INFO  Mens : 243 - click on more button 
+2018 09 12 12 09 107 INFO  Mens : 128 - Clicking on brand filter
+2018 09 12 12 09 137 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97123b31d28679c8b1534fb3f6ffa6e3)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 12 09 166 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 455 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 58 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97123b31d28679c8b1534fb3f6ffa6e3)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 104 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 105 INFO  Mens : 135 - Clicking on Size filter
+2018 09 12 12 09 427 INFO  TestBase : 139 - Initialize web driver : 307400933
+2018 09 12 12 09 429 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 430 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 12 12 09 434 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 12 12 09 438 INFO  WaitHelper : 48 - page is loaded
+2018 09 12 12 09 614 INFO  TestBase : 69 - **************Started***************
+2018 09 12 12 09 680 INFO  TestBase : 187 - Opening url https://paytm.com/
+2018 09 12 12 09 695 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 714 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (60ff03c30143be5aede01be3dbd7ef82)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 12 09 741 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 742 INFO  HomePage : 55 - HomePage Object created
+2018 09 12 12 09 742 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 12 09 998 INFO  HomePage : 77 - Click on Men Category
+2018 09 12 12 09 848 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 871 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (60ff03c30143be5aede01be3dbd7ef82)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 12 09 921 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 922 INFO  PaytmMall : 40 - PaytmMall Page Object created
+2018 09 12 12 09 923 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 12 09 262 INFO  PaytmMall : 52 - Clicking on TShirts
+2018 09 12 12 09 54 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 77 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (60ff03c30143be5aede01be3dbd7ef82)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 12 09 108 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 108 INFO  Mens : 114 - Mens class Object created
+2018 09 12 12 09 108 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 12 09 702 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (60ff03c30143be5aede01be3dbd7ef82)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 12 09 718 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 718 INFO  HomePage : 30 - NavigationMenu object created
+2018 09 12 12 09 957 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (60ff03c30143be5aede01be3dbd7ef82)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 12 09 973 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 15 INFO  Mens : 243 - click on more button 
+2018 09 12 12 09 75 INFO  Mens : 128 - Clicking on brand filter
+2018 09 12 12 09 103 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (60ff03c30143be5aede01be3dbd7ef82)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 12 09 128 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 382 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 969 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (60ff03c30143be5aede01be3dbd7ef82)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 991 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 992 INFO  Mens : 135 - Clicking on Size filter
+2018 09 12 12 09 939 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (60ff03c30143be5aede01be3dbd7ef82)] -> xpath: //*[text()='Size']] for 10 seconds
+2018 09 12 12 09 951 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 121 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 184 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (60ff03c30143be5aede01be3dbd7ef82)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 214 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 215 INFO  Mens : 142 - Clicking on Material filter
+2018 09 12 12 09 235 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (60ff03c30143be5aede01be3dbd7ef82)] -> xpath: //*[text()='Material']] for 10 seconds
+2018 09 12 12 09 253 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 424 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 491 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (60ff03c30143be5aede01be3dbd7ef82)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 516 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 516 INFO  Mens : 149 - Clicking on Color filter
+2018 09 12 12 09 533 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (60ff03c30143be5aede01be3dbd7ef82)] -> xpath: //*[text()='Color']] for 10 seconds
+2018 09 12 12 09 548 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 704 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 769 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (60ff03c30143be5aede01be3dbd7ef82)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 794 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 795 INFO  Mens : 170 - Clicking on Pattern filter
+2018 09 12 12 09 838 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (60ff03c30143be5aede01be3dbd7ef82)] -> xpath: //*[text()='Pattern']] for 10 seconds
+2018 09 12 12 09 744 INFO  TestBase : 139 - Initialize web driver : 307400933
+2018 09 12 12 09 747 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 748 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 12 12 09 754 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 12 12 09 757 INFO  WaitHelper : 48 - page is loaded
+2018 09 12 12 09 945 INFO  TestBase : 69 - **************Started***************
+2018 09 12 12 09 271 INFO  TestBase : 187 - Opening url https://paytm.com/
+2018 09 12 12 09 291 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 313 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0f62f0744d544934d64ff339684e63fd)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 12 09 341 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 341 INFO  HomePage : 55 - HomePage Object created
+2018 09 12 12 09 342 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 12 09 620 INFO  HomePage : 78 - Click on Men Category
+2018 09 12 12 09 511 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 530 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0f62f0744d544934d64ff339684e63fd)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 12 09 562 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 562 INFO  PaytmMall : 40 - PaytmMall Page Object created
+2018 09 12 12 09 563 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 12 09 891 INFO  PaytmMall : 52 - Clicking on TShirts
+2018 09 12 12 09 567 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 580 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0f62f0744d544934d64ff339684e63fd)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 12 09 601 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 601 INFO  Mens : 114 - Mens class Object created
+2018 09 12 12 09 602 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 12 09 270 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0f62f0744d544934d64ff339684e63fd)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 12 09 304 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 305 INFO  HomePage : 30 - NavigationMenu object created
+2018 09 12 12 09 353 INFO  Mens : 243 - click on more button 
+2018 09 12 12 09 431 INFO  Mens : 128 - Clicking on brand filter
+2018 09 12 12 09 460 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0f62f0744d544934d64ff339684e63fd)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 12 09 483 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 716 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 995 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0f62f0744d544934d64ff339684e63fd)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 22 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 22 INFO  Mens : 135 - Clicking on Size filter
+2018 09 12 12 09 65 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0f62f0744d544934d64ff339684e63fd)] -> xpath: //*[text()='Size']] for 10 seconds
+2018 09 12 12 09 94 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 288 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 361 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0f62f0744d544934d64ff339684e63fd)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 386 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 387 INFO  Mens : 142 - Clicking on Material filter
+2018 09 12 12 09 431 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0f62f0744d544934d64ff339684e63fd)] -> xpath: //*[text()='Material']] for 10 seconds
+2018 09 12 12 09 456 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 659 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 723 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0f62f0744d544934d64ff339684e63fd)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 749 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 751 INFO  Mens : 149 - Clicking on Color filter
+2018 09 12 12 09 806 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0f62f0744d544934d64ff339684e63fd)] -> xpath: //*[text()='Color']] for 10 seconds
+2018 09 12 12 09 829 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 976 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 38 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0f62f0744d544934d64ff339684e63fd)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 64 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 65 INFO  Mens : 170 - Clicking on Pattern filter
+2018 09 12 12 09 108 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0f62f0744d544934d64ff339684e63fd)] -> xpath: //*[text()='Pattern']] for 10 seconds
+2018 09 12 12 09 131 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 322 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 395 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0f62f0744d544934d64ff339684e63fd)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 420 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 421 INFO  Mens : 156 - Clicking on Sleeve filter
+2018 09 12 12 09 460 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0f62f0744d544934d64ff339684e63fd)] -> xpath: //*[text()='Sleeve']] for 10 seconds
+2018 09 12 12 09 489 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 658 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 721 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0f62f0744d544934d64ff339684e63fd)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 748 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 748 INFO  Mens : 163 - Clicking on Neck Type filter
+2018 09 12 12 09 791 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0f62f0744d544934d64ff339684e63fd)] -> xpath: //*[text()='Neck Type']] for 10 seconds
+2018 09 12 12 09 815 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 989 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 90 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0f62f0744d544934d64ff339684e63fd)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 113 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 107 INFO  Mens : 235 - click on next button 2
+2018 09 12 12 09 959 INFO  Mens : 235 - click on next button 3
+2018 09 12 12 09 656 INFO  TestBase : 139 - Initialize web driver : 307400933
+2018 09 12 12 09 659 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 660 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 12 12 09 666 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 12 12 09 669 INFO  WaitHelper : 48 - page is loaded
+2018 09 12 12 09 865 INFO  TestBase : 69 - **************Started***************
+2018 09 12 12 09 786 INFO  TestBase : 187 - Opening url https://paytm.com/
+2018 09 12 12 09 799 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 816 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97443040e6419785846e345afb57bf31)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 12 09 843 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 844 INFO  HomePage : 55 - HomePage Object created
+2018 09 12 12 09 844 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 12 09 113 INFO  HomePage : 78 - Click on Men Category
+2018 09 12 12 09 449 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 463 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97443040e6419785846e345afb57bf31)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 12 09 492 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 493 INFO  PaytmMall : 40 - PaytmMall Page Object created
+2018 09 12 12 09 493 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 12 09 831 INFO  PaytmMall : 52 - Clicking on TShirts
+2018 09 12 12 09 519 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 541 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97443040e6419785846e345afb57bf31)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 12 09 580 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 581 INFO  Mens : 114 - Mens class Object created
+2018 09 12 12 09 581 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 12 09 146 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97443040e6419785846e345afb57bf31)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 12 09 178 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 179 INFO  HomePage : 30 - NavigationMenu object created
+2018 09 12 12 09 249 INFO  Mens : 243 - click on more button 
+2018 09 12 12 09 316 INFO  Mens : 128 - Clicking on brand filter
+2018 09 12 12 09 346 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97443040e6419785846e345afb57bf31)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 12 09 363 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 629 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 933 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97443040e6419785846e345afb57bf31)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 953 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 953 INFO  Mens : 135 - Clicking on Size filter
+2018 09 12 12 09 998 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97443040e6419785846e345afb57bf31)] -> xpath: //*[text()='Size']] for 10 seconds
+2018 09 12 12 09 25 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 166 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 241 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97443040e6419785846e345afb57bf31)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 264 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 265 INFO  Mens : 142 - Clicking on Material filter
+2018 09 12 12 09 296 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97443040e6419785846e345afb57bf31)] -> xpath: //*[text()='Material']] for 10 seconds
+2018 09 12 12 09 316 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 506 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 610 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97443040e6419785846e345afb57bf31)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 644 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 646 INFO  Mens : 149 - Clicking on Color filter
+2018 09 12 12 09 691 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97443040e6419785846e345afb57bf31)] -> xpath: //*[text()='Color']] for 10 seconds
+2018 09 12 12 09 717 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 953 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 46 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97443040e6419785846e345afb57bf31)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 70 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 71 INFO  Mens : 170 - Clicking on Pattern filter
+2018 09 12 12 09 114 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97443040e6419785846e345afb57bf31)] -> xpath: //*[text()='Pattern']] for 10 seconds
+2018 09 12 12 09 139 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 341 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 414 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97443040e6419785846e345afb57bf31)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 438 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 440 INFO  Mens : 156 - Clicking on Sleeve filter
+2018 09 12 12 09 479 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97443040e6419785846e345afb57bf31)] -> xpath: //*[text()='Sleeve']] for 10 seconds
+2018 09 12 12 09 502 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 671 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 743 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97443040e6419785846e345afb57bf31)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 766 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 767 INFO  Mens : 163 - Clicking on Neck Type filter
+2018 09 12 12 09 810 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97443040e6419785846e345afb57bf31)] -> xpath: //*[text()='Neck Type']] for 10 seconds
+2018 09 12 12 09 832 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 08 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 67 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (97443040e6419785846e345afb57bf31)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 93 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 945 INFO  TestBase : 139 - Initialize web driver : 307400933
+2018 09 12 12 09 948 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 948 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 12 12 09 954 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 12 12 09 957 INFO  WaitHelper : 48 - page is loaded
+2018 09 12 12 09 157 INFO  TestBase : 69 - **************Started***************
+2018 09 12 12 09 224 INFO  TestBase : 187 - Opening url https://paytm.com/
+2018 09 12 12 09 239 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 260 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6afc83f6723b5fc10367e52ea22d2d8c)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 12 09 289 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 289 INFO  HomePage : 55 - HomePage Object created
+2018 09 12 12 09 290 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 12 09 555 INFO  HomePage : 78 - Click on Men Category
+2018 09 12 12 09 22 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 35 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6afc83f6723b5fc10367e52ea22d2d8c)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 12 09 57 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 57 INFO  PaytmMall : 40 - PaytmMall Page Object created
+2018 09 12 12 09 58 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 12 09 376 INFO  PaytmMall : 52 - Clicking on TShirts
+2018 09 12 12 09 953 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 964 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6afc83f6723b5fc10367e52ea22d2d8c)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 12 09 986 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 986 INFO  Mens : 114 - Mens class Object created
+2018 09 12 12 09 986 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 12 09 648 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6afc83f6723b5fc10367e52ea22d2d8c)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 12 09 682 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 683 INFO  HomePage : 30 - NavigationMenu object created
+2018 09 12 12 09 749 INFO  Mens : 243 - click on more button 
+2018 09 12 12 09 815 INFO  Mens : 128 - Clicking on brand filter
+2018 09 12 12 09 843 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6afc83f6723b5fc10367e52ea22d2d8c)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 12 09 866 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 96 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 427 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6afc83f6723b5fc10367e52ea22d2d8c)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 450 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 451 INFO  Mens : 135 - Clicking on Size filter
+2018 09 12 12 09 473 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6afc83f6723b5fc10367e52ea22d2d8c)] -> xpath: //*[text()='Size']] for 10 seconds
+2018 09 12 12 09 495 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 670 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 738 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6afc83f6723b5fc10367e52ea22d2d8c)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 763 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 765 INFO  Mens : 142 - Clicking on Material filter
+2018 09 12 12 09 793 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6afc83f6723b5fc10367e52ea22d2d8c)] -> xpath: //*[text()='Material']] for 10 seconds
+2018 09 12 12 09 814 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 992 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 73 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6afc83f6723b5fc10367e52ea22d2d8c)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 99 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 100 INFO  Mens : 149 - Clicking on Color filter
+2018 09 12 12 09 144 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6afc83f6723b5fc10367e52ea22d2d8c)] -> xpath: //*[text()='Color']] for 10 seconds
+2018 09 12 12 09 168 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 336 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 412 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6afc83f6723b5fc10367e52ea22d2d8c)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 436 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 437 INFO  Mens : 170 - Clicking on Pattern filter
+2018 09 12 12 09 477 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6afc83f6723b5fc10367e52ea22d2d8c)] -> xpath: //*[text()='Pattern']] for 10 seconds
+2018 09 12 12 09 498 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 636 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 704 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6afc83f6723b5fc10367e52ea22d2d8c)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 742 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 743 INFO  Mens : 156 - Clicking on Sleeve filter
+2018 09 12 12 09 783 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6afc83f6723b5fc10367e52ea22d2d8c)] -> xpath: //*[text()='Sleeve']] for 10 seconds
+2018 09 12 12 09 821 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 978 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 36 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6afc83f6723b5fc10367e52ea22d2d8c)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 64 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 65 INFO  Mens : 163 - Clicking on Neck Type filter
+2018 09 12 12 09 111 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6afc83f6723b5fc10367e52ea22d2d8c)] -> xpath: //*[text()='Neck Type']] for 10 seconds
+2018 09 12 12 09 134 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 343 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 404 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (6afc83f6723b5fc10367e52ea22d2d8c)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 429 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 263 INFO  Mens : 235 - click on next button 2
+2018 09 12 12 09 745 INFO  TestBase : 139 - Initialize web driver : 307400933
+2018 09 12 12 09 748 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 748 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 12 12 09 754 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 12 12 09 757 INFO  WaitHelper : 48 - page is loaded
+2018 09 12 12 09 933 INFO  TestBase : 69 - **************Started***************
+2018 09 12 12 09 420 INFO  TestBase : 187 - Opening url https://paytm.com/
+2018 09 12 12 09 433 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 451 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c038c9129a5139373a46d2dedff0f899)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 12 09 478 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 478 INFO  HomePage : 55 - HomePage Object created
+2018 09 12 12 09 478 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 12 09 707 INFO  HomePage : 78 - Click on Men Category
+2018 09 12 12 09 313 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 339 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c038c9129a5139373a46d2dedff0f899)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 12 09 389 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 390 INFO  PaytmMall : 40 - PaytmMall Page Object created
+2018 09 12 12 09 391 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 12 09 699 INFO  PaytmMall : 52 - Clicking on TShirts
+2018 09 12 12 09 186 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 12 09 198 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c038c9129a5139373a46d2dedff0f899)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 12 09 218 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 218 INFO  Mens : 114 - Mens class Object created
+2018 09 12 12 09 218 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 12 09 998 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c038c9129a5139373a46d2dedff0f899)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 12 09 12 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 12 INFO  HomePage : 30 - NavigationMenu object created
+2018 09 12 12 09 78 INFO  Mens : 243 - click on more button 
+2018 09 12 12 09 158 INFO  Mens : 128 - Clicking on brand filter
+2018 09 12 12 09 181 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c038c9129a5139373a46d2dedff0f899)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 12 09 198 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 448 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 847 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c038c9129a5139373a46d2dedff0f899)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 870 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 871 INFO  Mens : 135 - Clicking on Size filter
+2018 09 12 12 09 918 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c038c9129a5139373a46d2dedff0f899)] -> xpath: //*[text()='Size']] for 10 seconds
+2018 09 12 12 09 939 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 96 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 163 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c038c9129a5139373a46d2dedff0f899)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 186 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 188 INFO  Mens : 142 - Clicking on Material filter
+2018 09 12 12 09 230 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c038c9129a5139373a46d2dedff0f899)] -> xpath: //*[text()='Material']] for 10 seconds
+2018 09 12 12 09 255 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 433 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 513 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c038c9129a5139373a46d2dedff0f899)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 539 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 540 INFO  Mens : 149 - Clicking on Color filter
+2018 09 12 12 09 584 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c038c9129a5139373a46d2dedff0f899)] -> xpath: //*[text()='Color']] for 10 seconds
+2018 09 12 12 09 619 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 796 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 880 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c038c9129a5139373a46d2dedff0f899)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 905 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 905 INFO  Mens : 170 - Clicking on Pattern filter
+2018 09 12 12 09 945 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c038c9129a5139373a46d2dedff0f899)] -> xpath: //*[text()='Pattern']] for 10 seconds
+2018 09 12 12 09 971 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 125 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 200 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c038c9129a5139373a46d2dedff0f899)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 227 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 228 INFO  Mens : 156 - Clicking on Sleeve filter
+2018 09 12 12 09 271 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c038c9129a5139373a46d2dedff0f899)] -> xpath: //*[text()='Sleeve']] for 10 seconds
+2018 09 12 12 09 295 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 509 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 579 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c038c9129a5139373a46d2dedff0f899)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 604 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 605 INFO  Mens : 163 - Clicking on Neck Type filter
+2018 09 12 12 09 648 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c038c9129a5139373a46d2dedff0f899)] -> xpath: //*[text()='Neck Type']] for 10 seconds
+2018 09 12 12 09 672 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 12 09 862 INFO  Mens : 221 - click on close price range box
+2018 09 12 12 09 968 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (c038c9129a5139373a46d2dedff0f899)] -> xpath: //span[@class='_34iq bq4I']] for 10 seconds
+2018 09 12 12 09 14 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 13 09 563 INFO  TestBase : 139 - Initialize web driver : 307400933
+2018 09 12 13 09 565 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 13 09 566 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 12 13 09 573 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 12 13 09 577 INFO  WaitHelper : 48 - page is loaded
+2018 09 12 13 09 770 INFO  TestBase : 69 - **************Started***************
+2018 09 12 13 09 442 INFO  TestBase : 187 - Opening url https://paytm.com/
+2018 09 12 13 09 468 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 13 09 488 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (90cf4909a96131cdc85fda030f421b83)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 13 09 515 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 13 09 516 INFO  HomePage : 55 - HomePage Object created
+2018 09 12 13 09 516 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 13 09 774 INFO  HomePage : 78 - Click on Men Category
+2018 09 12 13 09 507 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 13 09 521 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (90cf4909a96131cdc85fda030f421b83)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 13 09 547 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 13 09 547 INFO  PaytmMall : 45 - PaytmMall Page Object created
+2018 09 12 13 09 547 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 13 09 892 INFO  PaytmMall : 57 - Clicking on TShirts
+2018 09 12 13 09 813 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 13 09 833 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (90cf4909a96131cdc85fda030f421b83)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 13 09 875 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 13 09 876 INFO  Mens : 119 - Mens class Object created
+2018 09 12 13 09 876 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 13 09 375 INFO  DropDownHelper : 20 - DropDownHelper class object created
+2018 09 12 13 09 448 INFO  DropDownHelper : 37 - Select by visible text and text is Men's Fashion
+2018 09 12 13 09 28 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (90cf4909a96131cdc85fda030f421b83)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 13 09 73 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 13 09 186 INFO  Mens : 313 - click on buy
+2018 09 12 13 09 611 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 13 09 626 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (90cf4909a96131cdc85fda030f421b83)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 13 09 647 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 13 09 647 INFO  Cart : 55 - Cart object created
+2018 09 12 13 09 648 INFO  Cart : 60 - Click on Continue Shopping
+2018 09 12 13 09 223 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 13 09 237 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (90cf4909a96131cdc85fda030f421b83)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 13 09 261 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 13 09 261 INFO  PaytmMall : 45 - PaytmMall Page Object created
+2018 09 12 13 09 261 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 13 09 521 INFO  DropDownHelper : 20 - DropDownHelper class object created
+2018 09 12 13 09 592 INFO  DropDownHelper : 37 - Select by visible text and text is Men's Fashion
+2018 09 12 13 09 841 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (90cf4909a96131cdc85fda030f421b83)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 13 09 884 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 13 09 886 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 13 09 902 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (90cf4909a96131cdc85fda030f421b83)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 13 09 924 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 13 09 925 INFO  Mens : 119 - Mens class Object created
+2018 09 12 13 09 925 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 13 09 420 INFO  Mens : 313 - click on buy
+2018 09 12 13 09 937 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 13 09 945 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (90cf4909a96131cdc85fda030f421b83)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 13 09 962 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 13 09 962 INFO  Cart : 55 - Cart object created
+2018 09 12 13 09 963 INFO  Cart : 67 - Click on remove
+2018 09 12 13 09 394 INFO  Cart : 73 - Click on remove yes
+2018 09 12 13 09 480 INFO  Cart : 67 - Click on remove
+2018 09 12 13 09 539 INFO  Cart : 73 - Click on remove yes

@@ -12,6 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.uiFramework.companyName.projectName.helper.browserConfiguration.config.ObjectReader;
 import com.uiFramework.companyName.projectName.helper.logger.LoggerHelper;
+import com.uiFramework.companyName.projectName.helper.select.DropDownHelper;
 import com.uiFramework.companyName.projectName.helper.wait.WaitHelper;
 import com.uiFramework.companyName.projectName.testbase.TestBase;
 
@@ -20,6 +21,7 @@ public class PaytmMall {
 	private WebDriver driver;
 	private Logger log = LoggerHelper.getLogger(PaytmMall.class);
 	WaitHelper wait;
+	DropDownHelper dropDownHelper;
 	
 	
 	public static final String TOPWEARSTORE_CATEGORY = "Topwear Store";
@@ -31,6 +33,9 @@ public class PaytmMall {
 	
 	@FindBy(xpath="//input[@type='search']")
 	public WebElement search;
+	
+	@FindBy(css="select._1Bqn")
+	public WebElement selectCategoryFromDropDown;
 	
 	public PaytmMall(WebDriver driver) throws IOException {
 		this.driver = driver;
@@ -56,6 +61,9 @@ public class PaytmMall {
 	}
 	
 	public Mens searchMensItem(String item) throws IOException, InterruptedException {
+		dropDownHelper = new DropDownHelper(driver);
+		dropDownHelper.selectUsingVisibleText(selectCategoryFromDropDown, "Men's Fashion");
+		search.clear();
 		search.sendKeys(item);
 		Thread.sleep(6000);
 		search.sendKeys(Keys.ENTER);

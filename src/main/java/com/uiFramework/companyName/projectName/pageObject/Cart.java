@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.List;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -88,7 +89,7 @@ public class Cart {
 	public boolean checkCartEmpty() {
 		boolean flag=false;
 		String ActualMsg = "Oops! Your Cart is Empty";
-		String msg = cartEmptyMessage.getText();
+		String msg = cartEmptyMessage();
 		if(ActualMsg.equals(msg)) {
 			flag=true;
 		}
@@ -103,6 +104,15 @@ public class Cart {
 		clickOnLoginToProceed();
 		TestBase.logExtentReport("Click On login to proceed");
 		return new LoginPage(driver);
+	}
+	
+	public void searchMensItem(String item) throws IOException, InterruptedException {
+		search.clear();
+		search.sendKeys(item);
+		Thread.sleep(6000);
+		search.sendKeys(Keys.ENTER);
+		wait.waitForElement(search, ObjectReader.reader.getImplicitWait());
+		
 	}
 
 }

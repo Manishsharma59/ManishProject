@@ -15,6 +15,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.uiFramework.companyName.projectName.helper.browserConfiguration.config.ObjectReader;
 import com.uiFramework.companyName.projectName.helper.frame.FrameHelper;
 import com.uiFramework.companyName.projectName.helper.logger.LoggerHelper;
+import com.uiFramework.companyName.projectName.helper.select.DropDownHelper;
 import com.uiFramework.companyName.projectName.helper.wait.WaitHelper;
 import com.uiFramework.companyName.projectName.testbase.TestBase;
 
@@ -25,6 +26,7 @@ public class Mens {
 	WaitHelper wait;
 	FrameHelper frame;
 	NavigationMenu navigationMenu;
+	DropDownHelper dropDownHelper;
 	
 	public static final String PRICE_FILTER = "Price";
 	public static final String Brand_FILTER = "Brand";
@@ -42,6 +44,9 @@ public class Mens {
 	
 	@FindBy(xpath="//input[@type='search']")
 	public WebElement search;
+	
+	@FindBy(css="select._1Bqn")
+	public WebElement selectCategoryFromDropDown;
 	
 	@FindBy(xpath = "//span[contains(@class,'_2Ysz')]")
 	WebElement searchIcon;
@@ -269,6 +274,9 @@ public class Mens {
 	}
 	
 	public void searchMensItem(String item) throws IOException, InterruptedException {
+		dropDownHelper = new DropDownHelper(driver);
+		dropDownHelper.selectUsingVisibleText(selectCategoryFromDropDown, "Men's Fashion");
+		search.clear();
 		search.sendKeys(item);
 		Thread.sleep(6000);
 		search.sendKeys(Keys.ENTER);
@@ -563,16 +571,21 @@ public class Mens {
 		navigationMenu = new NavigationMenu(driver);
 		boolean flag = true;
 		Thread.sleep(2000);
-		searchMensItem("T-shirts");
 		clickOnMoreButton();
 		Thread.sleep(2000);
 		clickOnBrandFilter();
 		clickOncheckBox(brand);
 		clickOnCloseFilter();
 		Thread.sleep(2000);
-		clickOnSizeFilter();
-		clickOncheckBox(size);
-		clickOnCloseFilter();
+		
+		try {
+			clickOnSizeFilter();
+			clickOncheckBox(size);
+			clickOnCloseFilter();
+		} catch (Exception e) {
+			
+			e.printStackTrace();
+		}
 		Thread.sleep(2000);
 		clickOnMaterialFilter();
 		clickOncheckBox(material);
@@ -593,13 +606,18 @@ public class Mens {
 		clickOnNeckTypeFilter();
 		clickOncheckBox(neckType);
 		clickOnCloseFilter();
-		
+		String generalDetailsSize="";
 		List<WebElement> productList = productDetails;
-		//for (int j = 2; j <= searchResultPageCount(); j++) {
+		for (int j = 2; j <= searchResultPageCount(); j++) {
 			for (int i = 0; i <= productList.size() - 1; i++) {
 				productList.get(i).click();
 				String generalDetailsBrand = productGeneralDetails("Brand").getText();
-				String generalDetailsSize = productGeneralDetails("Size").getText();
+				try {
+					generalDetailsSize = productGeneralDetails("Size").getText();
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 				String generalDetailsMaterial = productGeneralDetails("Material").getText();
 				String generalDetailsColor = productGeneralDetails("Color").getText();
 				String generalDetailsPattern = productGeneralDetails("Pattern").getText();
@@ -622,9 +640,9 @@ public class Mens {
 
 				navigationMenu.navigateBackward();
 			}
-			//clickOnNext(j);
-			//Thread.sleep(2000);
-		//}
+			clickOnNext(j);
+			Thread.sleep(2000);
+		}
 		return flag;
 	}
 

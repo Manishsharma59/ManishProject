@@ -67,6 +67,7 @@ public class HomePage {
 	}
 	
 	public Mens searchMensItem(String item) throws IOException, InterruptedException {
+		search.clear();
 		search.sendKeys(item);
 		Thread.sleep(6000);
 		search.sendKeys(Keys.ENTER);

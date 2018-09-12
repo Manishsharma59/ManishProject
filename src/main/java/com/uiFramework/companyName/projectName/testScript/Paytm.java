@@ -177,7 +177,7 @@ public class Paytm extends TestBase{
 		paytmMall = homePage.clickOnMenCategory();
 		mens = paytmMall.clickOnTShirts();
 		mens.searchMensItem("T-Shirts");
-		boolean flag = mens.checkGeneralOverview("RIGO", "XXL", "Cotton", "Black", "Solid", "Full Sleeves", "Round Neck");
+		boolean flag = mens.checkGeneralOverview("RIGO", "XXL", "Cotton", "Green", "Solid", "Full Sleeves", "Round Neck");
 		AssertionHelper.verifyTrue(flag);
 	}
 	
