@@ -1,8 +1,5 @@
 package com.uiFramework.companyName.projectName.pageObject;
 
-import java.awt.AWTException;
-import java.awt.Robot;
-import java.awt.event.KeyEvent;
 import java.io.IOException;
 import java.util.List;
 
@@ -28,10 +25,7 @@ public class Mens {
 	WaitHelper wait;
 	FrameHelper frame;
 	NavigationMenu navigationMenu;
-	Robot robo;
 	
-	public static final String TOPWEARSTORE_CATEGORY = "Topwear Store";
-	public static final String TSHIRTS_SUBCATEGORY = "T-Shirts";
 	public static final String PRICE_FILTER = "Price";
 	public static final String Brand_FILTER = "Brand";
 	public static final String Size_FILTER = "Size";
@@ -103,9 +97,6 @@ public class Mens {
 	@FindBy(css = "button._2CNI")
 	WebElement buy;
 	
-	public WebElement category(String category) {
-		return driver.findElement(By.xpath("//*[text()='" +category+ "']"));
-	}
 	
 	  public WebElement filter(String filter) { 			
 				               return driver.findElement(By.xpath("//*[text()='" + filter + "']")); 			
@@ -119,23 +110,13 @@ public class Mens {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 		wait = new WaitHelper(driver);
-		//wait.waitForElement(orders, ObjectReader.reader.getImplicitWait());
+		wait.waitForElement(search, ObjectReader.reader.getImplicitWait());
 		log.info("Mens class Object created");
 		new TestBase().getNavigationScreen(driver);	
 	}
 	
 	
-	public void clickOnTopWear() {
-		log.info("Clicking on Top Wear");
-		category(TOPWEARSTORE_CATEGORY).click();
-		TestBase.logExtentReport("Clicked on Top Wear");
-	}
 	
-	public void clickOnTShirts() {
-		log.info("Clicking on TShirts");
-		category(TSHIRTS_SUBCATEGORY).click();
-		TestBase.logExtentReport("Clicked on TShirts");
-	}
 	
 	public void clickOnPriceFilter() {
 		log.info("Clicking on price filter");
@@ -287,11 +268,9 @@ public class Mens {
 		}
 	}
 	
-	public void searchMensItem(String item) throws IOException, InterruptedException, AWTException {
+	public void searchMensItem(String item) throws IOException, InterruptedException {
 		search.sendKeys(item);
 		Thread.sleep(6000);
-		robo = new Robot();
-		robo.keyPress(KeyEvent.VK_ENTER);
 		search.sendKeys(Keys.ENTER);
 		wait.waitForElement(filter(Brand_FILTER), ObjectReader.reader.getImplicitWait());
 		
@@ -330,8 +309,6 @@ public class Mens {
 	}
 	
 	public boolean sortedLowPrice() throws InterruptedException, IOException {
-		clickOnTopWear();
-		clickOnTShirts();
 		NavigationMenu navigationMenu = new NavigationMenu(driver);
 		Thread.sleep(2000);
 		navigationMenu.mouseOverCss("div._32-f");
@@ -355,8 +332,6 @@ public class Mens {
 	}
 	
 	public boolean sortedHighPrice() throws InterruptedException, IOException {
-		clickOnTopWear();
-		clickOnTShirts();
 		NavigationMenu navigationMenu = new NavigationMenu(driver);
 		Thread.sleep(2000);
 		navigationMenu.mouseOverCss("div._32-f");
@@ -381,8 +356,7 @@ public class Mens {
 	
 	
 	public boolean checkPriceFilterRange(String min,String max) throws InterruptedException {
-		clickOnTopWear();
-		clickOnTShirts();
+		
 		clickOnPriceFilter();
 		Thread.sleep(2000);
 		enterMinPrice(min);
@@ -407,8 +381,7 @@ public class Mens {
 	
 	public boolean checkBrandFilter(String brand) throws InterruptedException {
 		boolean flag = true;
-		clickOnTopWear();
-		clickOnTShirts();
+		
 		Thread.sleep(2000);
 		clickOnBrandFilter();
 		Thread.sleep(2000);
@@ -434,8 +407,7 @@ public class Mens {
 	
 	public boolean checkBrandFilter(String brand1, String brand2, String brand3) throws InterruptedException {
 		boolean flag = true;
-		clickOnTopWear();
-		clickOnTShirts();
+		
 		Thread.sleep(2000);
 		clickOnBrandFilter();
 		Thread.sleep(2000);
@@ -473,8 +445,7 @@ public class Mens {
 		int priceAfterDicount;
 		int discountPercentage;
 		int j=0;
-		clickOnTopWear();
-		clickOnTShirts();
+		
 		Thread.sleep(2000);
 		boolean flag = true;
 		List<WebElement> ruppeeList = listOfPriceWebelements;
@@ -515,8 +486,7 @@ public class Mens {
 	public boolean checkSizeFilter(int size1, int size2, int size3) throws InterruptedException, IOException {
 		navigationMenu = new NavigationMenu(driver);
 		boolean flag = true;
-		clickOnTopWear();
-		clickOnTShirts();
+		
 		Thread.sleep(2000);
 		clickOnSizeFilter();
 		Thread.sleep(2000);
@@ -556,8 +526,7 @@ public class Mens {
 	public boolean checkSizeFilter(String size1, String size2, String size3) throws InterruptedException, IOException {
 		navigationMenu = new NavigationMenu(driver);
 		boolean flag = true;
-		clickOnTopWear();
-		clickOnTShirts();
+
 		Thread.sleep(2000);
 		clickOnSizeFilter();
 		Thread.sleep(2000);
@@ -590,10 +559,9 @@ public class Mens {
 		return flag;
 	}
 
-	public boolean checkGeneralOverview(String brand,String size,String material,String color,String pattern, String sleeve,String neckType) throws InterruptedException, IOException, AWTException {
+	public boolean checkGeneralOverview(String brand,String size,String material,String color,String pattern, String sleeve,String neckType) throws InterruptedException, IOException {
 		navigationMenu = new NavigationMenu(driver);
 		boolean flag = true;
-		clickOnTShirts();
 		Thread.sleep(2000);
 		searchMensItem("T-shirts");
 		clickOnMoreButton();
@@ -660,7 +628,7 @@ public class Mens {
 		return flag;
 	}
 
-	public void clickOnItem(int itemNumber) {
+	public void selectItem(int itemNumber) {
 		listOfPriceWebelements.get(itemNumber).click();
 	}
 	

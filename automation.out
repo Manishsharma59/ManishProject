@@ -5154,3 +5154,256 @@ Session ID: b104e4e88602c6311fb2afb85ac1c7dc
 2018 09 11 16 09 941 INFO  WaitHelper : 28 - WaitHelper object created
 2018 09 11 16 09 941 INFO  Cart : 36 - Cart object created
 2018 09 11 16 09 941 INFO  Cart : 41 - Click on Continue Shopping
+2018 09 12 09 09 58 INFO  TestBase : 139 - Initialize web driver : 307400933
+2018 09 12 09 09 77 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 09 09 78 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 12 09 09 84 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 12 09 09 87 INFO  WaitHelper : 48 - page is loaded
+2018 09 12 09 09 252 INFO  TestBase : 69 - **************Started***************
+2018 09 12 09 09 818 INFO  TestBase : 187 - Opening url https://paytm.com/
+2018 09 12 09 09 09 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 09 09 43 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (8400ed080e8d47a18a6b8f7b0578e13a)] -> css selector: div._3ac-] for 10 seconds
+2018 09 12 09 09 115 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 09 09 116 INFO  HomePage : 58 - HomePage Object created
+2018 09 12 09 09 116 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 09 09 718 INFO  TestBase : 139 - Initialize web driver : 307400933
+2018 09 12 09 09 720 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 09 09 721 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 12 09 09 727 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 12 09 09 730 INFO  WaitHelper : 48 - page is loaded
+2018 09 12 09 09 881 INFO  TestBase : 69 - **************Started***************
+2018 09 12 09 09 101 INFO  TestBase : 187 - Opening url https://paytm.com/
+2018 09 12 09 09 116 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 09 09 137 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (b2ea74342849f6a4578003f89b5418ea)] -> css selector: div._3ac-] for 10 seconds
+2018 09 12 09 09 173 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 09 09 173 INFO  HomePage : 58 - HomePage Object created
+2018 09 12 09 09 173 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 09 09 455 INFO  HomePage : 82 - Click on Men Category
+2018 09 12 09 09 508 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 09 09 509 INFO  Mens : 123 - Mens class Object created
+2018 09 12 09 09 509 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 09 09 892 INFO  Mens : 135 - Clicking on TShirts
+2018 09 12 09 09 442 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (b2ea74342849f6a4578003f89b5418ea)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 09 09 455 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 09 09 574 INFO  Mens : 326 - click on buy
+2018 09 12 09 09 123 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 09 09 123 INFO  Cart : 36 - Cart object created
+2018 09 12 09 09 124 INFO  Cart : 41 - Click on Continue Shopping
+2018 09 12 09 09 821 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 09 09 843 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (b2ea74342849f6a4578003f89b5418ea)] -> css selector: div._3ac-] for 10 seconds
+2018 09 12 09 09 868 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 09 09 868 INFO  HomePage : 58 - HomePage Object created
+2018 09 12 09 09 868 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 09 09 285 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 09 09 285 INFO  Mens : 123 - Mens class Object created
+2018 09 12 09 09 285 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 09 09 367 INFO  TestBase : 139 - Initialize web driver : 307400933
+2018 09 12 09 09 370 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 09 09 371 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 12 09 09 378 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 12 09 09 381 INFO  WaitHelper : 48 - page is loaded
+2018 09 12 09 09 533 INFO  TestBase : 69 - **************Started***************
+2018 09 12 09 09 808 INFO  TestBase : 187 - Opening url https://paytm.com/
+2018 09 12 09 09 826 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 09 09 849 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (d416f695c5e655f15eb2be3fd1ddc8fb)] -> css selector: div._3ac-] for 10 seconds
+2018 09 12 09 09 879 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 09 09 880 INFO  HomePage : 58 - HomePage Object created
+2018 09 12 09 09 880 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 09 09 166 INFO  HomePage : 82 - Click on Men Category
+2018 09 12 09 09 223 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 09 09 223 INFO  Mens : 123 - Mens class Object created
+2018 09 12 09 09 225 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 09 09 584 INFO  Mens : 135 - Clicking on TShirts
+2018 09 12 09 09 149 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (d416f695c5e655f15eb2be3fd1ddc8fb)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 09 09 183 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 09 09 290 INFO  Mens : 326 - click on buy
+2018 09 12 09 09 674 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 09 09 674 INFO  Cart : 36 - Cart object created
+2018 09 12 09 09 675 INFO  Cart : 41 - Click on Continue Shopping
+2018 09 12 09 09 31 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 09 09 59 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (d416f695c5e655f15eb2be3fd1ddc8fb)] -> css selector: div._3ac-] for 10 seconds
+2018 09 12 09 09 86 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 09 09 87 INFO  HomePage : 58 - HomePage Object created
+2018 09 12 09 09 87 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 09 09 679 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 09 09 680 INFO  Mens : 123 - Mens class Object created
+2018 09 12 09 09 680 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 09 09 173 INFO  Mens : 326 - click on buy
+2018 09 12 09 09 528 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 09 09 529 INFO  Cart : 36 - Cart object created
+2018 09 12 09 09 529 INFO  Cart : 48 - Click on remove
+2018 09 12 09 09 79 INFO  Cart : 48 - Click on remove
+2018 09 12 10 09 403 INFO  TestBase : 139 - Initialize web driver : 307400933
+2018 09 12 10 09 407 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 10 09 407 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 12 10 09 414 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 12 10 09 418 INFO  WaitHelper : 48 - page is loaded
+2018 09 12 10 09 600 INFO  TestBase : 69 - **************Started***************
+2018 09 12 10 09 676 INFO  TestBase : 187 - Opening url https://paytm.com/
+2018 09 12 10 09 696 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 10 09 713 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (b79ada285e4e2d41fe5ff776318c90a2)] -> css selector: div._3ac-] for 10 seconds
+2018 09 12 10 09 739 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 10 09 740 INFO  HomePage : 58 - HomePage Object created
+2018 09 12 10 09 740 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 10 09 974 INFO  HomePage : 82 - Click on Men Category
+2018 09 12 10 09 758 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 10 09 759 INFO  Mens : 123 - Mens class Object created
+2018 09 12 10 09 759 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 10 09 145 INFO  Mens : 135 - Clicking on TShirts
+2018 09 12 10 09 32 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (b79ada285e4e2d41fe5ff776318c90a2)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 10 09 69 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 10 09 178 INFO  Mens : 326 - click on buy
+2018 09 12 10 09 38 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 10 09 38 INFO  Cart : 42 - Cart object created
+2018 09 12 10 09 39 INFO  Cart : 47 - Click on Continue Shopping
+2018 09 12 10 09 721 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 10 09 740 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (b79ada285e4e2d41fe5ff776318c90a2)] -> css selector: div._3ac-] for 10 seconds
+2018 09 12 10 09 768 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 10 09 769 INFO  HomePage : 58 - HomePage Object created
+2018 09 12 10 09 769 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 10 09 348 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 10 09 348 INFO  Mens : 123 - Mens class Object created
+2018 09 12 10 09 349 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 10 09 953 INFO  Mens : 326 - click on buy
+2018 09 12 10 09 369 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 10 09 370 INFO  Cart : 42 - Cart object created
+2018 09 12 10 09 370 INFO  Cart : 54 - Click on remove
+2018 09 12 10 09 569 INFO  Cart : 60 - Click on remove yes
+2018 09 12 10 09 651 INFO  Cart : 54 - Click on remove
+2018 09 12 10 09 736 INFO  Cart : 60 - Click on remove yes
+2018 09 12 10 09 967 INFO  TestBase : 139 - Initialize web driver : 307400933
+2018 09 12 10 09 970 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 10 09 970 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 12 10 09 978 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 12 10 09 981 INFO  WaitHelper : 48 - page is loaded
+2018 09 12 10 09 161 INFO  TestBase : 69 - **************Started***************
+2018 09 12 10 09 534 INFO  TestBase : 187 - Opening url https://paytm.com/
+2018 09 12 10 09 557 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 10 09 575 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (5774ae82f868057242161b4d836e2e3e)] -> css selector: div._3ac-] for 10 seconds
+2018 09 12 10 09 601 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 10 09 601 INFO  HomePage : 58 - HomePage Object created
+2018 09 12 10 09 602 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 10 09 858 INFO  HomePage : 82 - Click on Men Category
+2018 09 12 10 09 213 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 10 09 213 INFO  Mens : 123 - Mens class Object created
+2018 09 12 10 09 214 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 10 09 601 INFO  Mens : 135 - Clicking on TShirts
+2018 09 12 10 09 01 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (5774ae82f868057242161b4d836e2e3e)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 10 09 38 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 10 09 140 INFO  Mens : 326 - click on buy
+2018 09 12 10 09 634 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 10 09 634 INFO  Cart : 47 - Cart object created
+2018 09 12 10 09 635 INFO  Cart : 52 - Click on Continue Shopping
+2018 09 12 10 09 38 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 10 09 55 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (5774ae82f868057242161b4d836e2e3e)] -> css selector: div._3ac-] for 10 seconds
+2018 09 12 10 09 78 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 10 09 79 INFO  HomePage : 58 - HomePage Object created
+2018 09 12 10 09 79 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 10 09 575 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 10 09 576 INFO  Mens : 123 - Mens class Object created
+2018 09 12 10 09 577 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 10 09 717 INFO  Mens : 326 - click on buy
+2018 09 12 10 09 405 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 10 09 405 INFO  Cart : 47 - Cart object created
+2018 09 12 10 09 406 INFO  Cart : 59 - Click on remove
+2018 09 12 10 09 518 INFO  Cart : 65 - Click on remove yes
+2018 09 12 10 09 590 INFO  Cart : 59 - Click on remove
+2018 09 12 10 09 667 INFO  Cart : 65 - Click on remove yes
+2018 09 12 11 09 527 INFO  TestBase : 139 - Initialize web driver : 307400933
+2018 09 12 11 09 593 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 593 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 12 11 09 599 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 12 11 09 602 INFO  WaitHelper : 48 - page is loaded
+2018 09 12 11 09 759 INFO  TestBase : 69 - **************Started***************
+2018 09 12 11 09 206 INFO  TestBase : 187 - Opening url https://paytm.com/
+2018 09 12 11 09 238 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 258 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0bf5b991ca1d9db6e76acf5e3cffa7e9)] -> css selector: div._3ac-] for 10 seconds
+2018 09 12 11 09 290 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 11 09 290 INFO  HomePage : 58 - HomePage Object created
+2018 09 12 11 09 290 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 11 09 521 INFO  HomePage : 82 - Click on Men Category
+2018 09 12 11 09 562 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 563 INFO  PaytmMall : 33 - PaytmMall Page Object created
+2018 09 12 11 09 563 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 11 09 908 INFO  PaytmMall : 45 - Clicking on TShirts
+2018 09 12 11 09 519 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 519 INFO  Mens : 118 - Mens class Object created
+2018 09 12 11 09 520 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 11 09 941 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0bf5b991ca1d9db6e76acf5e3cffa7e9)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 11 09 954 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 11 09 955 INFO  HomePage : 30 - NavigationMenu object created
+2018 09 12 11 09 956 INFO  HomePage : 44 - doing mouse over div._32-f
+2018 09 12 11 09 10 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 11 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0bf5b991ca1d9db6e76acf5e3cffa7e9)] -> css selector: div._32-f] for 10 seconds
+2018 09 12 11 09 35 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 11 09 186 INFO  HomePage : 54 - clicking on option Low Price
+2018 09 12 11 09 207 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 207 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (0bf5b991ca1d9db6e76acf5e3cffa7e9)] -> xpath: //*[text()='Low Price']] for 10 seconds
+2018 09 12 11 09 225 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 11 09 927 INFO  TestBase : 139 - Initialize web driver : 307400933
+2018 09 12 11 09 935 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 936 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 12 11 09 940 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 12 11 09 944 INFO  WaitHelper : 48 - page is loaded
+2018 09 12 11 09 133 INFO  TestBase : 69 - **************Started***************
+2018 09 12 11 09 62 INFO  TestBase : 187 - Opening url https://paytm.com/
+2018 09 12 11 09 79 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 98 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (cd13a1c3e5f9e87027f331f18f078988)] -> css selector: div._3ac-] for 10 seconds
+2018 09 12 11 09 124 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 11 09 124 INFO  HomePage : 58 - HomePage Object created
+2018 09 12 11 09 125 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 11 09 394 INFO  HomePage : 82 - Click on Men Category
+2018 09 12 11 09 430 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 430 INFO  PaytmMall : 43 - PaytmMall Page Object created
+2018 09 12 11 09 430 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 11 09 792 INFO  PaytmMall : 55 - Clicking on TShirts
+2018 09 12 11 09 413 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 414 INFO  Mens : 118 - Mens class Object created
+2018 09 12 11 09 414 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 11 09 834 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (cd13a1c3e5f9e87027f331f18f078988)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 11 09 847 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 11 09 977 INFO  Mens : 311 - click on buy
+2018 09 12 11 09 642 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 642 INFO  Cart : 47 - Cart object created
+2018 09 12 11 09 643 INFO  Cart : 52 - Click on Continue Shopping
+2018 09 12 11 09 361 INFO  TestBase : 139 - Initialize web driver : 307400933
+2018 09 12 11 09 364 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 364 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 12 11 09 371 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 12 11 09 375 INFO  WaitHelper : 48 - page is loaded
+2018 09 12 11 09 566 INFO  TestBase : 69 - **************Started***************
+2018 09 12 11 09 354 INFO  TestBase : 187 - Opening url https://paytm.com/
+2018 09 12 11 09 367 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 384 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (df890345bfe8ba19776ab9b3c53c4965)] -> css selector: div._3ac-] for 10 seconds
+2018 09 12 11 09 410 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 11 09 411 INFO  HomePage : 58 - HomePage Object created
+2018 09 12 11 09 411 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 11 09 666 INFO  HomePage : 82 - Click on Men Category
+2018 09 12 11 09 791 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 792 INFO  PaytmMall : 43 - PaytmMall Page Object created
+2018 09 12 11 09 792 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 11 09 129 INFO  PaytmMall : 55 - Clicking on TShirts
+2018 09 12 11 09 791 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 792 INFO  Mens : 118 - Mens class Object created
+2018 09 12 11 09 792 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 11 09 500 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (df890345bfe8ba19776ab9b3c53c4965)] -> xpath: //*[text()='Brand']] for 10 seconds
+2018 09 12 11 09 548 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 11 09 669 INFO  Mens : 311 - click on buy
+2018 09 12 11 09 36 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 37 INFO  Cart : 47 - Cart object created
+2018 09 12 11 09 38 INFO  Cart : 52 - Click on Continue Shopping
+2018 09 12 11 09 946 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 946 INFO  PaytmMall : 43 - PaytmMall Page Object created
+2018 09 12 11 09 946 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 11 09 442 INFO  WaitHelper : 155 - Waiting for element [[ChromeDriver: chrome on XP (df890345bfe8ba19776ab9b3c53c4965)] -> xpath: //input[@type='search']] for 10 seconds
+2018 09 12 11 09 470 INFO  WaitHelper : 158 - Element is visisble now
+2018 09 12 11 09 471 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 471 INFO  Mens : 118 - Mens class Object created
+2018 09 12 11 09 472 INFO  TestBase : 176 - Capturing ui navigation screen..
+2018 09 12 11 09 101 INFO  Mens : 311 - click on buy
+2018 09 12 11 09 420 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 12 11 09 420 INFO  Cart : 47 - Cart object created
+2018 09 12 11 09 420 INFO  Cart : 59 - Click on remove
+2018 09 12 11 09 31 INFO  Cart : 65 - Click on remove yes
+2018 09 12 11 09 143 INFO  Cart : 59 - Click on remove
+2018 09 12 11 09 214 INFO  Cart : 65 - Click on remove yes
