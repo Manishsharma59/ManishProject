@@ -26,7 +26,6 @@ public class PaytmMall {
 	
 	public static final String TOPWEARSTORE_CATEGORY = "Topwear Store";
 	public static final String TSHIRTS_SUBCATEGORY = "T-Shirts";
-	public static final String JEANS_SUBCATEGORY = "Jeans";
 	
 	public WebElement category(String category) {
 		return driver.findElement(By.xpath("//*[text()='" +category+ "']"));
@@ -60,7 +59,13 @@ public class PaytmMall {
 		TestBase.logExtentReport("Clicked on TShirts");
 		return new Mens(driver);
 	}
-	
+	/**
+	 * This method will select the category from category drop down and searching of item in that category
+	 * @param item
+	 * @return
+	 * @throws IOException
+	 * @throws InterruptedException
+	 */
 	public Mens searchMensItem(String item) throws IOException, InterruptedException {
 		dropDownHelper = new DropDownHelper(driver);
 		dropDownHelper.selectUsingVisibleText(selectCategoryFromDropDown, "Men's Fashion");
