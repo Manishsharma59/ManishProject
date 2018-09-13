@@ -1,6 +1,8 @@
 package com.uiFramework.companyName.projectName.pageObject;
 
-
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
@@ -30,6 +32,7 @@ public class HomePage {
 	private Logger log = LoggerHelper.getLogger(HomePage.class);
 	WaitHelper wait;
 	FrameHelper frame;
+	Robot robo;
 	
 	@FindBy(css="div._3ac-")
 	public WebElement logInSignUp;
@@ -51,7 +54,7 @@ public class HomePage {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 		wait = new WaitHelper(driver);
-		wait.waitForElement(search, ObjectReader.reader.getImplicitWait());
+		wait.waitForElement(logInSignUp, ObjectReader.reader.getImplicitWait());
 		log.info("HomePage Object created");
 		new TestBase().getNavigationScreen(driver);
 		
@@ -66,24 +69,23 @@ public class HomePage {
 		return new LoginPage(driver);
 	}
 	
-	public Mens searchMensItem(String item) throws IOException, InterruptedException {
-		search.clear();
+	public Mens searchMensItem(String item) throws IOException, InterruptedException, AWTException {
 		search.sendKeys(item);
 		Thread.sleep(6000);
+		robo = new Robot();
+		robo.keyPress(KeyEvent.VK_ENTER);
 		search.sendKeys(Keys.ENTER);
 		return new Mens(driver);
 	}
 	
-	public PaytmMall clickOnMenCategory() throws IOException {
-		log.info("Click on Men Category");
+	public Mens clickOnMenCategory() throws IOException {
 		superCategoryElement(MEN).click();
-		TestBase.logExtentReport("Click on Men Category");
-		return new PaytmMall(driver);
+		return new Mens(driver);
 	}
 	
-	public PaytmMall clickOnWomenCategory() throws IOException {
+	public Womens clickOnWomenCategory() throws IOException {
 		superCategoryElement(WOMEN);
-		return new PaytmMall(driver);
+		return new Womens(driver);
 	}
 
 }
