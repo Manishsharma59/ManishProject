@@ -26,6 +26,7 @@ public class PaytmMall {
 	
 	public static final String TOPWEARSTORE_CATEGORY = "Topwear Store";
 	public static final String TSHIRTS_SUBCATEGORY = "T-Shirts";
+	public static final String JEANS_SUBCATEGORY = "Jeans";
 	
 	public WebElement category(String category) {
 		return driver.findElement(By.xpath("//*[text()='" +category+ "']"));
