@@ -1,10 +1,12 @@
 package com.uiFramework.companyName.projectName.pageObject;
 
+
 import java.io.IOException;
 
 import org.apache.log4j.Logger;
 import org.apache.poi.xssf.usermodel.helpers.HeaderFooterHelper;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -28,6 +30,7 @@ public class HomePage {
 	private Logger log = LoggerHelper.getLogger(HomePage.class);
 	WaitHelper wait;
 	FrameHelper frame;
+	
 	@FindBy(css="div._3ac-")
 	public WebElement logInSignUp;
 	
@@ -35,15 +38,20 @@ public class HomePage {
 	@FindBy(xpath="//*[contains(text(),'Log In/Sign Up')]")
 	public WebElement logInSignUpText;
 	
-	public WebElement CategoryElement(String categoryName) {
+	@FindBy(xpath="//input[@type='search']")
+	public WebElement search;
+	
+	public WebElement superCategoryElement(String categoryName) {
 		return driver.findElement(By.xpath("//*[text()='"+categoryName+"']"));
 	}
+	
+	
 	
 	public HomePage(WebDriver driver) throws IOException {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 		wait = new WaitHelper(driver);
-		wait.waitForElement(logInSignUp, ObjectReader.reader.getImplicitWait());
+		wait.waitForElement(search, ObjectReader.reader.getImplicitWait());
 		log.info("HomePage Object created");
 		new TestBase().getNavigationScreen(driver);
 		
@@ -58,14 +66,24 @@ public class HomePage {
 		return new LoginPage(driver);
 	}
 	
-	public Mens clickOnCategory(String categoryName) throws IOException {
-		CategoryElement(categoryName).click();
+	public Mens searchMensItem(String item) throws IOException, InterruptedException {
+		search.clear();
+		search.sendKeys(item);
+		Thread.sleep(6000);
+		search.sendKeys(Keys.ENTER);
 		return new Mens(driver);
 	}
 	
-	public Womens clickOnWomenCategory() throws IOException {
-		CategoryElement(WOMEN);
-		return new Womens(driver);
+	public PaytmMall clickOnMenCategory() throws IOException {
+		log.info("Click on Men Category");
+		superCategoryElement(MEN).click();
+		TestBase.logExtentReport("Click on Men Category");
+		return new PaytmMall(driver);
+	}
+	
+	public PaytmMall clickOnWomenCategory() throws IOException {
+		superCategoryElement(WOMEN);
+		return new PaytmMall(driver);
 	}
 
 }

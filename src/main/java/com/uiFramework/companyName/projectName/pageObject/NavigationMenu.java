@@ -21,8 +21,6 @@ public class NavigationMenu {
 	private Logger log = LoggerHelper.getLogger(HomePage.class);
 	WaitHelper wait;
 	
-	@FindBy(name="menuOption")
-	public WebElement menuOption;
 	
 	public NavigationMenu(WebDriver driver) throws IOException {
 		this.driver=driver;
@@ -57,5 +55,15 @@ public class NavigationMenu {
 		wait = new WaitHelper(driver);
 		wait.waitForElement(ele, 10);
 		ele.click();
+	}
+	
+public void navigateBackward() {
+		
+		log.info("Doing navigate backward");
+		TestBase.logExtentReport("Doing navigate backward");
+		//WebElement ele = driver.findElement(By.xpath("//*[contains(text()='"+xpath+"']"));
+		//wait = new WaitHelper(driver);
+		//wait.waitForElement(ele, 10);
+		driver.navigate().back();
 	}
 }
