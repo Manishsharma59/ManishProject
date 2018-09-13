@@ -18,7 +18,7 @@ import com.uiFramework.companyName.projectName.testbase.TestBase;
 public class NavigationMenu {
 	
 	private WebDriver driver;
-	private Logger log = LoggerHelper.getLogger(HomePage.class);
+	private Logger log = LoggerHelper.getLogger(NavigationMenu.class);
 	WaitHelper wait;
 	
 	@FindBy(name="menuOption")

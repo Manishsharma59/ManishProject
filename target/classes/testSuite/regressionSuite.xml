@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+	<listeners>
+		<!-- <listener class-name="com.uiFramework.companyName.projectName.helper.listener.RetryListener"></listener> -->
+		<listener class-name="com.uiFramework.companyName.projectName.helper.listener.ExtentListener"></listener>
+	</listeners>
+	<test name="Paytm">
+		<classes>
+			<class name="com.uiFramework.companyName.projectName.testScript.Paytm">
+			<methods>
+				<exclude name="verifyPriceListSortedByLowPrice" />
+				<include name="verifyPriceListSortedByHighPrice" />
+			</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

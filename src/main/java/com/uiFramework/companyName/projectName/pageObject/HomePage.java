@@ -56,7 +56,7 @@ public class HomePage {
 		wait = new WaitHelper(driver);
 		wait.waitForElement(logInSignUp, ObjectReader.reader.getImplicitWait());
 		log.info("HomePage Object created");
-		new TestBase().getNavigationScreen(driver);
+		new TestBase().,(driver);
 		
 	}
 
