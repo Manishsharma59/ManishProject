@@ -53,7 +53,7 @@ public class HomePage {
 		wait = new WaitHelper(driver);
 		wait.waitForElement(search, ObjectReader.reader.getImplicitWait());
 		log.info("HomePage Object created");
-		new TestBase().,(driver);
+		new TestBase().getNavigationScreen(driver);
 		
 	}
 
