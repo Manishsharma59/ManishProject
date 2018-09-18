@@ -120,9 +120,6 @@ public class Mens {
 		new TestBase().getNavigationScreen(driver);	
 	}
 	
-	
-	
-	
 	public void clickOnPriceFilter() {
 		log.info("Clicking on price filter");
 		filter(PRICE_FILTER).click();

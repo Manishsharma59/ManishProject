@@ -66,7 +66,7 @@ public class VerificationHelper {
 	}
 	
 	public String getTitle() {
-		log.info("Pahe title is " +driver.getTitle());
+		log.info("Page title is " +driver.getTitle());
 		return driver.getTitle();
 	}
 

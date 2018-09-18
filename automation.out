@@ -5897,3 +5897,44 @@ Session ID: b104e4e88602c6311fb2afb85ac1c7dc
 2018 09 12 16 09 598 INFO  Cart : 73 - Click on remove yes
 2018 09 12 16 09 715 INFO  Cart : 67 - Click on remove
 2018 09 12 16 09 786 INFO  Cart : 73 - Click on remove yes
+2018 09 18 12 09 312 INFO  TestBase : 140 - Initialize web driver : 1465346452
+2018 09 18 12 09 349 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 18 12 09 350 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 18 12 09 366 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 18 12 09 382 INFO  WaitHelper : 48 - page is loaded
+2018 09 18 12 09 852 INFO  TestBase : 140 - Initialize web driver : 1465346452
+2018 09 18 12 09 863 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 18 12 09 863 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 18 12 09 880 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 18 12 09 895 INFO  WaitHelper : 48 - page is loaded
+2018 09 18 12 09 101 INFO  TestBase : 194 - Excel Location C:\Users\msharma13\git\ManishProject1\ManishProject\src/main/resources/configfile/Book1.xlsx
+2018 09 18 12 09 907 INFO  TestBase : 140 - Initialize web driver : 1465346452
+2018 09 18 12 09 912 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 18 12 09 913 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 18 12 09 929 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 18 12 09 945 INFO  WaitHelper : 48 - page is loaded
+2018 09 18 12 09 163 INFO  TestBase : 194 - Excel Location C:\Users\msharma13\git\ManishProject1\ManishProject\src//main//resources//configfile//Book1.xlsx
+2018 09 18 12 09 90 INFO  TestBase : 140 - Initialize web driver : 1736458419
+2018 09 18 12 09 126 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 18 12 09 127 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 18 12 09 143 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 18 12 09 159 INFO  WaitHelper : 48 - page is loaded
+2018 09 18 12 09 432 INFO  TestBase : 140 - Initialize web driver : 1465346452
+2018 09 18 12 09 526 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 18 12 09 526 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 18 12 09 557 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 18 12 09 573 INFO  WaitHelper : 48 - page is loaded
+2018 09 18 12 09 757 INFO  TestBase : 194 - Excel Location C:\Users\msharma13\git\ManishProject1\ManishProject\src\main\resources\configfile\Book1.xlsx
+2018 09 18 12 09 420 INFO  TestBase : 140 - Initialize web driver : 1465346452
+2018 09 18 12 09 444 INFO  WaitHelper : 28 - WaitHelper object created
+2018 09 18 12 09 445 INFO  WaitHelper : 37 - ImplicitWait has been set to 10 SECONDS
+2018 09 18 12 09 461 INFO  WaitHelper : 46 - waiting for page to load for : 30 seconds
+2018 09 18 12 09 476 INFO  WaitHelper : 48 - page is loaded
+2018 09 18 12 09 653 INFO  TestBase : 194 - Excel Location C:\Users\msharma13\git\ManishProject1\ManishProject\src\main\resources\excels\Book1.xlsx
+2018 09 18 12 09 606 INFO  TestBase : 70 - **************Started***************
+2018 09 18 12 09 277 INFO  TestBase : 70 - **************Started***************
+2018 09 18 12 09 555 INFO  TestBase : 70 - **************Started***************
+2018 09 18 12 09 817 INFO  TestBase : 70 - **************Started***************
+2018 09 18 12 09 118 INFO  TestBase : 70 - **************Started***************
+2018 09 18 12 09 355 INFO  TestBase : 70 - **************Started***************
+2018 09 18 12 09 635 INFO  TestBase : 70 - **************Started***************
