@@ -33,6 +33,7 @@ import com.uiFramework.companyName.projectName.helper.browserConfiguration.Firef
 import com.uiFramework.companyName.projectName.helper.browserConfiguration.IExplorerBrowser;
 import com.uiFramework.companyName.projectName.helper.browserConfiguration.config.ObjectReader;
 import com.uiFramework.companyName.projectName.helper.browserConfiguration.config.PropertyReader;
+import com.uiFramework.companyName.projectName.helper.excel.ExcelHelper;
 import com.uiFramework.companyName.projectName.helper.logger.LoggerHelper;
 import com.uiFramework.companyName.projectName.helper.resource.ResouceHelper;
 import com.uiFramework.companyName.projectName.helper.wait.WaitHelper;
@@ -55,12 +56,12 @@ public class TestBase {
 		ObjectReader.reader = new PropertyReader();
 		reportDirectory = new File(ResouceHelper.getResources("src\\main\\resources\\Screenshots"));
 		setUpDriver(ObjectReader.reader.getBrowserType());
-		
+		test = extent.createTest(getClass().getSimpleName());
 	}
 	@BeforeClass
 	public void beforeClass() {
 		
-		test = extent.createTest(getClass().getSimpleName());
+		
 	}
 	
 	@BeforeMethod
@@ -102,7 +103,7 @@ public class TestBase {
 			switch(btype) {
 			case Chrome:
 				//get object of chrome browser class
-				ChromeBrowser chrome = ChromeBrowser.class.newInstance();
+				ChromeBrowser chrome = ChromeBrowser.class.newInstance();//this is equal to new ChromeBrowser();
 				ChromeOptions option = chrome.getChromeOptions();
 				return chrome.getChromeDriver(option);
 				
@@ -188,4 +189,11 @@ public class TestBase {
 		logExtentReport("Opening url "+ObjectReader.reader.getURL());
 	}
 
+	public Object[][] getExcelData(String excelName, String sheetName){
+		String excelLocation = ResouceHelper.getResources("src\\main\\resources\\excels\\"+excelName);
+		log.info("Excel Location "+excelLocation);
+		ExcelHelper excelHelper = new ExcelHelper();
+		Object[][] data = excelHelper.getExcelData(excelLocation, sheetName);
+		return data;
+	}
 }
