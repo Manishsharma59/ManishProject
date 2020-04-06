@@ -2,7 +2,6 @@ package com.uiFramework.companyName.projectName.testScript;
 
 import java.awt.AWTException;
 import java.io.IOException;
-import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -22,7 +21,6 @@ import com.uiFramework.companyName.projectName.testbase.TestBase;
 public class Paytm extends TestBase{
 	
 	
-	private Logger log = LoggerHelper.getLogger(Paytm.class);
 	HomePage homePage;
 	LoginPage loginPage;
 	SignUpPage signUpPage;
