@@ -1,5 +1,6 @@
 package com.uiFramework.companyName.projectName.pageObject;
 
+import java.io.IOException;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -11,6 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.uiFramework.companyName.projectName.helper.browserConfiguration.config.ObjectReader;
 import com.uiFramework.companyName.projectName.helper.logger.LoggerHelper;
+import com.uiFramework.companyName.projectName.helper.select.DropDownHelper;
 import com.uiFramework.companyName.projectName.helper.wait.WaitHelper;
 import com.uiFramework.companyName.projectName.testbase.TestBase;
 
@@ -19,15 +21,17 @@ public class Womens {
 	private WebDriver driver;
 	private Logger log = LoggerHelper.getLogger(Womens.class);
 	WaitHelper wait;
+	DropDownHelper dropDownHelper;
 	
+	
+	@FindBy(xpath="//input[@type='search']")
+	public WebElement search;
 	
 	@FindBy(xpath="//*[text()='Price']")
 	public WebElement priceFilter;
 	
 	@FindBy(xpath="//*[text()='Color']")
 	public WebElement colorFilter;
-	
-	
 	
 	@FindBy(xpath="//*[text()='Brand']")
 	public WebElement brandFilter;
@@ -68,11 +72,15 @@ public class Womens {
 	@FindBy(xpath = "//li[@class='_2TzX']")
 	WebElement nextButton;
 
-	public Womens(WebDriver driver) {
+	public Womens(WebDriver driver) throws IOException {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
-		log.info("Womens class Object created");
+		wait = new WaitHelper(driver);
+		wait.waitForElement(search, ObjectReader.reader.getImplicitWait());
+		log.info("Womens Page Object created");
+		new TestBase().getNavigationScreen(driver);
 	}
+	
 	
 	public void clickOnPriceFilter() {
 		log.info("Clicking on price filter");

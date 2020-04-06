@@ -21,8 +21,6 @@ public class NavigationMenu {
 	private Logger log = LoggerHelper.getLogger(HomePage.class);
 	WaitHelper wait;
 	
-	@FindBy(name="menuOption")
-	public WebElement menuOption;
 	
 	public NavigationMenu(WebDriver driver) throws IOException {
 		this.driver=driver;

@@ -26,7 +26,6 @@ public class PaytmMall {
 	
 	public static final String TOPWEARSTORE_CATEGORY = "Topwear Store";
 	public static final String TSHIRTS_SUBCATEGORY = "T-Shirts";
-	public static final String JEANS_SUBCATEGORY = "Jeans";
 	
 	public WebElement category(String category) {
 		return driver.findElement(By.xpath("//*[text()='" +category+ "']"));
@@ -60,7 +59,13 @@ public class PaytmMall {
 		TestBase.logExtentReport("Clicked on TShirts");
 		return new Mens(driver);
 	}
-	
+	/**
+	 * This method will select the category from category drop down and searching of item in that category
+	 * @param item
+	 * @return
+	 * @throws IOException
+	 * @throws InterruptedException
+	 */
 	public Mens searchMensItem(String item) throws IOException, InterruptedException {
 		dropDownHelper = new DropDownHelper(driver);
 		dropDownHelper.selectUsingVisibleText(selectCategoryFromDropDown, "Men's Fashion");
@@ -70,6 +75,111 @@ public class PaytmMall {
 		search.sendKeys(Keys.ENTER);
 		wait.waitForElement(search, ObjectReader.reader.getImplicitWait());
 		return new Mens(driver);
+	}
+	
+	public Womens searchWomensItem(String item) throws IOException, InterruptedException {
+		dropDownHelper = new DropDownHelper(driver);
+		dropDownHelper.selectUsingVisibleText(selectCategoryFromDropDown, "Women's Fashion");
+		search.clear();
+		search.sendKeys(item);
+		Thread.sleep(6000);
+		search.sendKeys(Keys.ENTER);
+		wait.waitForElement(search, ObjectReader.reader.getImplicitWait());
+		return new Womens(driver);
+	}
+	
+	public Electronics searchElectronicsItem(String item) throws IOException, InterruptedException {
+		dropDownHelper = new DropDownHelper(driver);
+		dropDownHelper.selectUsingVisibleText(selectCategoryFromDropDown, "Electronics");
+		search.clear();
+		search.sendKeys(item);
+		Thread.sleep(6000);
+		search.sendKeys(Keys.ENTER);
+		wait.waitForElement(search, ObjectReader.reader.getImplicitWait());
+		return new Electronics(driver);
+	}
+	
+	public HomeKitchen searchHomeKitchenItem(String item) throws IOException, InterruptedException {
+		dropDownHelper = new DropDownHelper(driver);
+		dropDownHelper.selectUsingVisibleText(selectCategoryFromDropDown, "Home & Kitchen");
+		search.clear();
+		search.sendKeys(item);
+		Thread.sleep(6000);
+		search.sendKeys(Keys.ENTER);
+		wait.waitForElement(search, ObjectReader.reader.getImplicitWait());
+		return new HomeKitchen(driver);
+	}
+	
+	public MobileAccessories searchMobileAccessoriesItem(String item) throws IOException, InterruptedException {
+		dropDownHelper = new DropDownHelper(driver);
+		dropDownHelper.selectUsingVisibleText(selectCategoryFromDropDown, "Mobile & Accessories");
+		search.clear();
+		search.sendKeys(item);
+		Thread.sleep(6000);
+		search.sendKeys(Keys.ENTER);
+		wait.waitForElement(search, ObjectReader.reader.getImplicitWait());
+		return new MobileAccessories(driver);
+	}
+	
+	public BabyKidsToys searchBabyKidsToysItem(String item) throws IOException, InterruptedException {
+		dropDownHelper = new DropDownHelper(driver);
+		dropDownHelper.selectUsingVisibleText(selectCategoryFromDropDown, "Baby, Kids & Toys");
+		search.clear();
+		search.sendKeys(item);
+		Thread.sleep(6000);
+		search.sendKeys(Keys.ENTER);
+		wait.waitForElement(search, ObjectReader.reader.getImplicitWait());
+		return new BabyKidsToys(driver);
+	}
+	public Stationery searchStationeryItem(String item) throws IOException, InterruptedException {
+		dropDownHelper = new DropDownHelper(driver);
+		dropDownHelper.selectUsingVisibleText(selectCategoryFromDropDown, "Stationery");
+		search.clear();
+		search.sendKeys(item);
+		Thread.sleep(6000);
+		search.sendKeys(Keys.ENTER);
+		wait.waitForElement(search, ObjectReader.reader.getImplicitWait());
+		return new Stationery(driver);
+	}
+	public Automotive searchAutomotiveItem(String item) throws IOException, InterruptedException {
+		dropDownHelper = new DropDownHelper(driver);
+		dropDownHelper.selectUsingVisibleText(selectCategoryFromDropDown, "Automotive");
+		search.clear();
+		search.sendKeys(item);
+		Thread.sleep(6000);
+		search.sendKeys(Keys.ENTER);
+		wait.waitForElement(search, ObjectReader.reader.getImplicitWait());
+		return new Automotive(driver);
+	}
+	public SportsHealth searchSportsHealthItem(String item) throws IOException, InterruptedException {
+		dropDownHelper = new DropDownHelper(driver);
+		dropDownHelper.selectUsingVisibleText(selectCategoryFromDropDown, "SportsHealth");
+		search.clear();
+		search.sendKeys(item);
+		Thread.sleep(6000);
+		search.sendKeys(Keys.ENTER);
+		wait.waitForElement(search, ObjectReader.reader.getImplicitWait());
+		return new SportsHealth(driver);
+	}
+	public CarsBikes searchCarsBikesItem(String item) throws IOException, InterruptedException {
+		dropDownHelper = new DropDownHelper(driver);
+		dropDownHelper.selectUsingVisibleText(selectCategoryFromDropDown, "Cars & Bikes");
+		search.clear();
+		search.sendKeys(item);
+		Thread.sleep(6000);
+		search.sendKeys(Keys.ENTER);
+		wait.waitForElement(search, ObjectReader.reader.getImplicitWait());
+		return new CarsBikes(driver);
+	}
+	public Supermarket searchSupermarketItem(String item) throws IOException, InterruptedException {
+		dropDownHelper = new DropDownHelper(driver);
+		dropDownHelper.selectUsingVisibleText(selectCategoryFromDropDown, "Supermarket");
+		search.clear();
+		search.sendKeys(item);
+		Thread.sleep(6000);
+		search.sendKeys(Keys.ENTER);
+		wait.waitForElement(search, ObjectReader.reader.getImplicitWait());
+		return new Supermarket(driver);
 	}
 	
 }
