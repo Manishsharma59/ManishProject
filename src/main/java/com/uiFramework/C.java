@@ -15,7 +15,7 @@ public class C extends TestBase{
 		Assert.assertTrue(true);
 		}
 		else {
-			System.out.println(i);
+			System.out.println("i : "+i);
 			i++;
 			Assert.assertTrue(false);
 		}
