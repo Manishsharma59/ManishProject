@@ -8,10 +8,10 @@
 	<test name="Paytm">
 		<classes>
 			<class name="com.uiFramework.companyName.projectName.testScript.Paytm">
-			<methods>
+			<!-- <methods>
 				<exclude name="verifyPriceListSortedByLowPrice" />
 				<include name="verifyPriceListSortedByHighPrice" />
-			</methods>
+			</methods> -->
 			</class>
 		</classes>
 	</test>
